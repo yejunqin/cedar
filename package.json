@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev" : "gulp default"
+    "dev": "gulp default"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,8 @@
   "homepage": "https://github.com/yejunqin/cedar#readme",
   "dependencies": {
     "gulp": "^3.9.1",
-    "gulp-less": "^3.1.0"
+    "gulp-connect": "^5.0.0",
+    "gulp-less": "^3.1.0",
+    "jquery": "^1.9.1"
   }
 }

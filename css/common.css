@@ -6,3 +6,78 @@ body {
 img {
   max-width: 100%;
 }
+.blue {
+  color: #0bbaf2;
+}
+.container-fluid {
+  padding: 0;
+}
+.header .header-nav {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0;
+  height: 46px;
+}
+.header .header-nav a {
+  color: #333;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.header .header-nav a:hover {
+  text-decoration: none;
+  color: #6dca9a;
+}
+.header .header-nav > li {
+  display: inline-block;
+  position: relative;
+  width: 100px;
+  height: 100%;
+  line-height: 46px;
+  text-align: center;
+  font-size: 16px;
+}
+.header .header-nav > li:hover .sub-nav {
+  display: block;
+}
+.header .header-nav .sub-nav {
+  list-style-type: none;
+  position: absolute;
+  display: none;
+  z-index: 10;
+  padding: 0;
+  background: #fff;
+  width: 100%;
+  min-width: 60px;
+}
+.header .header-nav .sub-nav li {
+  width: 100%;
+}
+.header .header-nav .sub-nav li:hover {
+  background: #6dca9a;
+}
+.header .header-nav .sub-nav li:hover a {
+  color: #fff;
+}
+.header .header-nav .extra-link {
+  border-left: 1px solid silver;
+  vertical-align: top;
+  width: 80px;
+}
+.header .header-nav .search a {
+  background: url('../images/search.png') no-repeat 50% 50%;
+}
+.header .header-nav .share a {
+  background: url('../images/share.png') no-repeat 50% 50%;
+}
+.content .content-part .part-title span {
+  position: relative;
+}
+.content .content-part .part-title span::after {
+  content: '';
+  position: absolute;
+  border-bottom: 4px solid #0bbaf2;
+  top: 118%;
+  width: 40%;
+  left: 30%;
+}
