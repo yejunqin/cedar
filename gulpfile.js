@@ -20,7 +20,8 @@ gulp.task('html', function(){
 //本地服务器
 gulp.task('connect', function(){
 	connect.server({
-		livereload: true
+		livereload: true,
+		port: 8088
 	})
 })
 //监听任务
