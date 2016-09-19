@@ -1,0 +1,40 @@
+@import "../variables.less";
+.development{
+  background: #424954;
+  height: 400px;
+}
+#banner{
+  img{
+    width: 100%;
+  }
+}
+#chanye{
+  .chanye-sub-menu{
+    .chanye01{
+      .stretch-img{
+        background: url("../images/chanye_01.jpg") no-repeat 0% 0% / cover;
+      }
+    }
+  }
+  .chanye-menu{
+    .chanye-box{
+      background: @gray;
+      color: #fff;
+      text-align: center;
+      padding: 18% 0;
+      .img{
+        display: inline-block;
+        width: 50%;
+      }
+      h4{
+        font-size: 24px;
+      }
+    }
+    .swiper-slide-active .chanye-box{
+      background-color: @blue;
+    }
+    .swiper-button{
+      text-align: center;
+    }
+  }
+}

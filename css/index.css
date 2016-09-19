@@ -2,3 +2,28 @@
   background: #424954;
   height: 400px;
 }
+#banner img {
+  width: 100%;
+}
+#chanye .chanye-sub-menu .chanye01 .stretch-img {
+  background: url("../images/chanye_01.jpg") no-repeat 0% 0% / cover;
+}
+#chanye .chanye-menu .chanye-box {
+  background: #b6b6b6;
+  color: #fff;
+  text-align: center;
+  padding: 18% 0;
+}
+#chanye .chanye-menu .chanye-box .img {
+  display: inline-block;
+  width: 50%;
+}
+#chanye .chanye-menu .chanye-box h4 {
+  font-size: 24px;
+}
+#chanye .chanye-menu .swiper-slide-active .chanye-box {
+  background-color: #0bbaf2;
+}
+#chanye .chanye-menu .swiper-button {
+  text-align: center;
+}
