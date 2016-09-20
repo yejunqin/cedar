@@ -1,7 +1,7 @@
 $(document).ready(function(){
   var banner = new Swiper('#banner .swiper-container', {
     loop: true,
-    autoplay: 5000,
+    autoplay: 3000,
     pagination: '#banner .swiper-pagination',
     paginationClickable :true
   })
@@ -9,9 +9,26 @@ $(document).ready(function(){
     noSwiping: true
   })
   var chanyeMenu = new Swiper('#chanye .chanye-menu', {
-    loop: true,
     nextButton: '#chanye .chanye-menu .next',
     prevButton: '#chanye .chanye-menu .prev',
-    slidesPerView: 3
+    slidesPerView: 3,
+    autoplay: 3000
   })
+  var newsMenu = new Swiper('#dongtai .dongtai-menu', {
+    slidesPerView: 3,
+    slidesPerGroup: 3,
+    nextButton: '#dongtai .swiper-button .next',
+    prevButton: '#dongtai .swiper-button .prev',
+    spaceBetween: 16,
+    autoplay: 3000
+  })
+  $('#mobileNav').slimmenu(
+      {
+        resizeWidth: '1200',
+        animSpeed:'medium',
+        collapserTitle: '',
+        indentChildren: true,
+        childrenIndenter: '&raquo;'
+      }
+  )
 })

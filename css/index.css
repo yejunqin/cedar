@@ -6,7 +6,12 @@
   width: 100%;
 }
 #chanye .chanye-sub-menu .chanye01 .stretch-img {
-  background: url("../images/chanye_01.jpg") no-repeat 0% 0% / cover;
+  background: url("../images/chanye_01.jpg") no-repeat 0 0 / cover;
+}
+#chanye .chanye-menu {
+  position: relative;
+  top: -40px;
+  margin-bottom: -2%;
 }
 #chanye .chanye-menu .chanye-box {
   background: #b6b6b6;
@@ -25,5 +30,231 @@
   background-color: #0bbaf2;
 }
 #chanye .chanye-menu .swiper-button {
+  position: relative;
   text-align: center;
+  padding-top: 20px;
+}
+#chanye .chanye-menu .swiper-button .prev {
+  width: 15px;
+  height: 24px;
+  display: inline-block;
+  background: url("../images/prev.png") no-repeat;
+  cursor: pointer;
+  margin-right: 20px;
+}
+#chanye .chanye-menu .swiper-button .next {
+  width: 15px;
+  height: 24px;
+  display: inline-block;
+  background: url("../images/next.png") no-repeat;
+  cursor: pointer;
+}
+#dongtai {
+  border-top: 1px solid silver;
+}
+#dongtai a {
+  text-decoration: none;
+}
+#dongtai .dongtai-menu {
+  position: relative;
+}
+#dongtai .swiper-button {
+  position: absolute;
+  right: 40px;
+  top: -60px;
+}
+#dongtai .swiper-button .prev {
+  cursor: pointer;
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  display: inline-block;
+  background: url("../images/prev.png") no-repeat 0 0 / contain;
+}
+#dongtai .swiper-button .next {
+  cursor: pointer;
+  width: 10px;
+  height: 16px;
+  display: inline-block;
+  background: url("../images/next.png") no-repeat 0 0 / contain;
+}
+#dongtai .dongtai-box .img {
+  width: 100%;
+}
+#dongtai .dongtai-box .img img {
+  width: 100%;
+  -webkit-transition: all ease 1s;
+  transition: all ease 1s;
+}
+#dongtai .dongtai-box .img img:hover {
+  transform: scale(1.04);
+}
+#dongtai .dongtai-box .date {
+  margin-top: 10px;
+  color: #bcbcbc;
+}
+#dongtai .dongtai-box .title {
+  font-size: 14px;
+  color: #000;
+  font-weight: bold;
+}
+#dongtai .dongtai-box .description {
+  color: #ababab;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+#dongtai .more a {
+  display: block;
+  width: 274px;
+  background: #0bbaf2;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  line-height: 56px;
+  margin: 50px auto 0;
+  -webkit-transition: all ease 0.4s;
+  transition: all ease 0.4s;
+}
+#dongtai .more a:hover {
+  background: #0098d0;
+}
+#public {
+  margin-top: 60px;
+}
+#public .stretch-img {
+  background: url("../images/public.jpg") no-repeat 0 0 / cover;
+}
+#public .stretch-text {
+  padding-top: 6%;
+}
+#public .img span {
+  display: inline-block;
+}
+#public .more {
+  display: block;
+  width: 176px;
+  color: #fff;
+  border: 2px solid #0bbaf2;
+  margin: 4px auto 0;
+  line-height: 30px;
+  text-decoration: none;
+  font-size: 16px;
+  -webkit-transition: all ease 0.2s;
+  transition: all ease 0.2s;
+}
+#public .more:hover {
+  background: #0bbaf2;
+}
+#public .description {
+  width: 25%;
+  font-size: 15px;
+  margin: 0 auto;
+}
+#qrcode {
+  margin-top: 40px;
+  text-align: center;
+}
+#qrcode .qrcode .img {
+  width: 42%;
+  display: inline-block;
+  cursor: pointer;
+}
+#qrcode .contact {
+  margin-top: 7%;
+}
+#qrcode .contact a {
+  width: 22%;
+  height: 28px;
+  display: inline-block;
+  background: no-repeat 50% 50%;
+}
+#qrcode .contact .facebook {
+  background-image: url("../images/icon_facebook.png");
+}
+#qrcode .contact .twitter {
+  background-image: url("../images/icon_twitter.png");
+}
+#qrcode .contact .ins {
+  background-image: url("../images/icon_ins.png");
+}
+#qrcode .contact .google {
+  background-image: url("../images/icon_google.png");
+}
+#footer {
+  margin-top: 50px;
+  height: 283px;
+  background: url("../images/footer.jpg") no-repeat 0 0 / cover;
+}
+#footer .buildings {
+  color: #fff;
+  margin-top: 24px;
+  text-align: center;
+}
+#footer .buildings li {
+  display: inline-block;
+  width: 24%;
+}
+#footer .buildings li .city {
+  margin: 0;
+  margin-top: 10px;
+  font-size: 16px;
+}
+#footer .buildings li .location {
+  margin: 0;
+  margin-top: 4px;
+}
+#footerMenu {
+  border-bottom: 1px solid silver;
+}
+#footerMenu ul li {
+  display: inline-block;
+  width: 13.5%;
+  text-align: center;
+  line-height: 60px;
+  font-size: 18px;
+}
+#footerMenu ul li a {
+  text-decoration: none;
+  display: block;
+  color: #000;
+}
+#footerMenu ul li a:hover {
+  color: #6dca9a;
+}
+#copyright {
+  margin-top: 14px;
+  padding-bottom: 20px;
+  text-align: center;
+  color: #b6b6b6;
+  font-size: 12px;
+}
+@media (max-width: 1400px) {
+  #public .stretch-text .title {
+    margin: 10px;
+  }
+  #public .stretch-text .description {
+    width: 100%;
+  }
+}
+@media (max-width: 1200px) {
+  #public .stretch-part {
+    padding-bottom: 30%;
+  }
+  #public .stretch-text .img span {
+    width: 100px;
+  }
+  #public .stretch-text .title {
+    font-size: 24px;
+  }
+}
+@media (max-width: 414px) {
+  #chanye {
+    margin-bottom: 20px;
+  }
+  #chanye .chanye-menu {
+    top: 0;
+  }
 }

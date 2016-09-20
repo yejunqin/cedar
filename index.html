@@ -7,13 +7,13 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="./css/bootstrap.css" />
 		<link rel="stylesheet" href="./node_modules/swiper/dist/css/swiper.css">
-		<!-- <link rel="stylesheet" href="./css/slimmenu.min.css" /> -->
+		 <!--<link rel="stylesheet" href="./css/slimmenu.min.css" />-->
 		<link rel="stylesheet" href="./css/common.css" />
 		<link rel="stylesheet" href="./css/index.css" />
 	</head>
 	<body>
 		<div class="container-fluid">
-			<div class="header">
+			<div id="header" class="header">
 				<div class="row clearfix">
 					<div class="logo">
 						<img src="./images/logo.png" alt="" />
@@ -72,11 +72,6 @@
 									</ul>
 								</li>
 							</div>
-							<div class="collapse-button hidden-md hidden-lg">
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-							</div>
 							<li class="extra-link english nav-li"><a href="#">English</a></li>
 							<li class="extra-link search nav-li">
 								<a href="#"></a>
@@ -89,7 +84,54 @@
 				</div>
 				<!-- 手机、平板导航栏 -->
 				<div class="row hidden-md hidden-lg">
-					
+					<ul id="mobileNav">
+						<li>
+							<a href="#">我们</a>
+							<ul>
+								<li><a href="#">简介</a></li>
+								<li><a href="#">历程</a></li>
+								<li><a href="#">灵魂</a></li>
+								<li><a href="#">新闻</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">战略</a>
+							<ul>
+								<li><a href="#">方法</a></li>
+								<li><a href="#">目标</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">产业</a>
+							<ul>
+								<li><a href="#">供通云</a></li>
+								<li><a href="#">君华物业</a></li>
+								<li><a href="#">雪松文旅</a></li>
+								<li><a href="#">雪松城投</a></li>
+								<li><a href="#">雪松地产</a></li>
+								<li><a href="#">雪松金服</a></li>
+								<li><a href="#">雪松汽车</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">文化</a>
+							<ul>
+								<li><a href="#">愿景</a></li>
+								<li><a href="#">使命</a></li>
+								<li><a href="#">价值观</a></li>
+								<li><a href="#">七德·七戒</a></li>
+								<li><a href="#">社会责任</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">人才</a>
+							<ul>
+								<li><a href="#">人才观</a></li>
+								<li><a href="#">合伙人计划</a></li>
+								<li><a href="#">招聘</a></li>
+							</ul>
+						</li>
+					</ul>
 				</div>
 			</div>
 			<div class="content">
@@ -98,13 +140,13 @@
 					<div class="swiper-container">
 						<div class="swiper-wrapper">
 							<div class="swiper-slide">
-								<a href="#"><img src="../images/banner_1.jpg" alt=""></a>
+								<a href="#"><img src="./images/banner_1.jpg" alt=""></a>
 							</div>
 							<div class="swiper-slide">
-								<a href="#"><img src="../images/banner_1.jpg" alt=""></a>
+								<a href="#"><img src="./images/banner_1.jpg" alt=""></a>
 							</div>
 							<div class="swiper-slide">
-								<a href="#"><img src="../images/banner_1.jpg" alt=""></a>
+								<a href="#"><img src="./images/banner_1.jpg" alt=""></a>
 							</div>
 						</div>
 						<div class="swiper-pagination"></div>
@@ -123,8 +165,8 @@
 											<div class="img">
 												<span><img src="../images/chanye_logo_01.png" alt=""></span>
 											</div>
-											<h2>雪松控股汽车集团</h2>
-											<p>专门从事商品闭环供应链管理平台</p>
+											<h2 class="title">雪松控股汽车集团</h2>
+											<p class="description">专门从事商品闭环供应链管理平台</p>
 										</div>
 									</div>
 								</div>
@@ -135,8 +177,8 @@
 											<div class="img">
 												<span><img src="../images/chanye_logo_01.png" alt=""></span>
 											</div>
-											<h3>雪松控股汽车集团</h3>
-											<p>专门从事商品闭环供应链管理平台</p>
+											<h2 class="title">雪松控股汽车集团</h2>
+											<p class="description">专门从事商品闭环供应链管理平台</p>
 										</div>
 									</div>
 								</div>
@@ -147,8 +189,8 @@
 											<div class="img">
 												<span><img src="../images/chanye_logo_01.png" alt=""></span>
 											</div>
-											<h3>雪松控股汽车集团</h3>
-											<p>专门从事商品闭环供应链管理平台</p>
+											<h2 class="title">雪松控股汽车集团</h2>
+											<p class="description">专门从事商品闭环供应链管理平台</p>
 										</div>
 									</div>
 								</div>
@@ -161,7 +203,7 @@
 										<div class="swiper-slide">
 											<div class="chanye-box">
 												<div class="img">
-													<img src="../images/chanye_logo_01.png" alt="">
+													<img src="./images/chanye_logo_01.png" alt="">
 												</div>
 												<h4>汽车集团</h4>
 											</div>
@@ -169,7 +211,7 @@
 										<div class="swiper-slide">
 											<div class="chanye-box">
 												<div class="img">
-													<img src="../images/chanye_logo_01.png" alt="">
+													<img src="./images/chanye_logo_01.png" alt="">
 												</div>
 												<h4>汽车集团</h4>
 											</div>
@@ -177,7 +219,7 @@
 										<div class="swiper-slide">
 											<div class="chanye-box">
 												<div class="img">
-													<img src="../images/chanye_logo_01.png" alt="">
+													<img src="./images/chanye_logo_01.png" alt="">
 												</div>
 												<h4>汽车集团</h4>
 											</div>
@@ -185,7 +227,7 @@
 										<div class="swiper-slide">
 											<div class="chanye-box">
 												<div class="img">
-													<img src="../images/chanye_logo_01.png" alt="">
+													<img src="./images/chanye_logo_01.png" alt="">
 												</div>
 												<h4>汽车集团</h4>
 											</div>
@@ -193,7 +235,7 @@
 										<div class="swiper-slide">
 											<div class="chanye-box">
 												<div class="img">
-													<img src="../images/chanye_logo_01.png" alt="">
+													<img src="./images/chanye_logo_01.png" alt="">
 												</div>
 												<h4>汽车集团</h4>
 											</div>
@@ -208,13 +250,203 @@
 						</div>
 					</div>
 				</div>
+				<!--最新动态-->
+				<div class="content-part" id="dongtai">
+					<h2 class="part-title">
+						<span>最新动态</span>
+					</h2>
+					<div class="part-body">
+						<div class="row">
+							<div class="col-md-8 col-md-offset-2 relative">
+								<div class="swiper-button">
+									<div class="prev"></div>
+									<div class="next"></div>
+								</div>
+								<div class="swiper-container dongtai-menu">
+									<div class="swiper-wrapper">
+										<div class="swiper-slide">
+											<!--动态新闻内容-->
+											<a href="#">
+												<div class="dongtai-box">
+													<div class="img">
+														<img src="./images/news_01.jpg" alt="">
+														<span class="icon-news"></span>
+													</div>
+													<p class="date">2016-08-25</p>
+													<h6 class="title">雪松增持张瑾：重建工业价值的未来主义</h6>
+													<p class="description">
+														这不是地理的空间，但是想象的空间。创造一个又一个辉煌的十年中，它必须重新摆正自己的位置，以便有一个将来可想而知...
+													</p>
+												</div>
+											</a>
+										</div>
+										<div class="swiper-slide">
+											<a href="#">
+												<div class="dongtai-box">
+													<div class="img">
+														<img src="./images/news_02.jpg" alt="">
+														<span class="icon-video"></span>
+													</div>
+													<p class="date">2016-08-25</p>
+													<h6 class="title">2016年新财富500富豪榜：张杉锦荣板TOP40</h6>
+													<p class="description">
+														5月4日，新财富杂志最新一期（5月刊）评选为2016年新财富500富豪榜，雪松控股张锦的董事会主席...
+													</p>
+												</div>
+											</a>
+										</div>
+										<div class="swiper-slide">
+											<a href="#">
+												<div class="dongtai-box">
+													<div class="img">
+														<img src="./images/news_03.jpg" alt="">
+														<span class="icon-news"></span>
+													</div>
+													<p class="date">2016-08-25</p>
+													<h6 class="title">西塔又迎500强 雪松控股入驻广州国际金融中心</h6>
+													<p class="description">
+														在500强企业迎来了广州国际金融中心（简称广州西塔） - 被称为雪松增持“兆帝国”落户...
+													</p>
+												</div>
+											</a>
+										</div>
+										<div class="swiper-slide">
+											<a href="#">
+												<div class="dongtai-box">
+													<div class="img">
+														<img src="./images/news_03.jpg" alt="">
+														<span class="icon-news"></span>
+													</div>
+													<p class="date">2016-08-25</p>
+													<h6 class="title">西塔又迎500强 雪松控股入驻广州国际金融中心</h6>
+													<p class="description">
+														在500强企业迎来了广州国际金融中心（简称广州西塔） - 被称为雪松增持“兆帝国”落户...
+													</p>
+												</div>
+											</a>
+										</div>
+										<div class="swiper-slide">
+											<a href="#">
+												<div class="dongtai-box">
+													<div class="img">
+														<img src="./images/news_03.jpg" alt="">
+														<span class="icon-news"></span>
+													</div>
+													<p class="date">2016-08-25</p>
+													<h6 class="title">西塔又迎500强 雪松控股入驻广州国际金融中心</h6>
+													<p class="description">
+														在500强企业迎来了广州国际金融中心（简称广州西塔） - 被称为雪松增持“兆帝国”落户...
+													</p>
+												</div>
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="more">
+									<a href="#">
+										查看更多信息>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--公益-->
+				<div class="content-part" id="public">
+					<div class="stretch-part">
+						<div class="stretch-img"></div>
+						<div class="stretch-text">
+							<div class="img">
+								<span><img src="./images/public_logo.png" alt=""></span>
+							</div>
+							<a href="#" class="more">查看更多</a>
+							<h2 class="title">公益事业的社会责任</h2>
+							<p class="description">慈善不是作秀，慈善是为了帮助，但更多的尊重，每一个爱，跨越无数 群山和溪流直接送到收件人手中</p>
+						</div>
+					</div>
+				</div>
+				<!--二维码-->
+				<div class="content-part" id="qrcode">
+					<div class="row">
+						<div class="col-md-2 col-md-offset-5 col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2">
+							<div class="part-body">
+								<div class="qrcode">
+									<div style="margin-right: 2%" class="img"><img src="./images/qrcode.png" alt=""></div>
+									<div class="img"><img src="./images/qrcode.png" alt=""></div>
+								</div>
+								<div class="contact">
+									<a href="#" class="facebook"></a>
+									<a href="#" class="twitter"></a>
+									<a href="#" class="ins"></a>
+									<a href="#" class="google"></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
+			<div id="footer" class="footer">
+				<div class="row">
+					<div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
+						<ul class="buildings">
+							<li>
+								<div class="img guangzhou">
+									<img src="./images/buildings_01.jpg" alt="">
+								</div>
+								<p class="city">广州</p>
+								<p class="location">国际金融中心62F</p>
+							</li>
+							<li>
+								<div class="img beijing">
+									<img src="./images/buildings_02.jpg" alt="">
+								</div>
+								<p class="city">北京</p>
+								<p class="location">华贸中心28F</p>
+							</li>
+							<li>
+								<div class="img shanghai">
+									<img src="./images/buildings_03.jpg" alt="">
+								</div>
+								<p class="city">上海</p>
+								<p class="location">金茂大厦26F</p>
+							</li>
+							<li>
+								<div class="img shenzhen">
+									<img src="./images/buildings_04.jpg" alt="">
+								</div>
+								<p class="city">深圳</p>
+								<p class="location">平安国际金融中心76F</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="footer-menu" id="footerMenu">
+				<div class="row">
+					<div class="col-md-6 col-md-offset-3">
+						<ul>
+							<li><a href="#">首页</a></li>
+							<li><a href="#">我们</a></li>
+							<li><a href="#">战略</a></li>
+							<li><a href="#">产业</a></li>
+							<li><a href="#">新闻</a></li>
+							<li><a href="#">文化</a></li>
+							<li><a href="#">人才</a></li>
+						</ul>
+						<span id="toTop">
+
+						</span>
+					</div>
+				</div>
+			</div>
+			<div id="copyright" class="col-md-6 col-md-offset-3">
+				<p>© 2016  All Rights Reserved / Terms of use / Privacy Policy</p>
 			</div>
 		</div>
-		<script src="./node_modules/jquery/jquery.js"></script>
-		<script src="./js/bootstrap.js"></script>
-		<script src="./js/jquery.slimmenu.min.js"></script>
-		<script src="./node_modules/swiper/dist/js/swiper.jquery.js"></script>
-		<script src="./js/index.js"></script>
+		<script type="text/javascript" src="./node_modules/jquery/jquery.js"></script>
+		<script type="text/javascript" src="./js/bootstrap.js"></script>
+		<script type="text/javascript" src="./js/jquery.slimmenu.min.js"></script>
+		<script type="text/javascript" src="./node_modules/swiper/dist/js/swiper.jquery.js"></script>
+		<script type="text/javascript" src="./js/index.js"></script>
 	</body>
 </html>

@@ -13,9 +13,13 @@ img{
 ul{
   list-style-type: none;
   margin: 0;
+  padding:0;
 }
 .inline-block{
   display: inline-block;
+}
+.relative{
+  position: relative;
 }
 //swiper分页器颜色
 .swiper-pagination-bullet{
@@ -25,16 +29,23 @@ ul{
 .swiper-pagination-bullet-active{
   background: @blue;
 }
+.prev.swiper-button-disabled{
+  background-image: url("../images/prev_disabled.png")!important;
+}
+.next.swiper-button-disabled{
+  background-image: url("../images/next_disabled.png")!important;
+}
 .blue{
   color: @blue;
 }
 .container-fluid{
   padding: 0
 }
+//移动端导航栏样式
 .collapse-button{
   position: absolute;
-  right: 210px;
-  top: 24%;
+  right: 180px;
+  top: 1.6%;
   width: 40px;
   padding: 7px 17px;
   font-size: 14px;
@@ -49,6 +60,47 @@ ul{
     background: @blue;
     border-radius: 2px;
   }
+}
+#mobileNav{
+  padding:0;
+  li.has-submenu{
+    width:100%;
+    text-align: center;
+    line-height:40px;
+    background: @green;
+    color: #fff;
+    position: relative;
+    &:hover{
+      background: @green - #111;
+    }
+    a{
+      text-decoration: none;
+      display: block;
+      color: #fff;
+      font-size: 16px;
+    }
+    li{
+      background: @green - #222;
+      &:hover{
+        background: @green - #333;
+      }
+    }
+    .sub-toggle{
+      position: absolute;
+      right: 10px;
+      top: 0;
+      z-index: 999;
+      width: 48px;
+      height: 100%;
+      text-align: center;
+      cursor: pointer;
+      color:#fff;
+    }
+    i{
+      font-style: normal;
+    }
+  }
+
 }
 .header{
   .logo{
@@ -94,6 +146,8 @@ ul{
       min-width: 60px;
       li{
         width: 100%;
+        -webkit-transition: all ease 0.2s;
+        transition: all ease 0.2s;
         &:hover{
           background: @green;
           a{
@@ -144,8 +198,8 @@ ul{
     height: 100%;
     top:0;
     left:0;
-    transition: 2s all;
-    -webkit-transition: 2s all;
+    transition: 1s ease all;
+    -webkit-transition: 1s ease all;
   }
   .stretch-text{
     position: absolute;
@@ -171,6 +225,35 @@ ul{
     width: 60px !important;
     .sub-nav{
       width: 100px !important;
+    }
+  }
+}
+@media (max-width: 992px){
+  .stretch-part{
+    padding-bottom:35% !important;
+  }
+}
+@media (max-width: 768px){
+  .stretch-part{
+    padding-bottom:49% !important;
+  }
+}
+@media (max-width: 414px){
+  .header{
+    .logo{
+      width: 160px !important;;
+      padding-top: 15px !important;;
+    }
+  }
+  .stretch-part{
+    padding-bottom:55% !important;
+    .stretch-text{
+      .title{
+        font-size: 16px!important;
+      }
+      .descirption{
+        font-size: 12px!important;
+      }
     }
   }
 }

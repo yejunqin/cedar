@@ -12,11 +12,14 @@
   .chanye-sub-menu{
     .chanye01{
       .stretch-img{
-        background: url("../images/chanye_01.jpg") no-repeat 0% 0% / cover;
+        background: url("../images/chanye_01.jpg") no-repeat 0 0 / cover;
       }
     }
   }
   .chanye-menu{
+    position: relative;
+    top:-40px;
+    margin-bottom: -2%;
     .chanye-box{
       background: @gray;
       color: #fff;
@@ -34,7 +37,256 @@
       background-color: @blue;
     }
     .swiper-button{
+      position: relative;
       text-align: center;
+      padding-top:20px;
+      .prev{
+        width:15px;
+        height:24px;
+        display: inline-block;
+        background: url("../images/prev.png") no-repeat;
+        cursor: pointer;
+        margin-right: 20px;
+      }
+      .next{
+        width:15px;
+        height:24px;
+        display: inline-block;
+        background: url("../images/next.png") no-repeat;
+        cursor: pointer;
+      }
+    }
+  }
+}
+#dongtai{
+  border-top:1px solid silver;
+  a{
+    text-decoration: none;
+  }
+  .dongtai-menu{
+    position: relative;
+  }
+  .swiper-button{
+    position: absolute;
+    right:40px;
+    top:-60px;
+    .prev{
+      cursor: pointer;
+      width:10px;
+      height:16px;
+      margin-right: 10px;
+      display: inline-block;
+      background: url("../images/prev.png") no-repeat 0 0 / contain;
+    }
+    .next{
+      cursor: pointer;
+      width:10px;
+      height:16px;
+      display: inline-block;
+      background: url("../images/next.png") no-repeat 0 0 / contain;
+    }
+  }
+  .dongtai-box{
+    .img{
+      width:100%;
+      img{
+        width:100%;
+        -webkit-transition: all ease 1s;
+        transition: all ease 1s;
+        &:hover{
+          transform: scale(1.04);
+        }
+      }
+    }
+    .date{
+      margin-top: 10px;
+      color: #bcbcbc;
+    }
+    .title{
+      font-size: 14px;
+      color:#000;
+      font-weight: bold;
+    }
+    .description{
+      color: #bcbcbc - #111;
+      overflow : hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+    }
+  }
+  .more{
+    a{
+      display: block;
+      width:274px;
+      background: @blue;
+      color: #fff;
+      text-align: center;
+      font-size: 18px;
+      line-height:56px;
+      margin: 50px auto 0;
+      -webkit-transition: all ease 0.4s;
+      transition: all ease 0.4s;
+      &:hover{
+        background: @blue - #222;
+      }
+    }
+  }
+}
+//公益
+#public{
+  margin-top: 60px;
+  .stretch-img{
+    background: url("../images/public.jpg") no-repeat 0 0 /cover;
+  }
+  .stretch-text{
+    padding-top:6%;
+  }
+  .img{
+    span{
+      display: inline-block;
+    }
+  }
+  .more{
+    display: block;
+    width:176px;
+    color: #fff;
+    border:2px solid @blue;
+    margin:4px auto 0;
+    line-height:30px;
+    text-decoration: none;
+    font-size: 16px;
+    -webkit-transition: all ease 0.2s;
+    transition: all ease 0.2s;
+    &:hover{
+      background: @blue;
+    }
+  }
+  .title{
+
+  }
+  .description{
+    width:25%;
+    font-size: 15px;
+    margin:0 auto;
+  }
+}
+#qrcode{
+  margin-top: 40px;
+  text-align: center;
+  .qrcode{
+    .img{
+      width:42%;
+      display: inline-block;
+      cursor: pointer;
+    }
+  }
+  .contact{
+    margin-top: 7%;
+    a{
+      width:22%;
+      height:28px;
+      display: inline-block;
+      background: no-repeat 50% 50%;
+    }
+    .facebook{
+      background-image: url("../images/icon_facebook.png");
+    }
+    .twitter{
+      background-image: url("../images/icon_twitter.png");
+    }
+    .ins{
+      background-image: url("../images/icon_ins.png");
+    }
+    .google{
+      background-image: url("../images/icon_google.png");
+    }
+  }
+}
+#footer{
+  margin-top: 50px;
+  height:283px;
+  background: url("../images/footer.jpg") no-repeat 0 0 /cover;
+  .buildings{
+    color: #fff;
+    margin-top: 24px;
+    text-align: center;
+    li{
+      display: inline-block;
+      width:24%;
+      .city{
+        margin:0;
+        margin-top: 10px;
+        font-size: 16px;
+      }
+      .location{
+        margin:0;
+        margin-top: 4px;
+      }
+    }
+  }
+}
+#footerMenu{
+  border-bottom: 1px solid silver;
+  ul{
+    li{
+      display: inline-block;
+      width:13.5%;
+      text-align: center;
+      line-height:60px;
+      font-size: 18px;
+      a{
+        text-decoration: none;
+        display: block;
+        color: #000;
+        &:hover{
+          color: @green;
+        }
+      }
+    }
+  }
+}
+#copyright{
+  margin-top: 14px;
+  padding-bottom:20px;
+  text-align: center;
+  color: @gray;
+  font-size: 12px;
+}
+
+@media (max-width: 1400px){
+  #public .stretch-text{
+    .title{
+      margin:10px;
+    }
+    .description{
+      width:100%;
+    }
+  }
+}
+@media (max-width: 1200px){
+  #public{
+    .stretch-part{
+      padding-bottom:30%;
+    }
+    .stretch-text{
+      .img{
+        span{
+          width:100px;
+        }
+      }
+      .title{
+        font-size: 24px;
+      }
+    }
+  }
+}
+@media (max-width: 414px){
+  #chanye{
+    margin-bottom: 20px;
+    .chanye-menu{
+      top:0;
     }
   }
 }

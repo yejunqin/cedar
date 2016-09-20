@@ -12,9 +12,13 @@ img {
 ul {
   list-style-type: none;
   margin: 0;
+  padding: 0;
 }
 .inline-block {
   display: inline-block;
+}
+.relative {
+  position: relative;
 }
 .swiper-pagination-bullet {
   background: #fff;
@@ -22,6 +26,12 @@ ul {
 }
 .swiper-pagination-bullet-active {
   background: #0bbaf2;
+}
+.prev.swiper-button-disabled {
+  background-image: url("../images/prev_disabled.png") !important;
+}
+.next.swiper-button-disabled {
+  background-image: url("../images/next_disabled.png") !important;
 }
 .blue {
   color: #0bbaf2;
@@ -31,8 +41,8 @@ ul {
 }
 .collapse-button {
   position: absolute;
-  right: 210px;
-  top: 24%;
+  right: 180px;
+  top: 1.6%;
   width: 40px;
   padding: 7px 17px;
   font-size: 14px;
@@ -47,6 +57,46 @@ ul {
   margin: 3px 0;
   background: #0bbaf2;
   border-radius: 2px;
+}
+#mobileNav {
+  padding: 0;
+}
+#mobileNav li.has-submenu {
+  width: 100%;
+  text-align: center;
+  line-height: 40px;
+  background: #6dca9a;
+  color: #fff;
+  position: relative;
+}
+#mobileNav li.has-submenu:hover {
+  background: #5cb989;
+}
+#mobileNav li.has-submenu a {
+  text-decoration: none;
+  display: block;
+  color: #fff;
+  font-size: 16px;
+}
+#mobileNav li.has-submenu li {
+  background: #4ba878;
+}
+#mobileNav li.has-submenu li:hover {
+  background: #3a9767;
+}
+#mobileNav li.has-submenu .sub-toggle {
+  position: absolute;
+  right: 10px;
+  top: 0;
+  z-index: 999;
+  width: 48px;
+  height: 100%;
+  text-align: center;
+  cursor: pointer;
+  color: #fff;
+}
+#mobileNav li.has-submenu i {
+  font-style: normal;
 }
 .header .logo {
   display: inline-block;
@@ -93,6 +143,8 @@ ul {
 }
 .header .header-nav .sub-nav li {
   width: 100%;
+  -webkit-transition: all ease 0.2s;
+  transition: all ease 0.2s;
 }
 .header .header-nav .sub-nav li:hover {
   background: #6dca9a;
@@ -137,8 +189,8 @@ ul {
   height: 100%;
   top: 0;
   left: 0;
-  transition: 2s all;
-  -webkit-transition: 2s all;
+  transition: 1s ease all;
+  -webkit-transition: 1s ease all;
 }
 .stretch-part .stretch-text {
   position: absolute;
@@ -162,5 +214,30 @@ ul {
   }
   .header-nav .nav-li .sub-nav {
     width: 100px !important;
+  }
+}
+@media (max-width: 992px) {
+  .stretch-part {
+    padding-bottom: 35% !important;
+  }
+}
+@media (max-width: 768px) {
+  .stretch-part {
+    padding-bottom: 49% !important;
+  }
+}
+@media (max-width: 414px) {
+  .header .logo {
+    width: 160px !important;
+    padding-top: 15px !important;
+  }
+  .stretch-part {
+    padding-bottom: 55% !important;
+  }
+  .stretch-part .stretch-text .title {
+    font-size: 16px!important;
+  }
+  .stretch-part .stretch-text .descirption {
+    font-size: 12px!important;
   }
 }
