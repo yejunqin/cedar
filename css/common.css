@@ -1,3 +1,6 @@
+html {
+  overflow-x: hidden;
+}
 body {
   margin: 0;
   padding: 0;
@@ -5,6 +8,13 @@ body {
 }
 img {
   max-width: 100%;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+}
+.inline-block {
+  display: inline-block;
 }
 .swiper-pagination-bullet {
   background: #fff;
@@ -19,11 +29,35 @@ img {
 .container-fluid {
   padding: 0;
 }
+.collapse-button {
+  position: absolute;
+  right: 210px;
+  top: 24%;
+  width: 40px;
+  padding: 7px 17px;
+  font-size: 14px;
+  text-align: center;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.collapse-button .icon-bar {
+  display: block;
+  height: 3px;
+  width: 20px;
+  margin: 3px 0;
+  background: #0bbaf2;
+  border-radius: 2px;
+}
+.header .logo {
+  display: inline-block;
+  padding-top: 8px;
+  margin-left: 4px;
+  float: left;
+}
 .header .header-nav {
   display: inline-block;
-  list-style-type: none;
-  margin: 0;
-  height: 46px;
+  height: 60px;
+  position: relative;
 }
 .header .header-nav a {
   color: #333;
@@ -35,16 +69,16 @@ img {
   text-decoration: none;
   color: #6dca9a;
 }
-.header .header-nav > li {
+.header .header-nav .nav-li {
   display: inline-block;
   position: relative;
   width: 100px;
   height: 100%;
-  line-height: 46px;
+  line-height: 60px;
   text-align: center;
   font-size: 16px;
 }
-.header .header-nav > li:hover .sub-nav {
+.header .header-nav .nav-li:hover .sub-nav {
   display: block;
 }
 .header .header-nav .sub-nav {
@@ -121,4 +155,12 @@ img {
 }
 .stretch-part:hover .stretch-img {
   transform: scale(1.04);
+}
+@media (max-width: 1160px) {
+  .header-nav .nav-li {
+    width: 60px !important;
+  }
+  .header-nav .nav-li .sub-nav {
+    width: 100px !important;
+  }
 }

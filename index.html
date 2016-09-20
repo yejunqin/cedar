@@ -7,6 +7,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="./css/bootstrap.css" />
 		<link rel="stylesheet" href="./node_modules/swiper/dist/css/swiper.css">
+		<!-- <link rel="stylesheet" href="./css/slimmenu.min.css" /> -->
 		<link rel="stylesheet" href="./css/common.css" />
 		<link rel="stylesheet" href="./css/index.css" />
 	</head>
@@ -14,46 +15,81 @@
 		<div class="container-fluid">
 			<div class="header">
 				<div class="row clearfix">
-					<div class="col-md-2 col-sm-2 col-xs-6">
+					<div class="logo">
 						<img src="./images/logo.png" alt="" />
 					</div>
-					<div class="col-md-10 col-sm-10 col-xs-12 text-right">
+					<div class="text-right">
 						<ul class="header-nav">
-							<li>
-							<a href="#">首页</a>
-							</li>
-							<li>
-								<a href="#">我们</a>
-								<ul class="sub-nav">
-									<li><a href="#">发展历程</a></li>
-									<li><a href="#">公司简介</a></li>
-									<li><a href="#">灵魂</a></li>
-									<li><a href="#">新闻中心</a></li>
-								</ul>
-							</li>
-							<li>
-								<a href="#">战略</a>
-							</li>
-							<li>
-								<a href="#">产业</a>
-							</li>
-							<li>
-								<a href="#">文化</a>
-							</li>
-							<li>
-								<a href="#">人才</a>
-							</li>
-							<li class="extra-link english"><a href="#">English</a></li>
-							<li class="extra-link search">
-								<!-- <a href="#"><img src="./images/search.png" alt=""></a> -->
+							<!-- 手机、平板隐藏 -->
+							<div class="inline-block hidden-xs hidden-sm">
+								<li class="nav-li">
+								<a href="#">首页</a>
+								</li>
+								<li class="nav-li">
+									<a href="#">我们</a>
+									<ul class="sub-nav">
+										<li><a href="#">简介</a></li>
+										<li><a href="#">历程</a></li>
+										<li><a href="#">灵魂</a></li>
+										<li><a href="#">新闻</a></li>
+									</ul>
+								</li>
+								<li class="nav-li">
+									<a href="#">战略</a>
+									<ul class="sub-nav">
+										<li><a href="#">方法</a></li>
+										<li><a href="#">目标</a></li>
+									</ul>
+								</li>
+								<li class="nav-li">
+									<a href="#">产业</a>
+									<ul class="sub-nav">
+										<li><a href="#">供通云</a></li>
+										<li><a href="#">君华物业</a></li>
+										<li><a href="#">雪松文旅</a></li>
+										<li><a href="#">雪松城投</a></li>
+										<li><a href="#">雪松地产</a></li>
+										<li><a href="#">雪松金服</a></li>
+										<li><a href="#">雪松汽车</a></li>
+									</ul>
+								</li>
+								<li class="nav-li">
+									<a href="#">文化</a>
+									<ul class="sub-nav">
+										<li><a href="#">愿景</a></li>
+										<li><a href="#">使命</a></li>
+										<li><a href="#">价值观</a></li>
+										<li><a href="#">七德·七戒</a></li>
+										<li><a href="#">社会责任</a></li>
+									</ul>
+								</li>
+								<li class="nav-li">
+									<a href="#">人才</a>
+									<ul class="sub-nav">
+										<li><a href="#">人才观</a></li>
+										<li><a href="">合伙人计划</a></li>
+										<li><a href="">招聘</a></li>
+									</ul>
+								</li>
+							</div>
+							<div class="collapse-button hidden-md hidden-lg">
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</div>
+							<li class="extra-link english nav-li"><a href="#">English</a></li>
+							<li class="extra-link search nav-li">
 								<a href="#"></a>
 							</li>
-							<li class="extra-link share">
-								<!-- <a href="#"><img src="./images/share.png" alt=""></a> -->
+							<li class="extra-link share nav-li">
 								<a href="#"></a>
 							</li>
 						</ul>
 					</div>
+				</div>
+				<!-- 手机、平板导航栏 -->
+				<div class="row hidden-md hidden-lg">
+					
 				</div>
 			</div>
 			<div class="content">
@@ -177,6 +213,7 @@
 		</div>
 		<script src="./node_modules/jquery/jquery.js"></script>
 		<script src="./js/bootstrap.js"></script>
+		<script src="./js/jquery.slimmenu.min.js"></script>
 		<script src="./node_modules/swiper/dist/js/swiper.jquery.js"></script>
 		<script src="./js/index.js"></script>
 	</body>
