@@ -215,10 +215,25 @@ ul{
     h2{
       font-size: 34px;
     }
+    .description{
+      margin-bottom: 4px;
+    }
+    .play{
+      display: inline-block;
+      transition: 0.5s ease all;
+      -webkit-transition: 0.5s ease all;
+      width:56px;
+      height:60px;
+      background: url("../images/play_01.png") no-repeat 0 0;
+    }
   }
   &:hover{
     .stretch-img{
       transform: scale(1.04);
+    }
+    .play{
+      transform: scale(1.2);
+      opacity: 0;
     }
   }
 }
