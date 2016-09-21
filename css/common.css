@@ -367,6 +367,54 @@ h3,
 #dongtai .more a:hover {
   background: #0098d0;
 }
+#footer {
+  margin-top: 50px;
+  height: 283px;
+  background: url("../images/footer.jpg") no-repeat 0 0 / cover;
+}
+#footer .buildings {
+  color: #fff;
+  margin-top: 24px;
+  text-align: center;
+}
+#footer .buildings li {
+  display: inline-block;
+  width: 24%;
+}
+#footer .buildings li .city {
+  margin: 0;
+  margin-top: 10px;
+  font-size: 16px;
+}
+#footer .buildings li .location {
+  margin: 0;
+  margin-top: 4px;
+}
+#footerMenu {
+  border-bottom: 1px solid #ededed;
+}
+#footerMenu ul li {
+  display: inline-block;
+  width: 13.5%;
+  text-align: center;
+  line-height: 60px;
+  font-size: 18px;
+}
+#footerMenu ul li a {
+  text-decoration: none;
+  display: block;
+  color: #000;
+}
+#footerMenu ul li a:hover {
+  color: #6dca9a;
+}
+#copyright {
+  margin-top: 14px;
+  padding-bottom: 20px;
+  text-align: center;
+  color: #b6b6b6;
+  font-size: 12px;
+}
 @media (max-width: 1160px) {
   .header-nav .nav-li {
     width: 60px !important;
@@ -462,5 +510,19 @@ h3,
   .stretch-part .stretch-text .play {
     width: 27px !important;
     height: 40px !important;
+  }
+  #footer {
+    margin-top: 35px;
+  }
+  #footer .buildings li {
+    vertical-align: top;
+    width: 23%;
+  }
+  #footer .buildings li .city {
+    font-size: 14px;
+  }
+  #footerMenu ul li {
+    font-size: 12px;
+    width: 13%;
   }
 }

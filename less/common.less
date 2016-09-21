@@ -333,6 +333,56 @@ h1, .h1, h2, .h2, h3, .h3{
     }
   }
 }
+#footer{
+  margin-top: 50px;
+  height:283px;
+  background: url("../images/footer.jpg") no-repeat 0 0 /cover;
+  .buildings{
+    color: #fff;
+    margin-top: 24px;
+    text-align: center;
+    li{
+      display: inline-block;
+      width:24%;
+      .city{
+        margin:0;
+        margin-top: 10px;
+        font-size: 16px;
+      }
+      .location{
+        margin:0;
+        margin-top: 4px;
+      }
+    }
+  }
+}
+#footerMenu{
+  border-bottom: 1px solid #ededed;
+  ul{
+    li{
+      display: inline-block;
+      width:13.5%;
+      text-align: center;
+      line-height:60px;
+      font-size: 18px;
+      a{
+        text-decoration: none;
+        display: block;
+        color: #000;
+        &:hover{
+          color: @green;
+        }
+      }
+    }
+  }
+}
+#copyright{
+  margin-top: 14px;
+  padding-bottom:20px;
+  text-align: center;
+  color: @gray;
+  font-size: 12px;
+}
 @media (max-width: 1160px){
   .header-nav .nav-li{
     width: 60px !important;
@@ -407,4 +457,8 @@ h1, .h1, h2, .h2, h3, .h3{
       }
     }
   }
+  #footer{ margin-top:35px;}
+  #footer .buildings li{vertical-align: top; width:23%;}
+  #footer .buildings li .city{ font-size:14px;}
+  #footerMenu ul li{ font-size:12px; width:13%;}
 }

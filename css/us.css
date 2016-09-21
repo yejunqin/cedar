@@ -75,3 +75,38 @@
 #magazine ul li .detail {
   color: #888;
 }
+#paper {
+  padding-bottom: 40px;
+}
+#paper .paper-title {
+  text-align: center;
+}
+#paper ul .box {
+  width: 31%;
+  display: inline-block;
+}
+#paper ul .box:not(:last-child) {
+  margin-right: 10px;
+}
+#paper ul .box .img {
+  width: 100%;
+}
+#paper ul .box .img img {
+  width: 100%;
+}
+#paper ul .box .title {
+  color: #0bbaf2;
+}
+#paper ul .box .person {
+  font-weight: bold;
+}
+#paper ul .box .word {
+  border-bottom: 2px solid #999;
+}
+#paper ul .box .more {
+  text-decoration: none;
+  color: #0bbaf2;
+}
+#paper ul .box .detail {
+  padding-left: 12px;
+}

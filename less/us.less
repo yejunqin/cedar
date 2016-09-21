@@ -88,3 +88,40 @@
     }
   }
 }
+#paper{
+  padding-bottom:40px;
+  .paper-title{
+    text-align: center;
+  }
+  ul{
+    .box{
+      width:31%;
+      display: inline-block;
+      &:not(:last-child){
+        margin-right: 10px;
+      }
+      .img{
+        width:100%;
+        img{
+          width:100%;
+        }
+      }
+      .title{
+        color: @blue;
+      }
+      .person{
+        font-weight: bold;
+      }
+      .word{
+        border-bottom:2px solid #999;
+      }
+      .more{
+        text-decoration: none;
+        color: @blue;
+      }
+      .detail{
+        padding-left: 12px;
+      }
+    }
+  }
+}
