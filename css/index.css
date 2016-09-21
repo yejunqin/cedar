@@ -8,10 +8,18 @@
 #chanye .chanye-sub-menu .chanye01 .stretch-img {
   background: url("../images/chanye_01.jpg") no-repeat 0 0 / cover;
 }
+#chanye .chanye-sub-menu .stretch-img {
+  background: url("../images/chanye_01.jpg") no-repeat 0 0 / cover;
+}
+#chanye .chanye-sub-menu .stretch-text .img span {
+  display: inline-block;
+  width: 99px;
+  height: 90px;
+}
 #chanye .chanye-menu {
   position: relative;
   top: -40px;
-  margin-bottom: -2%;
+  margin-bottom: 0;
 }
 #chanye .chanye-menu .chanye-box {
   background: #b6b6b6;
@@ -21,7 +29,8 @@
 }
 #chanye .chanye-menu .chanye-box .img {
   display: inline-block;
-  width: 50%;
+  width: 99px;
+  height: 90px;
 }
 #chanye .chanye-menu .chanye-box h4 {
   font-size: 24px;
@@ -32,7 +41,7 @@
 #chanye .chanye-menu .swiper-button {
   position: relative;
   text-align: center;
-  padding-top: 20px;
+  padding-top: 35px;
 }
 #chanye .chanye-menu .swiper-button .prev {
   width: 15px;
@@ -50,7 +59,7 @@
   cursor: pointer;
 }
 #dongtai {
-  border-top: 1px solid silver;
+  border-top: 1px solid #ededed;
 }
 #dongtai a {
   text-decoration: none;
@@ -60,7 +69,7 @@
 }
 #dongtai .swiper-button {
   position: absolute;
-  right: 40px;
+  right: 10px;
   top: -60px;
 }
 #dongtai .swiper-button .prev {
@@ -122,7 +131,7 @@
   background: #0098d0;
 }
 #public {
-  margin-top: 60px;
+  margin-top: 87px;
 }
 #public .stretch-img {
   background: url("../images/public.jpg") no-repeat 0 0 / cover;
@@ -207,7 +216,7 @@
   margin-top: 4px;
 }
 #footerMenu {
-  border-bottom: 1px solid silver;
+  border-bottom: 1px solid #ededed;
 }
 #footerMenu ul li {
   display: inline-block;
