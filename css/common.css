@@ -212,9 +212,6 @@ ul {
 .stretch-part .stretch-text h2 {
   font-size: 34px;
 }
-.stretch-part .stretch-text .description {
-  margin-bottom: 4px;
-}
 .stretch-part .stretch-text .play {
   display: inline-block;
   transition: 0.5s ease all;
@@ -239,6 +236,9 @@ ul {
   }
   .stretch-part .stretch-text .title {
     font-size: 28px!important;
+  }
+  .stretch-part .stretch-text .description {
+    margin-bottom: 4px!important;
   }
   .stretch-part .stretch-text .play {
     width: 50px !important;
@@ -270,7 +270,7 @@ ul {
   .stretch-part .stretch-text .title {
     font-size: 16px!important;
   }
-  .stretch-part .stretch-text .descirption {
+  .stretch-part .stretch-text .description {
     font-size: 12px!important;
   }
   .stretch-part .stretch-text .play {

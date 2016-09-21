@@ -12,7 +12,7 @@ $(document).ready(function(){
     nextButton: '#chanye .chanye-menu .next',
     prevButton: '#chanye .chanye-menu .prev',
     slidesPerView: 3,
-    // autoplay: 3000,
+    autoplay: 3000,
     onSlideChangeStart: function(swiper){
       var index = swiper.activeIndex
       chanyeSubMenu.slideTo(index)
