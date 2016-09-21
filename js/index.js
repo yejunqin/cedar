@@ -31,13 +31,4 @@ $(document).ready(function(){
     prevButton: '#dongtai .swiper-button .prev',
     spaceBetween: 16
   })
-  $('#mobileNav').slimmenu(
-      {
-        resizeWidth: '1200',
-        animSpeed:'medium',
-        collapserTitle: '',
-        indentChildren: true,
-        childrenIndenter: '&raquo;'
-      }
-  )
 })
