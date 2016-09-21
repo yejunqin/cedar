@@ -33,7 +33,7 @@
 }
 #chanye .chanye-menu {
   position: relative;
-  top: -40px;
+  top: -70px;
   margin-bottom: 0;
 }
 #chanye .chanye-menu .chanye-box {
@@ -272,6 +272,9 @@
   }
   #public .stretch-text .title {
     font-size: 24px;
+  }
+  #chanye .chanye-menu {
+    top: -20px !important;
   }
 }
 @media (max-width: 414px) {
