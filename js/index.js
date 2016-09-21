@@ -22,8 +22,7 @@ $(document).ready(function(){
     slidesPerView: 3,
     nextButton: '#dongtai .swiper-button .next',
     prevButton: '#dongtai .swiper-button .prev',
-    spaceBetween: 16,
-    autoplay: 3000
+    spaceBetween: 16
   })
   $('#mobileNav').slimmenu(
       {
