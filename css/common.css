@@ -139,8 +139,10 @@ ul {
   z-index: 10;
   padding: 0;
   background: #fff;
-  width: 100%;
+  width: 140%;
   min-width: 60px;
+  left: -20%;
+  border-top: 1px solid #f1f1f1;
 }
 .header .header-nav .sub-nav li {
   width: 100%;
@@ -204,6 +206,9 @@ ul {
   left: 0;
   padding-top: 3%;
 }
+.stretch-part .stretch-text .title {
+  margin-top: 10px;
+}
 .stretch-part .stretch-text h2 {
   font-size: 34px;
 }
@@ -216,7 +221,7 @@ ul {
   -webkit-transition: 0.5s ease all;
   width: 56px;
   height: 60px;
-  background: url("../images/play_01.png") no-repeat 0 0;
+  background: url("../images/play_01.png") no-repeat 0 0 / contain;
 }
 .stretch-part:hover .stretch-img {
   transform: scale(1.04);
@@ -231,6 +236,13 @@ ul {
   }
   .header-nav .nav-li .sub-nav {
     width: 100px !important;
+  }
+  .stretch-part .stretch-text .title {
+    font-size: 28px!important;
+  }
+  .stretch-part .stretch-text .play {
+    width: 50px !important;
+    height: 50px !important;
   }
 }
 @media (max-width: 992px) {
@@ -251,10 +263,18 @@ ul {
   .stretch-part {
     padding-bottom: 55% !important;
   }
+  .stretch-part .stretch-text .img span {
+    width: 80px !important;
+    height: 60px !important;
+  }
   .stretch-part .stretch-text .title {
     font-size: 16px!important;
   }
   .stretch-part .stretch-text .descirption {
     font-size: 12px!important;
+  }
+  .stretch-part .stretch-text .play {
+    width: 36px !important;
+    height: 40px !important;
   }
 }

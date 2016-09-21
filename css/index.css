@@ -8,8 +8,23 @@
 #chanye .chanye-sub-menu .chanye01 .stretch-img {
   background: url("../images/chanye_01.jpg") no-repeat 0 0 / cover;
 }
-#chanye .chanye-sub-menu .stretch-img {
-  background: url("../images/chanye_01.jpg") no-repeat 0 0 / cover;
+#chanye .chanye-sub-menu .chanye02 .stretch-img {
+  background: url("../images/5.jpg") no-repeat 0 0 / cover;
+}
+#chanye .chanye-sub-menu .chanye03 .stretch-img {
+  background: url("../images/4.jpg") no-repeat 0 0 / cover;
+}
+#chanye .chanye-sub-menu .chanye04 .stretch-img {
+  background: url("../images/3.jpg") no-repeat 0 0 / cover;
+}
+#chanye .chanye-sub-menu .chanye05 .stretch-img {
+  background: url("../images/2.jpg") no-repeat 0 0 / cover;
+}
+#chanye .chanye-sub-menu .chanye06 .stretch-img {
+  background: url("../images/1.jpg") no-repeat 0 0 / cover;
+}
+#chanye .chanye-sub-menu .chanye07 .stretch-img {
+  background: url("../images/6.jpg") no-repeat 0 0 / cover;
 }
 #chanye .chanye-sub-menu .stretch-text .img span {
   display: inline-block;
@@ -265,5 +280,12 @@
   }
   #chanye .chanye-menu {
     top: 0;
+  }
+  #chanye .chanye-box .img {
+    width: 60px !important;
+    height: 60px !important;
+  }
+  #chanye .chanye-box h4 {
+    font-size: 18px!important;
   }
 }
