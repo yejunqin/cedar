@@ -1,0 +1,51 @@
+#jianjie .part-body .left {
+  padding: 0 40px;
+}
+#jianjie .part-body .left .title {
+  font-size: 34px;
+}
+#jianjie .part-body .left p {
+  color: #b6b6b6;
+  text-indent: 2em;
+}
+#jianjie .part-body .right {
+  padding: 78px 60px 0;
+}
+#jianjie .part-body .right ul {
+  line-height: 100px;
+  border-top: 2px solid #42bd7f;
+}
+#jianjie .part-body .right ul li {
+  border-bottom: 2px solid #42bd7f;
+}
+#jianjie .part-body .right ul li .number {
+  display: inline-block;
+  width: 48%;
+  text-align: right;
+  padding-right: 20px;
+}
+#jianjie .part-body .right ul li .number span {
+  font-weight: bold;
+  font-size: 60px;
+  vertical-align: bottom;
+  margin-right: 16px;
+}
+#jianjie .part-body .right ul li .detail {
+  display: inline-block;
+  width: 48%;
+  padding-left: 20px;
+}
+#jianjie .part-body .list {
+  margin-top: 40px;
+  padding: 0 40px;
+}
+#jianjie .part-body .list li {
+  display: inline-block;
+  width: 12%;
+  text-align: center;
+}
+#jianjie .part-body .list .img {
+  width: 76px;
+  height: 79px;
+  display: inline-block;
+}

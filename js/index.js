@@ -1,8 +1,5 @@
 $(document).ready(function(){
-  var dongtaiSlidesPerView = 1
-  if(window.screen.width > 760){
-    dongtaiSlidesPerView = 3
-  }
+
   var banner = new Swiper('#banner .swiper-container', {
     loop: true,
     autoplay: 3000,
@@ -24,11 +21,5 @@ $(document).ready(function(){
       var index = swiper.activeIndex
       chanyeSubMenu.slideTo(index)
     }
-  })
-  var newsMenu = new Swiper('#dongtai .dongtai-menu', {
-    slidesPerView: dongtaiSlidesPerView,
-    nextButton: '#dongtai .swiper-button .next',
-    prevButton: '#dongtai .swiper-button .prev',
-    spaceBetween: 16
   })
 })
