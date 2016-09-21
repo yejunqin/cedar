@@ -316,17 +316,63 @@ h3,
   .stretch-part {
     padding-bottom: 49% !important;
   }
+  /*导航头部*/
+  .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .header .logo {
+    margin-left: 11px;
+  }
+  .header .header-nav {
+    height: 50px;
+    margin-right: 0px;
+  }
+  .header-nav .nav-li {
+    width: 60px;
+  }
+  .header .header-nav .extra-link {
+    border: none;
+    line-height: 50px;
+    width: 32px !important;
+  }
+  .header .header-nav .extra-link a {
+    color: #888;
+  }
+  .collapse-button {
+    top: 8px;
+    right: 118px;
+  }
+  .collapse-button .icon-bar {
+    background: #888;
+  }
+  /*导航头部*/
+  .content .content-part .part-title {
+    font-size: 24px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  .stretch-part .stretch-text {
+    padding-top: 7%;
+  }
+  .stretch-part .stretch-text .description {
+    width: 85%;
+    margin: 0 auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
 }
 @media (max-width: 414px) {
   .header .logo {
     width: 160px !important;
-    padding-top: 15px !important;
+    padding-top: 10px !important;
   }
   .stretch-part {
     padding-bottom: 55% !important;
   }
   .stretch-part .stretch-text .img span {
-    width: 80px !important;
+    width: 60px !important;
     height: 60px !important;
   }
   .stretch-part .stretch-text .title {
@@ -336,7 +382,7 @@ h3,
     font-size: 12px!important;
   }
   .stretch-part .stretch-text .play {
-    width: 36px !important;
+    width: 27px !important;
     height: 40px !important;
   }
 }

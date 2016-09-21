@@ -33,7 +33,7 @@
 }
 #chanye .chanye-menu {
   position: relative;
-  top: -70px;
+  top: -85px;
   margin-bottom: 0;
 }
 #chanye .chanye-menu .chanye-box {
@@ -279,16 +279,52 @@
 }
 @media (max-width: 414px) {
   #chanye {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
   #chanye .chanye-menu {
     top: 0;
   }
   #chanye .chanye-box .img {
-    width: 60px !important;
-    height: 60px !important;
+    width: 40% !important;
+    height: 50px !important;
   }
   #chanye .chanye-box h4 {
-    font-size: 18px!important;
+    font-size: 14px!important;
   }
+  /*////增加的//////*/
+  #chanye .chanye-menu .swiper-button {
+    padding-top: 15px;
+  }
+  #chanye .chanye-menu .chanye-box {
+    padding: 13% 0 11% 0;
+  }
+  #dongtai .swiper-button {
+    top: -47px;
+    right: 15px;
+  }
+  #dongtai .more a {
+    width: 100%;
+    margin: 15px auto 0;
+  }
+  #public {
+    margin-top: 70px;
+  }
+  #public .stretch-text .description {
+    width: 90%;
+  }
+  #footer {
+    margin-top: 35px;
+  }
+  #footer .buildings li {
+    vertical-align: top;
+    width: 23%;
+  }
+  #footer .buildings li .city {
+    font-size: 14px;
+  }
+  #footerMenu ul li {
+    font-size: 12px;
+    width: 13%;
+  }
+  /*////增加的//////*/
 }
