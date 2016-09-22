@@ -1,14 +1,25 @@
 #zhanlue #method .stretch-part .stretch-img {
   background: url("../images/zhanlue.jpg") no-repeat 0 0 / cover;
 }
+#zhanlue #method .stretch-part .stretch-text .big-title {
+  font-size: 40px;
+  margin-top: 0;
+}
+#zhanlue #method .stretch-part .stretch-text .sub-title {
+  font-size: 30px;
+}
 #zhanlue #method .stretch-part .stretch-text .description {
-  font-size: 15px;
-  line-height: 24px;
+  font-size: 16px;
+  line-height: 26px;
+}
+#zhanlue #target ul {
+  text-align: center;
 }
 #zhanlue #target ul li {
   display: inline-block;
   position: relative;
-  width: 33%;
+  width: 32%;
+  min-width: 224px;
   text-align: center;
 }
 #zhanlue #target ul li .box {
@@ -16,7 +27,7 @@
   position: relative;
   width: 60%;
   padding-top: 60%;
-  border: 4px solid #c9c9c9;
+  border: 6px solid #c9c9c9;
 }
 #zhanlue #target ul li .box .msg {
   position: absolute;
@@ -47,4 +58,37 @@
   color: #767676;
   font-size: 16px;
   line-height: 28px;
+}
+@media (max-width: 1300px) {
+  #target ul li .word {
+    font-size: 26px!important;
+  }
+  #target ul li .amount {
+    font-size: 16px!important;
+  }
+}
+@media (max-width: 997px) {
+  #method .wrap {
+    margin-top: -85px;
+  }
+  #method .big-title {
+    font-size: 30px!important;
+  }
+  #method .sub-title {
+    margin-top: 20px!important;
+    font-size: 24px!important;
+  }
+  #method .description {
+    font-size: 14px!important;
+  }
+  #target ul li .msg {
+    padding: 0 !important;
+    top: 26% !important;
+  }
+  #target ul li .word {
+    font-size: 22px!important;
+  }
+  #target ul li .amount {
+    font-size: 14px!important;
+  }
 }

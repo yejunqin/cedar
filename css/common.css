@@ -242,7 +242,7 @@ h3,
 .content .content-part .part-title span::after {
   content: '';
   position: absolute;
-  border-bottom: 4px solid #0bbaf2;
+  border-bottom: 4px solid #42bd7f;
   top: 118%;
   width: 40%;
   left: 30%;
@@ -501,6 +501,13 @@ h3,
     margin-top: 30px;
   }
   .stretch-part .stretch-text .description {
+    width: 85%;
+    margin: 0 auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .line-limit {
     width: 85%;
     margin: 0 auto;
     overflow: hidden;
