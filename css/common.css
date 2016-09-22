@@ -93,7 +93,7 @@ h3,
   opacity: 1;
 }
 .swiper-pagination-bullet-active {
-  background: #0bbaf2;
+  background: #42bd7f;
 }
 .prev.swiper-button-disabled {
   background-image: url("../images/prev_disabled.png") !important;
@@ -120,7 +120,7 @@ h3,
   height: 3px;
   width: 20px;
   margin: 3px 0;
-  background: #0bbaf2;
+  background: #42bd7f;
   border-radius: 2px;
 }
 #mobileNav {
@@ -256,7 +256,7 @@ h3,
 .big-title span::after {
   content: '';
   position: absolute;
-  border-bottom: 4px solid #0bbaf2;
+  border-bottom: 4px solid #42bd7f;
   top: 118%;
   width: 40%;
   left: 30%;
@@ -374,7 +374,7 @@ h3,
 #dongtai .more a {
   display: block;
   width: 274px;
-  background: #0bbaf2;
+  background: #42bd7f;
   color: #fff;
   text-align: center;
   font-size: 18px;
@@ -384,7 +384,7 @@ h3,
   transition: all ease 0.4s;
 }
 #dongtai .more a:hover {
-  background: #0098d0;
+  background: #209b5d;
 }
 #footer {
   margin-top: 50px;
