@@ -1,3 +1,19 @@
+.part-body {
+  overflow: hidden;
+  position: relative;
+}
+.part-body .bg-img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: 1s ease all;
+  -webkit-transition: 1s ease all;
+}
+.part-body:hover .bg-img {
+  transform: scale(1.04);
+}
 #yuanjing .stretch-part .stretch-img {
   background: url("../images/wenhua/wenhua_01.jpg") no-repeat 0 0 / cover;
 }
@@ -44,4 +60,144 @@
 }
 #yuanjing .detail .item:hover .description {
   color: #6dca9a;
+}
+#shiming {
+  margin-top: 40px;
+  border-top: 1px solid #ededed;
+  color: #606060;
+  text-align: center;
+}
+#shiming .part-title {
+  font-size: 46px;
+  margin-bottom: 36px;
+}
+#shiming .sub-title {
+  font-size: 26px;
+}
+#shiming .description {
+  font-size: 16px;
+  line-height: 24px;
+}
+#jiazhi {
+  margin-top: 50px;
+  padding-bottom: 32%;
+}
+#jiazhi .stretch-img {
+  background: url("../images/wenhua/wenhua_02.jpg") no-repeat 0 0 / cover;
+}
+#jiazhi .stretch-text {
+  padding-top: 3%;
+}
+#jiazhi .sub-title {
+  margin-bottom: 30px;
+}
+#jiazhi .item .img {
+  width: 45%;
+  display: inline-block;
+}
+#jiazhi .item .list-title {
+  font-size: 30px;
+}
+#jiazhi .item .description {
+  font-size: 18px;
+  line-height: 28px;
+}
+#qide {
+  margin-top: 50px;
+  text-align: center;
+}
+#qide .bg-img {
+  background: url("../images/wenhua/wenhua_03.jpg") no-repeat 0 0 / cover;
+}
+#qide .title {
+  font-size: 46px;
+}
+#qide .part-body {
+  margin-top: 90px;
+  padding-top: 140px;
+  width: 100%;
+  height: 592px;
+}
+#qide .part-body ul .axis-box {
+  cursor: context-menu;
+  display: inline-block;
+  margin-right: -5px;
+  width: 180px;
+  height: 160px;
+  position: relative;
+  border-bottom: 2px solid #b6b6b6;
+}
+#qide .part-body ul .axis-box span {
+  position: absolute;
+}
+#qide .part-body ul .axis-box .index {
+  font-size: 24px;
+  width: 40px;
+  line-height: 40px;
+  color: #fff;
+  background: #888;
+  display: block;
+  border-radius: 50%;
+  left: 50%;
+  margin-left: -20px;
+  -webkit-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+#qide .part-body ul .axis-box .axis-title {
+  white-space: pre;
+  width: 100%;
+  font-size: 18px;
+  color: #888;
+  left: 0;
+  -webkit-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+#qide .part-body ul .axis-box .spot {
+  width: 0;
+  height: 0;
+  border: 5px solid #606060;
+  bottom: -5px;
+  left: 50%;
+  margin-left: -5px;
+  border-radius: 50%;
+  -webkit-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+#qide .part-body ul .axis-box:hover {
+  border-color: #42bd7f;
+}
+#qide .part-body ul .axis-box:hover .index {
+  color: #fff;
+  background: #42bd7f;
+}
+#qide .part-body ul .axis-box:hover .axis-title {
+  color: #42bd7f;
+}
+#qide .part-body ul .up .index {
+  bottom: 20px;
+}
+#qide .part-body ul .up .axis-title {
+  bottom: 80px;
+}
+#qide .part-body ul .down .index {
+  bottom: -60px;
+}
+#qide .part-body ul .down .axis-title {
+  bottom: -120px;
+}
+#qijie {
+  margin-top: 50px;
+  text-align: center;
+}
+#qijie .bg-img {
+  background: url("../images/wenhua/wenhua_04.jpg") no-repeat 0 0 / cover;
+}
+#qijie .title {
+  font-size: 46px;
+}
+#qijie .part-body {
+  margin-top: 90px;
+  padding-top: 140px;
+  width: 100%;
+  height: 592px;
 }
