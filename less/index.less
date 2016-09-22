@@ -104,9 +104,6 @@
   .stretch-img{
     background: url("../images/public.jpg") no-repeat 0 0 /cover;
   }
-  .stretch-text{
-    padding-top:6.5%;
-  }
   .img{
     span{
       display: inline-block;
@@ -131,7 +128,6 @@
 
   }
   .description{
-    width:25%;
     font-size: 15px;
     margin:0 auto;
   }
@@ -170,6 +166,14 @@
 }
 
 @media (max-width: 1400px){
+  #chanye{
+    .chanye-sub-menu{
+      .stretch-part{
+        padding-bottom:32%;
+      }
+
+    }
+  }
   #public .stretch-text{
     .title{
       margin:10px;
@@ -181,8 +185,8 @@
 }
 @media (max-width: 1200px){
   #public{
-    .stretch-part{
-      padding-bottom:30%;
+    .wrap{
+      margin-top: -100px;
     }
     .stretch-text{
       .img{
@@ -206,6 +210,12 @@
     margin-bottom: 10px;
     .chanye-menu{
       top:0;
+    }
+    .chanye-sub-menu{
+      .wrap{
+        margin-top: -80px;
+        width:90%;
+      }
     }
     .chanye-box{
       .img{

@@ -79,9 +79,6 @@
 #public .stretch-img {
   background: url("../images/public.jpg") no-repeat 0 0 / cover;
 }
-#public .stretch-text {
-  padding-top: 6.5%;
-}
 #public .img span {
   display: inline-block;
 }
@@ -101,7 +98,6 @@
   background: #0bbaf2;
 }
 #public .description {
-  width: 25%;
   font-size: 15px;
   margin: 0 auto;
 }
@@ -136,6 +132,9 @@
   background-image: url("../images/icon_google.png");
 }
 @media (max-width: 1400px) {
+  #chanye .chanye-sub-menu .stretch-part {
+    padding-bottom: 32%;
+  }
   #public .stretch-text .title {
     margin: 10px;
   }
@@ -144,8 +143,8 @@
   }
 }
 @media (max-width: 1200px) {
-  #public .stretch-part {
-    padding-bottom: 30%;
+  #public .wrap {
+    margin-top: -100px;
   }
   #public .stretch-text .img span {
     width: 100px;
@@ -163,6 +162,10 @@
   }
   #chanye .chanye-menu {
     top: 0;
+  }
+  #chanye .chanye-sub-menu .wrap {
+    margin-top: -80px;
+    width: 90%;
   }
   #chanye .chanye-box .img {
     width: 40% !important;

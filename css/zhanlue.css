@@ -1,0 +1,50 @@
+#zhanlue #method .stretch-part .stretch-img {
+  background: url("../images/zhanlue.jpg") no-repeat 0 0 / cover;
+}
+#zhanlue #method .stretch-part .stretch-text .description {
+  font-size: 15px;
+  line-height: 24px;
+}
+#zhanlue #target ul li {
+  display: inline-block;
+  position: relative;
+  width: 33%;
+  text-align: center;
+}
+#zhanlue #target ul li .box {
+  display: inline-block;
+  position: relative;
+  width: 60%;
+  padding-top: 60%;
+  border: 4px solid #c9c9c9;
+}
+#zhanlue #target ul li .box .msg {
+  position: absolute;
+  text-align: left;
+  top: 20%;
+  left: -34%;
+  background: #fff;
+  padding-top: 10%;
+  padding-bottom: 5%;
+}
+#zhanlue #target ul li .box .msg .word {
+  color: #42bd7f;
+  font-size: 34px;
+}
+#zhanlue #target ul li .box .msg .amount {
+  font-size: 22px;
+}
+#zhanlue #target .detail {
+  border-top: 1px solid #ededed;
+  margin-top: 60px;
+  text-align: center;
+}
+#zhanlue #target .detail .title {
+  color: #626262;
+  font-size: 34px;
+}
+#zhanlue #target .detail .description {
+  color: #767676;
+  font-size: 16px;
+  line-height: 28px;
+}
