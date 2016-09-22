@@ -1,17 +1,6 @@
 #zhanlue #method .stretch-part .stretch-img {
   background: url("../images/zhanlue.jpg") no-repeat 0 0 / cover;
 }
-#zhanlue #method .stretch-part .stretch-text .big-title {
-  font-size: 40px;
-  margin-top: 0;
-}
-#zhanlue #method .stretch-part .stretch-text .sub-title {
-  font-size: 30px;
-}
-#zhanlue #method .stretch-part .stretch-text .description {
-  font-size: 16px;
-  line-height: 26px;
-}
 #zhanlue #target ul {
   text-align: center;
 }
@@ -70,16 +59,6 @@
 @media (max-width: 997px) {
   #method .wrap {
     margin-top: -85px;
-  }
-  #method .big-title {
-    font-size: 30px!important;
-  }
-  #method .sub-title {
-    margin-top: 20px!important;
-    font-size: 24px!important;
-  }
-  #method .description {
-    font-size: 14px!important;
   }
   #target ul li .msg {
     padding: 0 !important;

@@ -1,1 +1,58 @@
 @import "../variables";
+#yuanjing{
+  .stretch-part{
+    .stretch-img{
+      background: url("../images/wenhua/wenhua_01.jpg") no-repeat 0 0 /cover;
+    }
+    .stretch-text{
+     .wrap{
+       margin-top: -90px;
+     }
+    }
+  }
+  .detail{
+    .row{
+      margin-top: 50px;
+    }
+    .item{
+      width:550px;
+      margin: 0 auto;
+      cursor: context-menu;
+      .box{
+        display: inline-block;
+        position: relative;
+        width:30%;
+        padding-top:27.5%;
+        margin-right: 10%;
+        vertical-align: middle;
+        border:6px solid #888;
+        .msg span{
+          position: absolute;
+          font-size: 60px;
+          color: #888;
+          top:20%;
+          right: -36px;
+          background: #fff;
+        }
+      }
+      .description{
+        display: inline-block;
+        position: relative;
+        top:14px;
+        color: @grayFont;
+        font-size: 18px;
+      }
+      &:hover{
+        .box{
+          border-color: @green;
+          .msg span{
+            color: @green;
+          }
+        }
+        .description{
+          color: @green;
+        }
+      }
+    }
+  }
+}
