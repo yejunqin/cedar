@@ -163,15 +163,15 @@
   -webkit-transition: all ease 0.3s;
   transition: all ease 0.3s;
 }
-#qide .part-body ul .axis-box:hover {
-  border-color: #42bd7f;
-}
 #qide .part-body ul .axis-box:hover .index {
   color: #fff;
   background: #42bd7f;
 }
 #qide .part-body ul .axis-box:hover .axis-title {
   color: #42bd7f;
+}
+#qide .part-body ul .axis-box:hover .spot {
+  border-color: #42bd7f;
 }
 #qide .part-body ul .up .index {
   bottom: 20px;
@@ -200,4 +200,203 @@
   padding-top: 140px;
   width: 100%;
   height: 592px;
+}
+#qijie .part-body ul.list {
+  width: 328px;
+  height: 328px;
+  background: url("../images/wenhua/icon_04.png") no-repeat 0 0;
+  position: relative;
+  margin: 0 auto;
+  color: #fff;
+}
+#qijie .part-body ul.list li {
+  cursor: context-menu;
+}
+#qijie .part-body ul.list li span {
+  position: absolute;
+}
+#qijie .part-body ul.list li .index {
+  font-size: 24px;
+  width: 40px;
+  line-height: 40px;
+  color: #fff;
+  background: #888;
+  display: block;
+  border-radius: 50%;
+  -webkit-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+#qijie .part-body ul.list li .list-title {
+  white-space: pre;
+  width: 100%;
+  font-size: 18px;
+  -webkit-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+#qijie .part-body ul.list li .spot {
+  width: 0;
+  height: 0;
+  border: 5px solid #fff;
+  bottom: -5px;
+  border-radius: 50%;
+  -webkit-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+#qijie .part-body ul.list li:hover {
+  border-color: #42bd7f;
+}
+#qijie .part-body ul.list li:hover .index {
+  color: #fff;
+  background: #42bd7f;
+}
+#qijie .part-body ul.list li:hover .list-title {
+  color: #42bd7f;
+}
+#qijie .part-body ul.list li:hover .spot {
+  border-color: #42bd7f;
+}
+#qijie .part-body ul.list .one .index {
+  left: 110px;
+  top: -50px;
+}
+#qijie .part-body ul.list .one .list-title {
+  left: -52px;
+  top: -56px;
+  width: 144px;
+}
+#qijie .part-body ul.list .one .spot {
+  left: 134px;
+  top: 2px;
+}
+#qijie .part-body ul.list .two .index {
+  right: 0;
+  top: 0;
+}
+#qijie .part-body ul.list .two .list-title {
+  right: 0;
+  top: 0;
+  width: 214px;
+}
+#qijie .part-body ul.list .two .spot {
+  right: 0;
+  top: 0;
+}
+#qijie .part-body ul.list .two .index {
+  top: 4px;
+  right: 4px;
+}
+#qijie .part-body ul.list .two .list-title {
+  top: -14px;
+  right: -226px;
+  width: 216px;
+}
+#qijie .part-body ul.list .two .spot {
+  top: 40px;
+  right: 55px;
+}
+#qijie .part-body ul.list .three .index {
+  top: 147px;
+  right: -50px;
+}
+#qijie .part-body ul.list .three .list-title {
+  top: 144px;
+  right: -200px;
+  width: 134px;
+}
+#qijie .part-body ul.list .three .spot {
+  top: 162px;
+  right: 4px;
+}
+#qijie .part-body ul.list .four .index {
+  right: 12px;
+  bottom: 2px;
+}
+#qijie .part-body ul.list .four .list-title {
+  right: -208px;
+  bottom: -6px;
+  width: 205px;
+}
+#qijie .part-body ul.list .four .spot {
+  right: 58px;
+  bottom: 42px;
+}
+#qijie .part-body ul.list .five .index {
+  left: 90px;
+  bottom: -42px;
+}
+#qijie .part-body ul.list .five .list-title {
+  left: -106px;
+  bottom: -46px;
+  width: 178px;
+}
+#qijie .part-body ul.list .five .spot {
+  left: 116px;
+  bottom: 9px;
+}
+#qijie .part-body ul.list .six .index {
+  left: -38px;
+  bottom: 82px;
+}
+#qijie .part-body ul.list .six .list-title {
+  left: -250px;
+  bottom: 75px;
+  width: 200px;
+}
+#qijie .part-body ul.list .six .spot {
+  left: 14px;
+  bottom: 97px;
+}
+#qijie .part-body ul.list .seven .index {
+  left: -30px;
+  top: 49px;
+}
+#qijie .part-body ul.list .seven .list-title {
+  left: -182px;
+  top: 43px;
+  width: 138px;
+}
+#qijie .part-body ul.list .seven .spot {
+  left: 20px;
+  top: 80px;
+}
+#shehui {
+  text-align: center;
+  margin-top: 50px;
+}
+#shehui .title {
+  font-size: 46px;
+}
+#shehui .bg-img {
+  background: url("../images/wenhua/wenhua_05.jpg") no-repeat 0 0 / cover;
+  z-index: -1;
+}
+#shehui .part-body {
+  margin-top: 126px;
+  height: 592px;
+  width: 100%;
+}
+#shehui .part-body .list {
+  margin: 100px auto 0;
+}
+#shehui .part-body .list li {
+  color: #fff;
+  text-align: center;
+  width: 270px;
+  display: inline-block;
+}
+#shehui .part-body .list li:not(:last-child) {
+  margin-right: 120px;
+}
+#shehui .part-body .list li .img {
+  width: 70%;
+  display: inline-block;
+}
+#shehui .part-body .list li .title {
+  font-size: 26px;
+  margin-top: 9%;
+}
+#shehui .part-body .list li .description {
+  margin-top: 6%;
+  font-size: 18px;
+  line-height: 28px;
 }

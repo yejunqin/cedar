@@ -270,8 +270,20 @@ h3,
   position: absolute;
   border-bottom: 4px solid #42bd7f;
   top: 118%;
-  width: 40%;
-  left: 30%;
+  width: 50px;
+  left: 50%;
+  margin-left: -25px;
+}
+.underline-left {
+  position: relative;
+}
+.underline-left::after {
+  content: '';
+  position: absolute;
+  border-bottom: 4px solid #42bd7f;
+  top: 150%;
+  width: 50px;
+  left: 0;
 }
 .stretch-part {
   width: 100%;
@@ -454,6 +466,46 @@ h3,
   text-align: center;
   color: #b6b6b6;
   font-size: 12px;
+}
+.chanye-page .chanye-title .stretch-part .wrap {
+  margin-top: -68px;
+}
+.chanye-page .chanye-title .description {
+  margin-top: 50px;
+}
+.chanye-page .chanye-detail {
+  margin: 40px auto 0;
+  width: 74%;
+}
+.chanye-page .chanye-detail .left {
+  display: inline-block;
+  width: 55%;
+  padding-right: 5%;
+  vertical-align: middle;
+}
+.chanye-page .chanye-detail .left .description {
+  margin-top: 48px;
+  text-indent: 2em;
+  font-size: 17px;
+  line-height: 24px;
+}
+.chanye-page .chanye-detail .left .title {
+  font-size: 34px;
+}
+.chanye-page .chanye-detail .right {
+  display: inline-block;
+  width: 40%;
+}
+.chanye-page .chanye-icon {
+  border-top: 1px solid #ededed;
+  margin-top: 40px;
+}
+.chanye-page .chanye-icon .part-title {
+  margin-top: 60px;
+  margin-bottom: 70px;
+}
+.chanye-page .chanye-description {
+  width: 74%;
 }
 @media (max-width: 1160px) {
   .header-nav .nav-li {

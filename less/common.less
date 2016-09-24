@@ -225,8 +225,20 @@ h1, .h1, h2, .h2, h3, .h3{
     position: absolute;
     border-bottom: 4px solid @green_2;
     top:118%;
-    width:40%;
-    left: 30%;
+    width:50px;
+    left: 50%;
+    margin-left: -25px;
+  }
+}
+.underline-left{
+  position: relative;
+  &::after{
+    content: '';
+    position: absolute;
+    border-bottom: 4px solid @green_2;
+    top:150%;
+    width:50px;
+    left: 0;
   }
 }
 .stretch-part{
@@ -423,6 +435,56 @@ h1, .h1, h2, .h2, h3, .h3{
   text-align: center;
   color: @gray;
   font-size: 12px;
+}
+//七大产业样式
+.chanye-page{
+  .chanye-title{
+    .stretch-part{
+      .wrap{
+        margin-top: -68px;
+      }
+    }
+    .description{
+      margin-top: 50px;
+    }
+  }
+  .chanye-detail{
+    margin:40px auto 0;
+    width:74%;
+    .left{
+      display: inline-block;
+      width:55%;
+      padding-right: 5%;
+      vertical-align: middle;
+      .description{
+        margin-top: 48px;
+        text-indent:2em;
+        font-size: 17px;
+        line-height:24px;
+      }
+      .title{
+        font-size: 34px;
+      }
+    }
+    .right{
+      display: inline-block;
+      width:40%;
+    }
+  }
+  .chanye-icon{
+    border-top: 1px solid @border;
+    margin-top: 40px;
+    .part-title{
+      margin-top: 60px;
+      margin-bottom: 70px;
+    }
+    .stretch-part{
+
+    }
+  }
+  .chanye-description{
+    width: 74%;
+  }
 }
 @media (max-width: 1160px){
   .header-nav .nav-li{
