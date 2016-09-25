@@ -1,0 +1,162 @@
+#rencai .rencaiguan .stretch-part .stretch-img {
+  background: url("../images/rencai/rencai_01.jpg") no-repeat 0 0 / cover;
+}
+#rencai .rencai-axis {
+  margin-top: 80px;
+}
+#rencai .rencai-axis .part-body {
+  height: 400px;
+}
+#rencai .rencai-axis ul .axis-box {
+  cursor: context-menu;
+  display: inline-block;
+  margin-right: -5px;
+  width: 180px;
+  height: 160px;
+  position: relative;
+  border-bottom: 2px solid #b6b6b6;
+}
+#rencai .rencai-axis ul .axis-box span {
+  position: absolute;
+}
+#rencai .rencai-axis ul .axis-box .index {
+  font-size: 18px;
+  width: 60px;
+  height: 60px;
+  padding-top: 5px;
+  line-height: 24px;
+  text-align: center;
+  color: #fff;
+  background: #888;
+  display: block;
+  border-radius: 50%;
+  left: 50%;
+  margin-left: -30px;
+  -webkit-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+#rencai .rencai-axis ul .axis-box .axis-title {
+  white-space: pre;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  color: #888;
+  left: 0;
+  -webkit-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+#rencai .rencai-axis ul .axis-box .spot {
+  width: 0;
+  height: 0;
+  border: 5px solid #606060;
+  bottom: -5px;
+  left: 50%;
+  margin-left: -5px;
+  border-radius: 50%;
+  -webkit-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+#rencai .rencai-axis ul .axis-box:hover .index {
+  color: #fff;
+  background: #42bd7f;
+}
+#rencai .rencai-axis ul .axis-box:hover .axis-title {
+  color: #42bd7f;
+}
+#rencai .rencai-axis ul .axis-box:hover .spot {
+  border-color: #42bd7f;
+}
+#rencai .rencai-axis ul .up .index {
+  bottom: 16px;
+}
+#rencai .rencai-axis ul .up .axis-title {
+  bottom: 86px;
+}
+#rencai .rencai-axis ul .down .index {
+  bottom: -76px;
+}
+#rencai .rencai-axis ul .down .axis-title {
+  bottom: -136px;
+}
+#rencai .rencai-axis ul .down .three-line {
+  bottom: -160px;
+}
+#rencai .hehuoren {
+  text-align: center;
+  padding-top: 60px;
+  border-top: 1px solid #ededed;
+}
+#rencai .hehuoren .title {
+  border-bottom: 1px solid #ededed;
+  padding-bottom: 70px;
+}
+#rencai .hehuoren .sub-title-cn {
+  color: #42bd7f;
+  font-size: 30px;
+}
+#rencai .hehuoren .sub-title-en {
+  color: #888;
+  text-transform: uppercase;
+  line-height: 30px;
+}
+#rencai .hehuoren .description {
+  margin-top: 40px;
+  color: #888;
+}
+#rencai .zhaopin {
+  text-align: center;
+  margin-top: 70px;
+  padding-top: 50px;
+  border-top: 1px solid #ededed;
+}
+#rencai .zhaopin .title {
+  padding-bottom: 60px;
+  border-bottom: 1px solid #ededed;
+}
+#rencai .zhaopin .sub-title-cn {
+  margin-top: 60px;
+  font-size: 30px;
+  color: #42bd7f;
+}
+#rencai .zhaopin .sub-title-en {
+  color: #888;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+#rencai .zhaopin .list {
+  margin-top: 50px;
+}
+#rencai .zhaopin .list .list-title {
+  color: #42bd7f;
+  font-size: 20px;
+  vertical-align: top;
+}
+#rencai .zhaopin .list ul {
+  display: inline-block;
+}
+#rencai .zhaopin .list ul a {
+  text-decoration: none;
+  color: #000;
+  line-height: 28px;
+}
+#rencai .zhaopin .list ul a:hover {
+  color: #42bd7f;
+}
+#rencai .zhaopin .list .more {
+  display: inline-block;
+}
+#rencai .zhaopin .list .more a {
+  display: inline-block;
+  padding: 0 12px;
+  line-height: 30px;
+  background: #42bd7f;
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+  margin-right: 12px;
+  -webkit-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+#rencai .zhaopin .list .more a:hover {
+  background: #31ac6e;
+}

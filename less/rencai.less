@@ -1,0 +1,173 @@
+@import "../variables";
+#rencai{
+  .rencaiguan{
+    .stretch-part{
+      .stretch-img{
+        background: url("../images/rencai/rencai_01.jpg") no-repeat 0 0 / cover;
+      }
+    }
+  }
+  .rencai-axis{
+    margin-top: 80px;
+    .part-body{
+      height:400px;
+    }
+    ul{
+      .axis-box{
+        cursor: context-menu;
+        display: inline-block;
+        margin-right: -5px;
+        width:180px;
+        height:160px;
+        position: relative;
+        border-bottom: 2px solid @gray;
+        span{
+          position: absolute;
+        }
+        .index{
+          font-size: 18px;
+          width:60px;
+          height:60px;
+          padding-top:5px;
+          line-height:24px;
+          text-align: center;
+          color: #fff;
+          background: @grayFont;
+          display: block;
+          border-radius: 50%;
+          left:50%;
+          margin-left: -30px;
+          .transition()
+        }
+        .axis-title{
+          white-space:pre;
+          width:100%;
+          text-align: center;
+          font-size: 18px;
+          color: @grayFont;
+          left:0;
+          .transition()
+        }
+        .spot{
+          width:0;
+          height:0;
+          border: 5px solid @deepFontGray;
+          bottom: -5px;
+          left:50%;
+          margin-left: -5px;
+          border-radius: 50%;
+          .transition()
+        }
+        &:hover{
+          .index{
+            color: #fff;
+            background: @green_2;
+          }
+          .axis-title{
+            color: @green_2;
+          }
+          .spot{
+            border-color: @green_2;
+          }
+        }
+      }
+      .up{
+        .index{
+          bottom:16px;
+        }
+        .axis-title{
+          bottom:86px;
+        }
+      }
+      .down{
+        .index{
+          bottom:-76px;
+        }
+        .axis-title{
+          bottom: -136px;
+        }
+        .three-line{
+          bottom:-160px;
+        }
+      }
+    }
+  }
+  .hehuoren{
+    text-align: center;
+    padding-top:60px;
+    border-top: 1px solid @border;
+    .title{
+      border-bottom: 1px solid @border;
+      padding-bottom:70px;
+    }
+    .sub-title-cn{
+      color: @green_2;
+      font-size: 30px;
+    }
+    .sub-title-en{
+      color: @grayFont;
+      text-transform: uppercase;
+      line-height:30px;
+    }
+    .description{
+      margin-top: 40px;
+      color: @grayFont;
+    }
+  }
+  .zhaopin{
+    text-align: center;
+    margin-top: 70px;
+    padding-top: 50px;
+    border-top: 1px solid @border;
+    .title{
+      padding-bottom:60px;
+      border-bottom: 1px solid @border;
+    }
+    .sub-title-cn{
+      margin-top: 60px;
+      font-size: 30px;
+      color: @green_2;
+    }
+    .sub-title-en{
+      color: @grayFont;
+      line-height:30px;
+      text-transform: uppercase;
+    }
+    .list{
+      margin-top: 50px;
+      .list-title{
+        color: @green_2;
+        font-size: 20px;
+        vertical-align: top;
+      }
+      ul{
+        display: inline-block;
+        a{
+          text-decoration: none;
+          color: #000;
+          line-height:28px;
+          &:hover{
+            color: @green_2;
+          }
+        }
+      }
+      .more{
+        display: inline-block;
+        a{
+          display: inline-block;
+          padding:0 12px;
+          line-height:30px;
+          background: @green_2;
+          color: #fff;
+          text-decoration: none;
+          margin-left: 20px;
+          margin-right: 12px;
+          .transition();
+          &:hover{
+            background: @green_2 - #111;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,3 +1,36 @@
+#fazhan {
+  width: 100%;
+  padding-bottom: 52%;
+  background: #424954;
+}
+#fazhan .part-title {
+  color: #fff;
+  padding-top: 50px;
+  border-bottom: 1px solid #474e58;
+  padding-bottom: 80px;
+}
+#fazhan .list {
+  width: 74%;
+}
+#fazhan .list .box .img {
+  display: inline-block;
+  width: 40%;
+  margin-right: 10%;
+  text-align: center;
+}
+#fazhan .list .box .title {
+  display: inline-block;
+  width: 48%;
+}
+#fazhan .list .box .title .cn {
+  color: #fff;
+  font-size: 22px;
+  line-height: 26px;
+}
+#fazhan .list .box .title .en {
+  color: #42bd7f;
+  font-size: 20px;
+}
 #jianjie .part-body .left {
   padding: 0 40px;
 }

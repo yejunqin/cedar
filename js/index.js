@@ -15,7 +15,6 @@ $(document).ready(function(){
     slidesPerView: 3,
     autoplay: 3000,
     slideToClickedSlide: true,
-    centeredSlides: true,
     initialSlide: 1,
     onSlideChangeStart: function(swiper){
       var index = swiper.activeIndex

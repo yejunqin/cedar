@@ -230,9 +230,9 @@ h3,
   z-index: 10;
   padding: 0;
   background: #fff;
-  width: 140%;
+  width: 150%;
   min-width: 60px;
-  left: -20%;
+  left: -25%;
   border-top: 1px solid #f1f1f1;
 }
 #header .header-nav .sub-nav li {
@@ -336,14 +336,14 @@ h3,
   transform: scale(1.2);
   opacity: 0;
 }
-.stretch-part .big-title .title {
+.big-title .title {
   font-size: 46px;
   margin-top: 0;
 }
-.stretch-part .big-title .sub-title {
+.big-title .sub-title {
   font-size: 30px;
 }
-.stretch-part .big-title .description {
+.big-title .description {
   font-size: 16px;
   line-height: 26px;
 }
