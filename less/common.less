@@ -461,6 +461,10 @@ h1, .h1, h2, .h2, h3, .h3{
         text-indent:2em;
         font-size: 17px;
         line-height:24px;
+        color: @deepFontGray;
+        p{
+          margin: 0 0 6px;
+        }
       }
       .title{
         font-size: 34px;
@@ -483,7 +487,15 @@ h1, .h1, h2, .h2, h3, .h3{
     }
   }
   .chanye-description{
-    width: 74%;
+    width:64%;
+    text-indent:2em;
+    margin:60px auto 0;
+    font-size: 17px;
+    line-height:26px;
+    color: @deepFontGray;
+    p{
+      margin: 0 0 6px;
+    }
   }
 }
 @media (max-width: 1160px){
@@ -525,6 +537,24 @@ h1, .h1, h2, .h2, h3, .h3{
   .stretch-part{
     padding-bottom:40% !important;
   }
+  //七大产业
+  .chanye-page{
+    .chanye-detail{
+      width:95%;
+    }
+    .chanye-icon{
+      .stretch-part{
+        .stretch-text{
+          .wrap{
+            width:98%;
+          }
+        }
+      }
+    }
+    .chanye-description{
+      width:90%;
+    }
+  }
 }
 @media (max-width: 768px){
   .stretch-part{
@@ -548,6 +578,23 @@ h1, .h1, h2, .h2, h3, .h3{
   .stretch-part .stretch-text .description {width: 85%; margin: 0 auto; overflow: hidden;text-overflow: ellipsis; white-space: nowrap;}
   .line-limit{
     width: 85%; margin: 0 auto; overflow: hidden;text-overflow: ellipsis; white-space: nowrap;
+  }
+  //七大产业
+  .chanye-page{
+    .chanye-title{
+      .stretch-part{
+        .wrap{
+          width:96%;
+        }
+      }
+    }
+    .chanye-detail{
+      width:98%;
+      .left{
+        width:58%;
+        padding-right:2%;
+      }
+    }
   }
 }
 @media (max-width: 414px){
@@ -581,5 +628,39 @@ h1, .h1, h2, .h2, h3, .h3{
   #footer{ margin-top:35px;}
   #footer .buildings li{vertical-align: top; width:23%;}
   #footer .buildings li .city{ font-size:14px;}
+  #footer .buildings li .location{ font-size:13px;}
   #footerMenu ul li{ font-size:12px; width:13%;}
+  .chanye-page{
+    .chanye-title{
+
+    }
+    .chanye-detail{
+      margin-top: 20px;
+      text-align: center;
+      .left{
+        width:98%;
+        padding-right:0;
+        .title{
+          text-align: left;
+          font-size: 24px;
+          margin-top: 0;
+        }
+        .description{
+          font-size: 13px;
+          line-height:20px;
+          margin-top: 28px;
+        }
+      }
+      .right{
+        width:80%;
+      }
+    }
+    .chanye-description{
+      width:96%;
+      margin-top: 16px;
+      font-size: 13px;
+      line-height:18px;
+      margin-bottom: -20px;
+    }
+  }
 }

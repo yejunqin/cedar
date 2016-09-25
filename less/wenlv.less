@@ -1,0 +1,66 @@
+@import "../variables";
+#wenlv{
+  .chanye-title{
+    .stretch-img{
+      background: url("../images/wenlv/wenlv_01.jpg") no-repeat 0 0 / cover;
+    }
+    .stretch-part{
+      .stretch-text{
+      }
+    }
+  }
+  .chanye-icon{
+    .stretch-part{
+      padding-bottom: 0 !important;
+      height:881px;
+    }
+    .stretch-img{
+      background: url("../images/wenlv/wenlv_02.jpg") no-repeat 0 0 / cover;
+    }
+    .wrap{
+      top:18%;
+      margin-top: 0;
+    }
+    .icon-group{
+      img:not(:first-child){
+        margin-top: 50px;
+      }
+    }
+  }
+}
+@media (max-width: 992px){
+  #wenlv{
+    .chanye-icon{
+      .stretch-part{
+        height:720px;
+        .wrap{
+          top:19%;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 768px){
+  #wenlv{
+    .chanye-icon{
+      .stretch-part{
+        height:500px;
+        .wrap{
+          top:14%;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 414px){
+  #wenlv{
+    .chanye-icon{
+      .stretch-part{
+        height:260px;
+        .wrap{
+          top:9%;
+        }
+      }
+    }
+  }
+}

@@ -2,6 +2,17 @@
  * Created by Administrator on 2016/9/21.
  */
 $(document).ready(function(){
+  $('.calculate-middle').each(function(idx, ele){
+    var $ele = $(ele)
+    console.log($ele.height(),-$ele.width())
+    $ele.css({
+      marginTop: -$ele.height()/2 + 'px',
+      marginLeft: -$ele.width()/2 + 'px',
+      position: 'absolute',
+      top: '50%',
+      left: '50%'
+    })
+  })
   $('#mobileNav').slimmenu(
     {
       resizeWidth: '1200',
