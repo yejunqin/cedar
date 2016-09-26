@@ -43,6 +43,11 @@ h1, .h1, h2, .h2, h3, .h3{
   -webkit-transition: all ease 0.3s;
   transition: all ease 0.3s;
 }
+.one-line-limit{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
 //swiper分页器颜色
 .swiper-pagination-bullet{
   background: #fff;
@@ -81,15 +86,26 @@ h1, .h1, h2, .h2, h3, .h3{
     border-radius: 2px;
   }
 }
+.news-icon{
+  position: absolute;
+  width:27px;
+  height:24px;
+  right:10px;
+  top:10px;
+}
+.video-icon{
+  background: url("../images/video-icon.png") no-repeat 0 0 / contain;
+}
 //下箭头样式
 .to-down{
-  width:43px;
-  height:43px;
+  width:35px;
+  height:35px;
   position: absolute;
   bottom:10px;
   left:50%;
-  margin-left: -22px;
+  margin-left: -17.5px;
   background: url("../images/to_down.png") no-repeat 0 0;
+  background-size: 100%;
   cursor: pointer;
 }
 #mobileNav{
@@ -268,7 +284,7 @@ h1, .h1, h2, .h2, h3, .h3{
     .wrap{
       display: inline-block;
       position: relative;
-      top:50%;
+      top:46%;
       margin-top: -120px;
     }
     .title{
@@ -299,17 +315,19 @@ h1, .h1, h2, .h2, h3, .h3{
     }
   }
 }
-.big-title{
-  .title{
-    font-size: 46px;
-    margin-top: 0;
-  }
-  .sub-title{
-    font-size: 30px;
-  }
-  .description{
-    font-size: 16px;
-    line-height:26px;
+.content{
+  .big-title{
+    .title{
+      font-size: 46px;
+      margin-top: 0;
+    }
+    .sub-title{
+      font-size: 30px;
+    }
+    .description{
+      font-size: 16px;
+      line-height:26px;
+    }
   }
 }
 #dongtai{
@@ -389,8 +407,9 @@ h1, .h1, h2, .h2, h3, .h3{
   }
 }
 #footer{
-  margin-top: 50px;
+  margin-top: 65px;
   height:283px;
+  clear: both;
   background: url("../images/footer.jpg") no-repeat 0 0 /cover;
   .buildings{
     color: #fff;
@@ -457,18 +476,20 @@ h1, .h1, h2, .h2, h3, .h3{
       display: inline-block;
       width:55%;
       padding-right: 5%;
-      vertical-align: middle;
+      vertical-align: top;
       .description{
         margin-top: 48px;
         text-indent:2em;
-        font-size: 17px;
-        line-height:24px;
+        font-size: 16px;
+        line-height:30px;
         color: @deepFontGray;
         p{
           margin: 0 0 6px;
         }
       }
       .title{
+        margin-top: 11%;
+        padding-bottom:10px;
         font-size: 34px;
       }
     }
@@ -492,8 +513,8 @@ h1, .h1, h2, .h2, h3, .h3{
     width:64%;
     text-indent:2em;
     margin:60px auto 0;
-    font-size: 17px;
-    line-height:26px;
+    font-size: 16px;
+    line-height:30px;
     color: @deepFontGray;
     p{
       margin: 0 0 6px;
@@ -629,6 +650,12 @@ h1, .h1, h2, .h2, h3, .h3{
         height: 40px !important;;
       }
     }
+  }
+  .news-icon{
+    width: 20px !important;;
+    height: 18px !important;
+    top:4px;
+    right:4px;
   }
   #footer{ margin-top:35px;}
   #footer .buildings li{vertical-align: top; width:23%;}

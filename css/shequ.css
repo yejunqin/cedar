@@ -4,8 +4,11 @@
 #shequ .chanye-icon .stretch-img {
   background: url("../images/shequ/shequ_02.jpg") no-repeat 0 0 / cover;
 }
+#shequ .chanye-icon {
+  border-top: none;
+}
 #shequ .chanye-detail {
   border-top: 1px solid #ededed;
-  padding-top: 50px;
+  padding-top: 65px;
   margin-top: 60px;
 }
