@@ -8,4 +8,17 @@ $(document).ready(function(){
     //pagination: '#banner .swiper-pagination',
     paginationClickable :true
   })
+  var paperSlidesPerView = 1
+  if(window.screen.width > 760){
+    paperSlidesPerView = 3
+  }
+  var paper = new Swiper('#paper .swiper-container', {
+    slidesPerView: paperSlidesPerView,
+    nextButton: '#dongtai .swiper-button .next',
+    prevButton: '#dongtai .swiper-button .prev',
+    spaceBetween: 16
+  })
+  // $().timelinr({
+  //   arrowKeys: 'true'
+  // })
 })

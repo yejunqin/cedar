@@ -13,123 +13,125 @@
 <body>
 <div class="container-fluid">
     <div id="header" class="header">
-        <div class="logo">
-            <img src="./images/logo.png" alt="" />
+        <div class="clearfix header-wrap">
+            <div class="logo">
+                <img src="./images/logo.png" alt="" />
+            </div>
+            <div class="text-right">
+                <ul class="header-nav">
+                    <!-- 手机、平板隐藏 -->
+                    <div class="inline-block hidden-xs hidden-sm">
+                        <li class="nav-li">
+                            <a href="./index.html">首页</a>
+                        </li>
+                        <li class="nav-li">
+                            <a href="./us.html">我们</a>
+                            <ul class="sub-nav">
+                                <li><a href="./us.html#fazhan">历程</a></li>
+                                <li><a href="./us.html#jianjie">简介</a></li>
+                                <li><a href="./us.html#linghun">灵魂</a></li>
+                                <li><a href="./us.html#dongtai">新闻</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-li">
+                            <a href="zhanlue.html">战略</a>
+                            <ul class="sub-nav">
+                                <li><a href="./zhanlue.html#method">方法</a></li>
+                                <li><a href="./zhanlue.html#target">目标</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-li">
+                            <a href="./qiche.html">产业</a>
+                            <ul class="sub-nav">
+                                <li><a href="./gongtongyun.html">大宗商品供应链集团</a></li>
+                                <li><a href="./shequ.html">社区运营集团</a></li>
+                                <li><a href="./wenlv.html">文化旅游集团</a></li>
+                                <li><a href="./chengtou.html">城投发展集团</a></li>
+                                <li><a href="./dichan.html">君华地产集团</a></li>
+                                <li><a href="./jinrong.html">金融服务集团</a></li>
+                                <li><a href="./qiche.html">汽车集团</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-li">
+                            <a href="./wenhua.html">文化</a>
+                            <ul class="sub-nav">
+                                <li><a href="./wenhua.html#yuanjing">愿景</a></li>
+                                <li><a href="./wenhua.html#shiming">使命</a></li>
+                                <li><a href="./wenhua.html#jiazhi">价值观</a></li>
+                                <li><a href="./wenhua.html#qide">七德·七戒</a></li>
+                                <li><a href="./wenhua.html#shehui">社会责任</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-li">
+                            <a href="./rencai.html">人才</a>
+                            <ul class="sub-nav">
+                                <li><a href="./rencai.html#list1">人才观</a></li>
+                                <li><a href="./rencai.html#list2">合伙人计划</a></li>
+                                <li><a href="./rencai.html#list3">招聘</a></li>
+                            </ul>
+                        </li>
+                    </div>
+                    <li class="extra-link english nav-li"><a href="#">En</a></li>
+                    <li class="extra-link search nav-li">
+                        <a href="#"></a>
+                    </li>
+                    <li class="extra-link share nav-li">
+                        <a href="#"></a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div class="text-right">
-            <ul class="header-nav">
-                <!-- 手机、平板隐藏 -->
-                <div class="inline-block hidden-xs hidden-sm">
-                    <li class="nav-li">
-                        <a href="#">首页</a>
-                    </li>
-                    <li class="nav-li">
-                        <a href="#">我们</a>
-                        <ul class="sub-nav">
-                            <li><a href="#">简介</a></li>
-                            <li><a href="#">历程</a></li>
-                            <li><a href="#">灵魂</a></li>
-                            <li><a href="#">新闻</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-li">
-                        <a href="#">战略</a>
-                        <ul class="sub-nav">
-                            <li><a href="#">方法</a></li>
-                            <li><a href="#">目标</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-li">
-                        <a href="#">产业</a>
-                        <ul class="sub-nav">
-                            <li><a href="#">供通云</a></li>
-                            <li><a href="#">君华物业</a></li>
-                            <li><a href="#">雪松文旅</a></li>
-                            <li><a href="#">雪松城投</a></li>
-                            <li><a href="#">雪松地产</a></li>
-                            <li><a href="#">雪松金服</a></li>
-                            <li><a href="#">雪松汽车</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-li">
-                        <a href="#">文化</a>
-                        <ul class="sub-nav">
-                            <li><a href="#">愿景</a></li>
-                            <li><a href="#">使命</a></li>
-                            <li><a href="#">价值观</a></li>
-                            <li><a href="#">七德·七戒</a></li>
-                            <li><a href="#">社会责任</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-li">
-                        <a href="#">人才</a>
-                        <ul class="sub-nav">
-                            <li><a href="#">人才观</a></li>
-                            <li><a href="">合伙人计划</a></li>
-                            <li><a href="">招聘</a></li>
-                        </ul>
-                    </li>
-                </div>
-                <li class="extra-link english nav-li"><a href="#">En</a></li>
-                <li class="extra-link search nav-li">
-                    <a href="#"></a>
+        <!-- 手机、平板导航栏 -->
+        <div class="hidden-md hidden-lg">
+            <ul id="mobileNav">
+                <li>
+                    <a href="./us.html">我们</a>
+                    <ul>
+                        <li><a href="./us.html#fazhan">历程</a></li>
+                        <li><a href="./us.html#jianjie">简介</a></li>
+                        <li><a href="./us.html#linghun">灵魂</a></li>
+                        <li><a href="./us.html#dongtai">新闻</a></li>
+                    </ul>
                 </li>
-                <li class="extra-link share nav-li">
-                    <a href="#"></a>
+                <li>
+                    <a href="./zhanlue.html">战略</a>
+                    <ul>
+                        <li><a href="./zhanlue.html#method">方法</a></li>
+                        <li><a href="./zhanlue.html#target">目标</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="./qiche.html">产业</a>
+                    <ul>
+                        <li><a href="./gongtongyun.html">大宗商品供应链集团</a></li>
+                        <li><a href="./shequ.html">社区运营集团</a></li>
+                        <li><a href="./wenlv.html">文化旅游集团</a></li>
+                        <li><a href="./chengtou.html">城投发展集团</a></li>
+                        <li><a href="./dichan.html">君华地产集团</a></li>
+                        <li><a href="./jinrong.html">金融服务集团</a></li>
+                        <li><a href="./qiche.html">汽车集团</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="./wenhua.html">文化</a>
+                    <ul>
+                        <li><a href="./wenhua.html#yuanjing">愿景</a></li>
+                        <li><a href="./wenhua.html#shiming">使命</a></li>
+                        <li><a href="./wenhua.html#jiazhi">价值观</a></li>
+                        <li><a href="./wenhua.html#qide">七德·七戒</a></li>
+                        <li><a href="./wenhua.html#shehui">社会责任</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="./rencai.html">人才</a>
+                    <ul>
+                        <li><a href="./rencai.html#list1">人才观</a></li>
+                        <li><a href="./rencai.html#list2">合伙人计划</a></li>
+                        <li><a href="./rencai.html#list3">招聘</a></li>
+                    </ul>
                 </li>
             </ul>
         </div>
-    </div>
-    <!-- 手机、平板导航栏 -->
-    <div class="hidden-md hidden-lg">
-        <ul id="mobileNav">
-            <li>
-                <a href="./us.html">我们</a>
-                <ul>
-                    <li><a href="./us.html#fazhan">历程</a></li>
-                    <li><a href="./us.html#jianjie">简介</a></li>
-                    <li><a href="./us.html#linghun">灵魂</a></li>
-                    <li><a href="./us.html#dongtai">新闻</a></li>
-                </ul>
-            </li>
-            <li>
-                <a href="./zhanlue.html">战略</a>
-                <ul>
-                    <li><a href="./zhanlue.html#method">方法</a></li>
-                    <li><a href="./zhanlue.html#target">目标</a></li>
-                </ul>
-            </li>
-            <li>
-                <a href="./qiche.html">产业</a>
-                <ul>
-                    <li><a href="./gongtongyun.html">大宗商品供应链集团</a></li>
-                    <li><a href="./shequ.html">社区运营集团</a></li>
-                    <li><a href="./wenlv.html">文化旅游集团</a></li>
-                    <li><a href="./chengtou.html">城投发展集团</a></li>
-                    <li><a href="./dichan.html">君华地产集团</a></li>
-                    <li><a href="./jinrong.html">金融服务集团</a></li>
-                    <li><a href="./qiche.html">汽车集团</a></li>
-                </ul>
-            </li>
-            <li>
-                <a href="./wenhua.html">文化</a>
-                <ul>
-                    <li><a href="./wenhua.html#yuanjing">愿景</a></li>
-                    <li><a href="./wenhua.html#shiming">使命</a></li>
-                    <li><a href="./wenhua.html#jiazhi">价值观</a></li>
-                    <li><a href="./wenhua.html#qide">七德·七戒</a></li>
-                    <li><a href="./wenhua.html#shehui">社会责任</a></li>
-                </ul>
-            </li>
-            <li>
-                <a href="./rencai.html">人才</a>
-                <ul>
-                    <li><a href="./rencai.html#list1">人才观</a></li>
-                    <li><a href="./rencai.html#list2">合伙人计划</a></li>
-                    <li><a href="./rencai.html#list3">招聘</a></li>
-                </ul>
-            </li>
-        </ul>
     </div>
     <div class="content row">
         <!--发展历程-->
@@ -138,235 +140,400 @@
             <div class="part-body">
                 <div class="axis">
                     <div class="wrap">
-                        <span class="axis-bottom"></span>
-                        <span class="axis-top"></span>
-                        <ul class="years">
-                            <li>
-                                <span class="year">1993 <i>year</i></span>
-                                <span class="circle"></span>
-                            </li>
-                            <li>
-                                <span class="year">1997 <i>year</i></span>
-                                <span class="circle"></span>
-                            </li>
-                            <li>
-                                <span class="year">2002 <i>year</i></span>
-                                <span class="circle"></span>
-                            </li>
-                            <li>
-                                <span class="year">2003 <i>year</i></span>
-                                <span class="circle"></span>
-                            </li>
-                            <li>
-                                <span class="year">2006 <i>year</i></span>
-                                <span class="circle"></span>
-                            </li>
-                            <li>
-                                <span class="year">2007 <i>year</i></span>
-                                <span class="circle"></span>
-                            </li>
-                            <li>
-                                <span class="year">2009 <i>year</i></span>
-                                <span class="circle"></span>
-                            </li>
-                            <li>
-                                <span class="year">2011 <i>year</i></span>
-                                <span class="circle"></span>
-                            </li>
-                            <li>
-                                <span class="year">2011 <i>year</i></span>
-                                <span class="circle"></span>
-                            </li>
-                            <li>
-                                <span class="year">2013 <i>year</i></span>
-                                <span class="circle"></span>
-                            </li>
-                            <li>
-                                <span class="year">2014 <i>year</i></span>
-                                <span class="circle"></span>
-                            </li>
-                            <li>
-                                <span class="year">2015 <i>year</i></span>
-                                <span class="circle"></span>
-                            </li>
-                            <li>
-                                <span class="year">2016 <i>year</i></span>
-                                <span class="circle"></span>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="swiper-container list">
-                    <div class="swiper-wrapper">
-                      <div class="swiper-slide">
-                        <div class="box">
-                          <div class="img">
-                            <img src="./images/us/fazhan_01.png" alt="">
-                          </div>
-                          <div class="title">
-                            <h3 class="cn">
-                              董事会主席张劲先生开始创业
-                            </h3>
-                            <p class="en">1993 Year Start a business</p>
-                          </div>
+                        <div id="timeline">
+                            <div id="dates">
+                                <div class="clearfix dates-wrap">
+                                    <div class="dates-item">
+                                        <span class="year">1993 <i>year</i></span>
+                                        <span class="circle"></span>
+                                    </div>
+                                    <div class="dates-item">
+                                        <span class="year">1997 <i>year</i></span>
+                                    </div>
+                                    <div class="dates-item">
+                                        <span class="year">2002 <i>year</i></span>
+                                    </div>
+                                    <div class="dates-item">
+                                        <span class="year">2003 <i>year</i></span>
+                                    </div>
+                                    <div class="dates-item">
+                                        <span class="year">2006 <i>year</i></span>
+                                    </div>
+                                    <div class="dates-item">
+                                        <span class="year">2007 <i>year</i></span>
+                                    </div>
+                                    <div class="dates-item">
+                                        <span class="year">2009 <i>year</i></span>
+                                    </div>
+                                    <div class="dates-item">
+                                        <span class="year">2011 <i>year</i></span>
+                                    </div>
+                                    <div class="dates-item">
+                                        <span class="year">2011 <i>year</i></span>
+                                    </div>
+                                    <div class="dates-item">
+                                        <span class="year">2013 <i>year</i></span>
+                                    </div>
+                                    <div class="dates-item">
+                                        <span class="year">2014 <i>year</i></span>
+                                    </div>
+                                    <div class="dates-item">
+                                        <span class="year">2015 <i>year</i></span>
+                                    </div>
+                                    <div class="dates-item">
+                                        <span class="year">2016 <i>year</i></span>
+                                    </div>
+                                    <span id="lineBot"></span>
+                                    <span id="lineTop"></span>
+                                </div>
+                            </div>
+                            <div class="swiper-container">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="box">
+                                            <div class="img">
+                                                <img src="./images/us/fazhan_01.png" alt="">
+                                            </div>
+                                            <div class="title">
+                                                <h3 class="cn">
+                                                    董事会主席张劲先生开始创业
+                                                </h3>
+                                                <p class="en">1993 Year Start a business</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="box">
+                                            <div class="img">
+                                                <img src="./images/us/fazhan_01.png" alt="">
+                                            </div>
+                                            <div class="title">
+                                                <h3 class="cn">
+                                                    雪松旗下君华集团宣告成立，专注房地产开发领域。 2000年，位于广州南湖国家级旅游区的江南世家一期清漪园别墅项目开盘，开创广州纯别墅区新纪元。
+                                                </h3>
+                                                <p class="en">1997 Year</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="box">
+                                            <div class="img">
+                                                <img src="./images/us/fazhan_01.png" alt="">
+                                            </div>
+                                            <div class="title">
+                                                <h3 class="cn">
+                                                    进入大宗商品流通领域，开启雪松多产业发展序幕。
+                                                </h3>
+                                                <p class="en">2002 Year</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="box">
+                                            <div class="img">
+                                                <img src="./images/us/fazhan_01.png" alt="">
+                                            </div>
+                                            <div class="title">
+                                                <h3 class="cn">
+                                                    控股中国本土第一家风投公司“深圳中小企业创业投资有限公司”投资数百家中小科技型企业，并推动多家企业上市。
+                                                </h3>
+                                                <p class="en">2003 Year</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="box">
+                                            <div class="img">
+                                                <img src="./images/us/fazhan_01.png" alt="">
+                                            </div>
+                                            <div class="title">
+                                                <h3 class="cn">
+                                                    在铝制品出口领域跻身全国20强，铝排贸易额位列全国第一。
+                                                </h3>
+                                                <p class="en">2006 Year</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="box">
+                                            <div class="img">
+                                                <img src="./images/us/fazhan_01.png" alt="">
+                                            </div>
+                                            <div class="title">
+                                                <h3 class="cn">
+                                                    与东风本田结为A类合作伙伴，东本广州君华4S店开业，布局汽车产业链。
+                                                </h3>
+                                                <p class="en">2007 Year</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="box">
+                                            <div class="img">
+                                                <img src="./images/us/fazhan_01.png" alt="">
+                                            </div>
+                                            <div class="title">
+                                                <h3 class="cn">
+                                                    与江西铜业、金川集团等大型铜企建立战略伙伴关系，铜线坯业务市场占有率稳居前三甲。
+                                                </h3>
+                                                <p class="en">2008 Year</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="box">
+                                            <div class="img">
+                                                <img src="./images/us/fazhan_01.png" alt="">
+                                            </div>
+                                            <div class="title">
+                                                <h3 class="cn">
+                                                    入股广州农村商业银行和广州银行。 2010年，创新大宗商品供应链管理商业模式，成为华南地区最大的铜杆贸易商。创立金融担保公司。
+                                                </h3>
+                                                <p class="en">2009 Year</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="box">
+                                            <div class="img">
+                                                <img src="./images/us/fazhan_01.png" alt="">
+                                            </div>
+                                            <div class="title">
+                                                <h3 class="cn">
+                                                    战略转型，收缩一般房地产等重资产业务，深耕大宗商品、地产、汽车、创投等业务，进军轻资产领域。
+                                                </h3>
+                                                <p class="en">2011 Year</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="box">
+                                            <div class="img">
+                                                <img src="./images/us/fazhan_01.png" alt="">
+                                            </div>
+                                            <div class="title">
+                                                <h3 class="cn">
+                                                    布局车后市场，在行业内率先推出上门维修、上门保养等创新型服务。君华集团蝉联中国房地产企业双百强。
+                                                </h3>
+                                                <p class="en">2013 Year</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="box">
+                                            <div class="img">
+                                                <img src="./images/us/fazhan_01.png" alt="">
+                                            </div>
+                                            <div class="title">
+                                                <h3 class="cn">
+                                                    兼并收购优质物业管理公司，引入英国知名物业管理企业ORBIT管理服务体系，积极探索综合性、管家式020平台服务。
+                                                </h3>
+                                                <p class="en">2014 Year</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="box">
+                                            <div class="img">
+                                                <img src="./images/us/fazhan_01.png" alt="">
+                                            </div>
+                                            <div class="title">
+                                                <h3 class="cn">
+                                                    集团销售收入达到593亿元，位列中国民企50强，综合类民营企业前三甲，供通云荣获新财富杂志“最佳商业模式”大奖。
+                                                </h3>
+                                                <p class="en">2015 Year</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="box">
+                                            <div class="img">
+                                                <img src="./images/us/fazhan_01.png" alt="">
+                                            </div>
+                                            <div class="title">
+                                                <h3 class="cn">
+                                                    荣获《经济观察报》“卓越产业贡献奖”发布《重构产业价值》报告，引发高度关注。雪松正以全新的姿态，在这个伟大时代归来开放！
+                                                </h3>
+                                                <p class="en">2016 Year</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <ul style="display: none;" id="issues">
+                                <li id="1993">
+                                    <div class="box">
+                                        <div class="img">
+                                            <img src="./images/us/fazhan_01.png" alt="">
+                                        </div>
+                                        <div class="title">
+                                            <h3 class="cn">
+                                                董事会主席张劲先生开始创业
+                                            </h3>
+                                            <p class="en">1993 Year Start a business</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li id="1997">
+                                    <div class="box">
+                                        <div class="img">
+                                            <img src="./images/us/fazhan_01.png" alt="">
+                                        </div>
+                                        <div class="title">
+                                            <h3 class="cn">
+                                                雪松旗下君华集团宣告成立，专注房地产开发领域。 2000年，位于广州南湖国家级旅游区的江南世家一期清漪园别墅项目开盘，开创广州纯别墅区新纪元。
+                                            </h3>
+                                            <p class="en">1997 Year</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li id="2002">
+                                    <div class="box">
+                                        <div class="img">
+                                            <img src="./images/us/fazhan_01.png" alt="">
+                                        </div>
+                                        <div class="title">
+                                            <h3 class="cn">
+                                                进入大宗商品流通领域，开启雪松多产业发展序幕。
+                                            </h3>
+                                            <p class="en">2002 Year</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li id="2003">
+                                    <div class="box">
+                                        <div class="img">
+                                            <img src="./images/us/fazhan_01.png" alt="">
+                                        </div>
+                                        <div class="title">
+                                            <h3 class="cn">
+                                                控股中国本土第一家风投公司“深圳中小企业创业投资有限公司”投资数百家中小科技型企业，并推动多家企业上市。
+                                            </h3>
+                                            <p class="en">2003 Year</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li id="2006">
+                                    <div class="box">
+                                        <div class="img">
+                                            <img src="./images/us/fazhan_01.png" alt="">
+                                        </div>
+                                        <div class="title">
+                                            <h3 class="cn">
+                                                在铝制品出口领域跻身全国20强，铝排贸易额位列全国第一。
+                                            </h3>
+                                            <p class="en">2006 Year</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li id="2007">
+                                    <div class="box">
+                                        <div class="img">
+                                            <img src="./images/us/fazhan_01.png" alt="">
+                                        </div>
+                                        <div class="title">
+                                            <h3 class="cn">
+                                                与东风本田结为A类合作伙伴，东本广州君华4S店开业，布局汽车产业链。
+                                            </h3>
+                                            <p class="en">2007 Year</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li id="2008">
+                                    <div class="box">
+                                        <div class="img">
+                                            <img src="./images/us/fazhan_01.png" alt="">
+                                        </div>
+                                        <div class="title">
+                                            <h3 class="cn">
+                                                与江西铜业、金川集团等大型铜企建立战略伙伴关系，铜线坯业务市场占有率稳居前三甲。
+                                            </h3>
+                                            <p class="en">2008 Year</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li id="2009">
+                                    <div class="box">
+                                        <div class="img">
+                                            <img src="./images/us/fazhan_01.png" alt="">
+                                        </div>
+                                        <div class="title">
+                                            <h3 class="cn">
+                                                入股广州农村商业银行和广州银行。 2010年，创新大宗商品供应链管理商业模式，成为华南地区最大的铜杆贸易商。创立金融担保公司。
+                                            </h3>
+                                            <p class="en">2009 Year</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li id="2011">
+                                    <div class="box">
+                                        <div class="img">
+                                            <img src="./images/us/fazhan_01.png" alt="">
+                                        </div>
+                                        <div class="title">
+                                            <h3 class="cn">
+                                                战略转型，收缩一般房地产等重资产业务，深耕大宗商品、地产、汽车、创投等业务，进军轻资产领域。
+                                            </h3>
+                                            <p class="en">2011 Year</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li id="2013">
+                                    <div class="box">
+                                        <div class="img">
+                                            <img src="./images/us/fazhan_01.png" alt="">
+                                        </div>
+                                        <div class="title">
+                                            <h3 class="cn">
+                                                布局车后市场，在行业内率先推出上门维修、上门保养等创新型服务。君华集团蝉联中国房地产企业双百强。
+                                            </h3>
+                                            <p class="en">2013 Year</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li id="2014">
+                                    <div class="box">
+                                        <div class="img">
+                                            <img src="./images/us/fazhan_01.png" alt="">
+                                        </div>
+                                        <div class="title">
+                                            <h3 class="cn">
+                                                兼并收购优质物业管理公司，引入英国知名物业管理企业ORBIT管理服务体系，积极探索综合性、管家式020平台服务。
+                                            </h3>
+                                            <p class="en">2014 Year</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li id="2015">
+                                    <div class="box">
+                                        <div class="img">
+                                            <img src="./images/us/fazhan_01.png" alt="">
+                                        </div>
+                                        <div class="title">
+                                            <h3 class="cn">
+                                                集团销售收入达到593亿元，位列中国民企50强，综合类民营企业前三甲，供通云荣获新财富杂志“最佳商业模式”大奖。
+                                            </h3>
+                                            <p class="en">2015 Year</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li id="2016">
+                                    <div class="box">
+                                        <div class="img">
+                                            <img src="./images/us/fazhan_01.png" alt="">
+                                        </div>
+                                        <div class="title">
+                                            <h3 class="cn">
+                                                荣获《经济观察报》“卓越产业贡献奖”发布《重构产业价值》报告，引发高度关注。雪松正以全新的姿态，在这个伟大时代归来开放！
+                                            </h3>
+                                            <p class="en">2016 Year</p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <a id="prev" href="javascript: void(0)"></a>
+                            <a href="javascript: void(0)" id="next"></a>
                         </div>
-                      </div>
-                      <div class="swiper-slide">
-                        <div class="box">
-                          <div class="img">
-                            <img src="./images/us/fazhan_01.png" alt="">
-                          </div>
-                          <div class="title">
-                            <h3 class="cn">
-                              雪松旗下君华集团宣告成立，专注房地产开发领域。 2000年，位于广州南湖国家级旅游区的江南世家一期清漪园别墅项目开盘，开创广州纯别墅区新纪元。
-                            </h3>
-                            <p class="en">1997 Year</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="swiper-slide">
-                        <div class="box">
-                          <div class="img">
-                            <img src="./images/us/fazhan_01.png" alt="">
-                          </div>
-                          <div class="title">
-                            <h3 class="cn">
-                              进入大宗商品流通领域，开启雪松多产业发展序幕。
-                            </h3>
-                            <p class="en">2002 Year</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="swiper-slide">
-                        <div class="box">
-                          <div class="img">
-                            <img src="./images/us/fazhan_01.png" alt="">
-                          </div>
-                          <div class="title">
-                            <h3 class="cn">
-                              控股中国本土第一家风投公司“深圳中小企业创业投资有限公司”投资数百家中小科技型企业，并推动多家企业上市。
-                            </h3>
-                            <p class="en">2003 Year</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="swiper-slide">
-                        <div class="box">
-                          <div class="img">
-                            <img src="./images/us/fazhan_01.png" alt="">
-                          </div>
-                          <div class="title">
-                            <h3 class="cn">
-                              在铝制品出口领域跻身全国20强，铝排贸易额位列全国第一。
-                            </h3>
-                            <p class="en">2006 Year</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="swiper-slide">
-                        <div class="box">
-                          <div class="img">
-                            <img src="./images/us/fazhan_01.png" alt="">
-                          </div>
-                          <div class="title">
-                            <h3 class="cn">
-                              与东风本田结为A类合作伙伴，东本广州君华4S店开业，布局汽车产业链。
-                            </h3>
-                            <p class="en">2007 Year</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="swiper-slide">
-                        <div class="box">
-                          <div class="img">
-                            <img src="./images/us/fazhan_01.png" alt="">
-                          </div>
-                          <div class="title">
-                            <h3 class="cn">
-                              与江西铜业、金川集团等大型铜企建立战略伙伴关系，铜线坯业务市场占有率稳居前三甲。
-                            </h3>
-                            <p class="en">2008 Year</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="swiper-slide">
-                        <div class="box">
-                          <div class="img">
-                            <img src="./images/us/fazhan_01.png" alt="">
-                          </div>
-                          <div class="title">
-                            <h3 class="cn">
-                              入股广州农村商业银行和广州银行。 2010年，创新大宗商品供应链管理商业模式，成为华南地区最大的铜杆贸易商。创立金融担保公司。
-                            </h3>
-                            <p class="en">2009 Year</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="swiper-slide">
-                        <div class="box">
-                          <div class="img">
-                            <img src="./images/us/fazhan_01.png" alt="">
-                          </div>
-                          <div class="title">
-                            <h3 class="cn">
-                              战略转型，收缩一般房地产等重资产业务，深耕大宗商品、地产、汽车、创投等业务，进军轻资产领域。
-                            </h3>
-                            <p class="en">2011 Year</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="swiper-slide">
-                        <div class="box">
-                          <div class="img">
-                            <img src="./images/us/fazhan_01.png" alt="">
-                          </div>
-                          <div class="title">
-                            <h3 class="cn">
-                              布局车后市场，在行业内率先推出上门维修、上门保养等创新型服务。君华集团蝉联中国房地产企业双百强。
-                            </h3>
-                            <p class="en">2013 Year</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="swiper-slide">
-                        <div class="box">
-                          <div class="img">
-                            <img src="./images/us/fazhan_01.png" alt="">
-                          </div>
-                          <div class="title">
-                            <h3 class="cn">
-                              兼并收购优质物业管理公司，引入英国知名物业管理企业ORBIT管理服务体系，积极探索综合性、管家式020平台服务。
-                            </h3>
-                            <p class="en">2014 Year</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="swiper-slide">
-                        <div class="box">
-                          <div class="img">
-                            <img src="./images/us/fazhan_01.png" alt="">
-                          </div>
-                          <div class="title">
-                            <h3 class="cn">
-                              集团销售收入达到593亿元，位列中国民企50强，综合类民营企业前三甲，供通云荣获新财富杂志“最佳商业模式”大奖。
-                            </h3>
-                            <p class="en">2015 Year</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="swiper-slide">
-                        <div class="box">
-                          <div class="img">
-                            <img src="./images/us/fazhan_01.png" alt="">
-                          </div>
-                          <div class="title">
-                            <h3 class="cn">
-                              荣获《经济观察报》“卓越产业贡献奖”发布《重构产业价值》报告，引发高度关注。雪松正以全新的姿态，在这个伟大时代归来开放！
-                            </h3>
-                            <p class="en">2016 Year</p>
-                          </div>
-                        </div>
-                      </div>
                     </div>
                 </div>
             </div>
@@ -483,35 +650,49 @@
           </div>
           <div class="row">
             <div class="col-md-8 col-md-offset-2">
-              <ul>
-                <li class="box">
-                  <div class="img"><img src="./images/us/news_01.jpg" alt=""></div>
-                  <div class="detail">
-                    <h5 class="title">《经济观察报》</h5>
-                    <p class="person">雪松控股张劲：</p>
-                    <p class="word">坚持复杂协调，重构传统产业价值链</p>
-                    <a href="#" class="more">了解更多>></a>
+              <div class="swiper-container">
+                  <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                          <div class="box">
+                              <a href="#">
+                                  <div class="img"><img src="./images/us/news_01.jpg" alt=""></div>
+                                  <div class="detail">
+                                      <h5 class="title">《经济观察报》</h5>
+                                      <p class="person">雪松控股张劲：</p>
+                                      <p class="word">坚持复杂协调，重构传统产业价值链</p>
+                                      <a href="#" class="more">了解更多>></a>
+                                  </div>
+                              </a>
+                          </div>
+                      </div>
+                      <div class="swiper-slide">
+                          <div class="box">
+                              <a href="#">
+                                  <div class="img"><img src="./images/us/news_02.jpg" alt=""></div>
+                                  <div class="detail">
+                                      <h5 class="title">《经济观察报》</h5>
+                                      <p class="person">雪松控股张劲：</p>
+                                      <p class="word">坚持复杂协调，重构传统产业价值链</p>
+                                      <a href="#" class="more">了解更多>></a>
+                                  </div>
+                              </a>
+                          </div>
+                      </div>
+                      <div class="swiper-slide">
+                          <div class="box">
+                              <a href="#">
+                                  <div class="img"><img src="./images/us/news_03.jpg" alt=""></div>
+                                  <div class="detail">
+                                      <h5 class="title">《经济观察报》</h5>
+                                      <p class="person">雪松控股张劲：</p>
+                                      <p class="word">坚持复杂协调，重构传统产业价值链</p>
+                                      <a href="#" class="more">了解更多>></a>
+                                  </div>
+                              </a>
+                          </div>
+                      </div>
                   </div>
-                </li>
-                <li class="box">
-                  <div class="img"><img src="./images/us/news_02.jpg" alt=""></div>
-                  <div class="detail">
-                    <h5 class="title">《经济观察报》</h5>
-                    <p class="person">雪松控股张劲：</p>
-                    <p class="word">坚持复杂协调，重构传统产业价值链</p>
-                    <a href="#" class="more">了解更多>></a>
-                  </div>
-                </li>
-                <li class="box">
-                  <div class="img"><img src="./images/us/news_03.jpg" alt=""></div>
-                  <div class="detail">
-                    <h5 class="title">《经济观察报》</h5>
-                    <p class="person">雪松控股张劲：</p>
-                    <p class="word">坚持复杂协调，重构传统产业价值链</p>
-                    <a href="#" class="more">了解更多>></a>
-                  </div>
-                </li>
-              </ul>
+              </div>
             </div>
           </div>
         </div>
@@ -679,6 +860,7 @@
 <script type="text/javascript" src="./js/bootstrap.js"></script>
 <script type="text/javascript" src="./js/jquery.slimmenu.min.js"></script>
 <script type="text/javascript" src="./js/swiper.jquery.min.js"></script>
+<script type="text/javascript" src="./js/jquery.timelinr-0.9.6.js"></script>
 <script type="text/javascript" src="./js/common.js"></script>
 <script type="text/javascript" src="./js/us.js"></script>
 </body>

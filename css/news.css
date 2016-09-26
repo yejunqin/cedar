@@ -1,0 +1,28 @@
+.news-head .stretch-part .stretch-img {
+  background: url("../images/news/news_head.jpg") no-repeat 0 0 / cover;
+}
+.list-body {
+  width: 74%;
+  margin: 50px auto 0;
+}
+.list-body li {
+  float: left;
+  width: 386px;
+  margin-right: 30px;
+}
+.list-body li .img img {
+  width: 100%;
+}
+.list-body li .word {
+  font-size: 16px;
+}
+.list-body li .word .date {
+  color: #888;
+}
+.list-body li .word .title {
+  font-weight: bold;
+}
+.news-body {
+  width: 74%;
+  margin: 50px auto 0;
+}

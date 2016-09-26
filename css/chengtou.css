@@ -1,6 +1,44 @@
 #chengtou .chanye-title .stretch-img {
   background: url("../images/chengtou/chengtou_01.jpg") no-repeat 0 0 / cover;
 }
+#chengtou .chanye-icon .stretch-part {
+  padding-bottom: 46%;
+}
 #chengtou .chanye-icon .stretch-img {
   background: url("../images/chengtou/chengtou_02.jpg") no-repeat 0 0 / cover;
+}
+#chengtou .chanye-icon .wrap {
+  top: 18%;
+  margin-top: 0;
+  width: 64%;
+}
+#chengtou .chanye-icon .icon-group img:not(:first-child) {
+  margin-top: 50px;
+}
+@media (max-width: 992px) {
+  #chengtou .chanye-icon .stretch-part {
+    padding-bottom: 54% !important;
+  }
+  #chengtou .chanye-icon .stretch-part .wrap {
+    top: 18%;
+    width: 72%;
+  }
+}
+@media (max-width: 768px) {
+  #chengtou .chanye-icon .stretch-part {
+    padding-bottom: 66% !important;
+  }
+  #chengtou .chanye-icon .stretch-part .wrap {
+    top: 14%;
+    width: 96%;
+  }
+}
+@media (max-width: 414px) {
+  #chengtou .chanye-icon .stretch-part {
+    padding-bottom: 68% !important;
+  }
+  #chengtou .chanye-icon .stretch-part .wrap {
+    top: 10%;
+    width: 100%;
+  }
 }

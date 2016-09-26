@@ -1,3 +1,32 @@
+#timeline #dates {
+  width: 74%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+#timeline #dates .dates-wrap {
+  width: 2000px;
+  color: #fff;
+  position: relative;
+}
+#timeline #dates .dates-wrap .dates-item {
+  float: left;
+  width: 100px;
+  font-size: 16px;
+  position: relative;
+}
+#timeline #dates .dates-wrap .dates-item i {
+  font-size: 13px;
+  font-style: normal;
+}
+#timeline #dates .dates-wrap .dates-item .circle {
+  display: block;
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: grey;
+  top: -25px;
+}
 #fazhan {
   width: 100%;
   padding-bottom: 52%;
@@ -114,32 +143,28 @@
 #paper .paper-title {
   text-align: center;
 }
-#paper ul .box {
-  width: 31%;
-  display: inline-block;
-}
-#paper ul .box:not(:last-child) {
+#paper .box:not(:last-child) {
   margin-right: 10px;
 }
-#paper ul .box .img {
+#paper .box .img {
   width: 100%;
 }
-#paper ul .box .img img {
+#paper .box .img img {
   width: 100%;
 }
-#paper ul .box .title {
+#paper .box .title {
   color: #0bbaf2;
 }
-#paper ul .box .person {
+#paper .box .person {
   font-weight: bold;
 }
-#paper ul .box .word {
-  border-bottom: 2px solid #999;
+#paper .box .word {
+  border-bottom: 1px solid #999;
 }
-#paper ul .box .more {
+#paper .box .more {
   text-decoration: none;
   color: #0bbaf2;
 }
-#paper ul .box .detail {
+#paper .box .detail {
   padding-left: 12px;
 }
