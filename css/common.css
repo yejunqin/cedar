@@ -113,6 +113,7 @@ h3,
 }
 .collapse-button {
   position: absolute;
+  z-index: 999;
   right: 210px;
   top: 1.6%;
   width: 40px;
