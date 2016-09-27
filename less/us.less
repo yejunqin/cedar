@@ -3,8 +3,10 @@
 #timeline{
   #dates{
     width:74%;
+    padding-top:80px;
     overflow: hidden;
     margin: 0 auto;
+    position: relative;
     .dates-wrap{
       width:2000px;
       color: #fff;
@@ -17,6 +19,7 @@
         i{
           font-size: 13px;
           font-style: normal;
+          opacity: 0.6;
         }
         .circle{
           display: block;
@@ -24,12 +27,54 @@
           width:24px;
           height:24px;
           border-radius: 50%;
-          background: grey;
-          top: -25px;
+          background: #a7aaaf;
+          top: -33px;
+          left:20px;
+          z-index:99;
         }
       }
-      #lineBot, #lineTop{
-
+      .active{
+        .circle{
+          background: #f8f100;
+        }
+      }
+    }
+    #lineBot, #lineTop{
+      width:100%;
+      height:18px;
+      border-radius: 10px;
+      position: absolute;
+      left:0;
+      top:50px;
+    }
+    #lineBot{
+      background: #4e555e;
+    }
+    #lineTop{
+      background: @green_2;
+      width:400px;
+      .transition()
+    }
+  }
+  .issues{
+    width:70%;
+    margin: 0 auto;
+    .box{
+      .img{
+        width:40%;
+        float: left;
+      }
+      .title{
+        float: left;
+        width:58%;
+        .cn{
+          color: #fff;
+          font-size: 20px;
+        }
+        .en{
+          color: @green_2;
+          font-size: 16px;
+        }
       }
     }
   }

@@ -222,7 +222,7 @@
     ul.list{
       width:328px;
       height:328px;
-      background: url("../images/wenhua/icon_04.png") no-repeat 0 0;
+      background: url("../images/wenhua/icon_04.png") no-repeat 0 0 / contain;
       position: relative;
       margin: 0 auto;
       color: #fff;
@@ -455,6 +455,40 @@
     padding-bottom:40%;
   }
 }
+@media (max-width: 1300px){
+  #qide{
+    .part-body{
+      ul{
+        .axis-box{
+          width:140px;
+          .index{
+            width:35px;
+            height:35px;
+            line-height:35px;
+            font-size: 22px;
+            margin-left: -17.5px;
+          }
+        }
+        .up{
+          .index{
+            bottom:14px;
+          }
+          .axis-title{
+            bottom:60px;
+          }
+        }
+        .down{
+          .index{
+            bottom:-49px;
+          }
+          .axis-title{
+            bottom:-110px;
+          }
+        }
+      }
+    }
+  }
+}
 @media (max-width: 992px){
   #jiazhi{
     .stretch-text{
@@ -468,6 +502,43 @@
         .item{
           .description{
             width:90%;
+          }
+        }
+      }
+    }
+  }
+  #qide{
+    .part-body{
+      padding-top:50px;
+      height:412px;
+      ul{
+        .axis-box{
+          width:100px;
+          .index{
+            width:30px;
+            height:30px;
+            line-height:30px;
+            font-size: 22px;
+            margin-left: -15px;
+          }
+          .axis-title{
+            font-size: 16px;
+          }
+        }
+        .up{
+          .index{
+            bottom:14px;
+          }
+          .axis-title{
+            bottom:50px;
+          }
+        }
+        .down{
+          .index{
+            bottom:-49px;
+          }
+          .axis-title{
+            bottom:-100px;
           }
         }
       }
@@ -526,6 +597,168 @@
       }
     }
   }
+  #qijie{
+    .part-body{
+      padding-top:100px;
+      height:412px;
+      ul.list{
+        width:200px;
+        height:200px;
+        li{
+          .index{
+            font-size: 18px;
+            width:30px;
+            height:30px;
+            line-height:30px;
+          }
+          .list-title{
+            font-size: 14px;
+          }
+        }
+        .one{
+          .spot{
+            left:54px;
+            top:7px;
+          }
+          .index{
+            left:27px;
+            top:-25px;
+          }
+          .list-title{
+            left:-122px;
+            top:-32px;
+          }
+        }
+        .two{
+          .spot{
+            top:17px;
+            right: 39px;
+          }
+          .index{
+            top:-15px;
+            right:13px;
+          }
+          .list-title{
+            top:-28px;
+            right: -212px;
+          }
+        }
+        .three{
+          .index{
+            top:80px;
+            right: -36px;
+          }
+          .list-title{
+            top:77px;
+            right: -178px;
+          }
+          .spot{
+            top:91px;
+            right: 0;
+          }
+        }
+        .four{
+          .index{
+            right:-6px;
+            bottom:4px;
+          }
+          .list-title{
+            right: -220px;
+            bottom: -2px;
+          }
+          .spot{
+            right:30px;
+            bottom: 27px;
+          }
+        }
+        .five{
+          .index{
+            left:36px;
+            bottom:-28px;
+          }
+          .list-title{
+            left:-149px;
+            bottom:-33px;
+          }
+          .spot{
+            left:63px;
+            bottom:6px;
+          }
+        }
+        .six{
+          .index{
+            left:-31px;
+            bottom:42px;
+          }
+          .list-title{
+            left:-238px;
+            bottom:35px;
+          }
+          .spot{
+            left:6px;
+            bottom:57px;
+          }
+        }
+        .seven{
+          .index{
+            left:-33px;
+            top:49px;
+          }
+          .list-title{
+            left:-178px;
+            top:43px;
+          }
+          .spot{
+            left:4px;
+            top:60px;
+          }
+        }
+      }
+    }
+  }
+  #qide{
+    .part-body{
+      padding-top:30px;
+      height:292px;
+      ul{
+        .axis-box{
+          width:70px;
+          height:120px;
+          .index{
+            width:20px;
+            height:20px;
+            line-height:20px;
+            font-size: 14px;
+            margin-left: -10px;
+          }
+          .axis-title{
+            font-size: 14px;
+          }
+          .spot{
+            border-width: 3px;
+            bottom:-4px;
+            margin-left: -3px;
+          }
+        }
+        .up{
+          .index{
+            bottom:6px;
+          }
+          .axis-title{
+            bottom:30px;
+          }
+        }
+        .down{
+          .index{
+            bottom:-26px;
+          }
+          .axis-title{
+            bottom:-70px;
+          }
+        }
+      }
+    }
+  }
 }
 @media (max-width: 700px){
   #jiazhi{
@@ -575,6 +808,50 @@
           .description{
             width:90%;
             font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+  #qide{
+    .part-body{
+      padding-top:30px;
+      height:292px;
+      ul{
+        .axis-box{
+          width:44px;
+          height:120px;
+          .index{
+            width:20px;
+            height:20px;
+            line-height:20px;
+            font-size: 14px;
+            margin-left: -10px;
+          }
+          .axis-title{
+            font-size: 12px;
+            .one-line-limit()
+          }
+          .spot{
+            border-width: 3px;
+            bottom:-4px;
+            margin-left: -3px;
+          }
+        }
+        .up{
+          .index{
+            bottom:6px;
+          }
+          .axis-title{
+            bottom:30px;
+          }
+        }
+        .down{
+          .index{
+            bottom:-26px;
+          }
+          .axis-title{
+            bottom:-70px;
           }
         }
       }

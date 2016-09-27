@@ -204,7 +204,7 @@
 #qijie .part-body ul.list {
   width: 328px;
   height: 328px;
-  background: url("../images/wenhua/icon_04.png") no-repeat 0 0;
+  background: url("../images/wenhua/icon_04.png") no-repeat 0 0 / contain;
   position: relative;
   margin: 0 auto;
   color: #fff;
@@ -416,6 +416,30 @@
     padding-bottom: 40%;
   }
 }
+@media (max-width: 1300px) {
+  #qide .part-body ul .axis-box {
+    width: 140px;
+  }
+  #qide .part-body ul .axis-box .index {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 22px;
+    margin-left: -17.5px;
+  }
+  #qide .part-body ul .up .index {
+    bottom: 14px;
+  }
+  #qide .part-body ul .up .axis-title {
+    bottom: 60px;
+  }
+  #qide .part-body ul .down .index {
+    bottom: -49px;
+  }
+  #qide .part-body ul .down .axis-title {
+    bottom: -110px;
+  }
+}
 @media (max-width: 992px) {
   #jiazhi {
     padding-bottom: 50% !important;
@@ -425,6 +449,35 @@
   }
   #shehui .part-body .list .item .description {
     width: 90%;
+  }
+  #qide .part-body {
+    padding-top: 50px;
+    height: 412px;
+  }
+  #qide .part-body ul .axis-box {
+    width: 100px;
+  }
+  #qide .part-body ul .axis-box .index {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 22px;
+    margin-left: -15px;
+  }
+  #qide .part-body ul .axis-box .axis-title {
+    font-size: 16px;
+  }
+  #qide .part-body ul .up .index {
+    bottom: 14px;
+  }
+  #qide .part-body ul .up .axis-title {
+    bottom: 50px;
+  }
+  #qide .part-body ul .down .index {
+    bottom: -49px;
+  }
+  #qide .part-body ul .down .axis-title {
+    bottom: -100px;
   }
 }
 @media (max-width: 768px) {
@@ -464,6 +517,142 @@
   #shehui .part-body .list .item .description {
     width: 96%;
     font-size: 14px;
+  }
+  #qijie .part-body {
+    padding-top: 100px;
+    height: 412px;
+  }
+  #qijie .part-body ul.list {
+    width: 200px;
+    height: 200px;
+  }
+  #qijie .part-body ul.list li .index {
+    font-size: 18px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+  }
+  #qijie .part-body ul.list li .list-title {
+    font-size: 14px;
+  }
+  #qijie .part-body ul.list .one .spot {
+    left: 54px;
+    top: 7px;
+  }
+  #qijie .part-body ul.list .one .index {
+    left: 27px;
+    top: -25px;
+  }
+  #qijie .part-body ul.list .one .list-title {
+    left: -122px;
+    top: -32px;
+  }
+  #qijie .part-body ul.list .two .spot {
+    top: 17px;
+    right: 39px;
+  }
+  #qijie .part-body ul.list .two .index {
+    top: -15px;
+    right: 13px;
+  }
+  #qijie .part-body ul.list .two .list-title {
+    top: -28px;
+    right: -212px;
+  }
+  #qijie .part-body ul.list .three .index {
+    top: 80px;
+    right: -36px;
+  }
+  #qijie .part-body ul.list .three .list-title {
+    top: 77px;
+    right: -178px;
+  }
+  #qijie .part-body ul.list .three .spot {
+    top: 91px;
+    right: 0;
+  }
+  #qijie .part-body ul.list .four .index {
+    right: -6px;
+    bottom: 4px;
+  }
+  #qijie .part-body ul.list .four .list-title {
+    right: -220px;
+    bottom: -2px;
+  }
+  #qijie .part-body ul.list .four .spot {
+    right: 30px;
+    bottom: 27px;
+  }
+  #qijie .part-body ul.list .five .index {
+    left: 36px;
+    bottom: -28px;
+  }
+  #qijie .part-body ul.list .five .list-title {
+    left: -149px;
+    bottom: -33px;
+  }
+  #qijie .part-body ul.list .five .spot {
+    left: 63px;
+    bottom: 6px;
+  }
+  #qijie .part-body ul.list .six .index {
+    left: -31px;
+    bottom: 42px;
+  }
+  #qijie .part-body ul.list .six .list-title {
+    left: -238px;
+    bottom: 35px;
+  }
+  #qijie .part-body ul.list .six .spot {
+    left: 6px;
+    bottom: 57px;
+  }
+  #qijie .part-body ul.list .seven .index {
+    left: -33px;
+    top: 49px;
+  }
+  #qijie .part-body ul.list .seven .list-title {
+    left: -178px;
+    top: 43px;
+  }
+  #qijie .part-body ul.list .seven .spot {
+    left: 4px;
+    top: 60px;
+  }
+  #qide .part-body {
+    padding-top: 30px;
+    height: 292px;
+  }
+  #qide .part-body ul .axis-box {
+    width: 70px;
+    height: 120px;
+  }
+  #qide .part-body ul .axis-box .index {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    margin-left: -10px;
+  }
+  #qide .part-body ul .axis-box .axis-title {
+    font-size: 14px;
+  }
+  #qide .part-body ul .axis-box .spot {
+    border-width: 3px;
+    bottom: -4px;
+    margin-left: -3px;
+  }
+  #qide .part-body ul .up .index {
+    bottom: 6px;
+  }
+  #qide .part-body ul .up .axis-title {
+    bottom: 30px;
+  }
+  #qide .part-body ul .down .index {
+    bottom: -26px;
+  }
+  #qide .part-body ul .down .axis-title {
+    bottom: -70px;
   }
 }
 @media (max-width: 700px) {
@@ -510,5 +699,43 @@
   #shehui .part-body .list .item .description {
     width: 90%;
     font-size: 14px;
+  }
+  #qide .part-body {
+    padding-top: 30px;
+    height: 292px;
+  }
+  #qide .part-body ul .axis-box {
+    width: 44px;
+    height: 120px;
+  }
+  #qide .part-body ul .axis-box .index {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    margin-left: -10px;
+  }
+  #qide .part-body ul .axis-box .axis-title {
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  #qide .part-body ul .axis-box .spot {
+    border-width: 3px;
+    bottom: -4px;
+    margin-left: -3px;
+  }
+  #qide .part-body ul .up .index {
+    bottom: 6px;
+  }
+  #qide .part-body ul .up .axis-title {
+    bottom: 30px;
+  }
+  #qide .part-body ul .down .index {
+    bottom: -26px;
+  }
+  #qide .part-body ul .down .axis-title {
+    bottom: -70px;
   }
 }

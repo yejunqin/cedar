@@ -11,6 +11,7 @@
     margin-top: 80px;
     .part-body{
       height:400px;
+      text-align: center;
     }
     ul{
       .axis-box{
@@ -40,13 +41,13 @@
           .transition()
         }
         .axis-title{
-          white-space:pre;
+          white-space:normal;
           width:100%;
           text-align: center;
           font-size: 18px;
           color: @grayFont;
           left:0;
-          .transition()
+          .transition();
         }
         .spot{
           width:0;
@@ -165,6 +166,134 @@
           .transition();
           &:hover{
             background: @green_2 - #111;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1300px){
+  #rencai{
+    .part-body{
+      ul{
+        .axis-box{
+          width:140px;
+          .index{
+            width:40px;
+            height:40px;
+            line-height:15px;
+            font-size: 14px;
+            margin-left: -20px;
+          }
+          .axis-title{
+            font-size: 14px;
+          }
+        }
+        .up{
+          .index{
+            bottom:14px;
+          }
+          .axis-title{
+            bottom:60px;
+          }
+        }
+        .down{
+          .index{
+            bottom:-49px;
+          }
+          .axis-title{
+            bottom:-110px;
+          }
+          .three-line{
+            bottom:-130px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 992px){
+  #rencai{
+    .rencai-axis{
+      margin-top: 0;
+    }
+    .part-body{
+      padding-top:50px;
+      height:412px;
+      ul{
+        .axis-box{
+          width:100px;
+          .index{
+            width:30px;
+            height:30px;
+            line-height:22px;
+            font-size: 16px;
+            margin-left: -15px;
+          }
+          .axis-title{
+            font-size: 14px;
+            .lines-limit(2)
+          }
+        }
+        .up{
+          .index{
+            bottom:14px;
+          }
+          .axis-title{
+            bottom:50px;
+          }
+        }
+        .down{
+          .index{
+            bottom:-49px;
+          }
+          .axis-title{
+            bottom:-100px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  #rencai{
+    .part-body{
+      padding-top:30px;
+      height:292px;
+      ul{
+        .axis-box{
+          width:70px;
+          height:120px;
+          .index{
+            width:20px;
+            height:20px;
+            line-height:20px;
+            font-size: 14px;
+            margin-left: -10px;
+          }
+          .axis-title{
+            font-size: 14px;
+          }
+          .spot{
+            border-width: 3px;
+            bottom:-4px;
+            margin-left: -3px;
+          }
+        }
+        .up{
+          .index{
+            bottom:6px;
+          }
+          .axis-title{
+            bottom:30px;
+          }
+        }
+        .down{
+          .index{
+            bottom:-26px;
+          }
+          .axis-title{
+            bottom:-70px;
           }
         }
       }
