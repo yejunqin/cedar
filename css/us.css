@@ -1,6 +1,33 @@
+#timeline {
+  position: relative;
+}
+#timeline #line-wrap {
+  width: 1150px;
+  margin: 0 auto;
+  position: relative;
+}
+#timeline #line-wrap #lineBot,
+#timeline #line-wrap #lineTop {
+  width: 102%;
+  height: 18px;
+  border-radius: 10px;
+  position: absolute;
+  left: 0;
+  top: 50px;
+}
+#timeline #line-wrap #lineBot {
+  background: #4e555e;
+}
+#timeline #line-wrap #lineTop {
+  background: #42bd7f;
+  width: 90px;
+  -webkit-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
 #timeline #dates {
-  width: 74%;
+  width: 1150px;
   padding-top: 80px;
+  padding-left: 50px;
   overflow: hidden;
   margin: 0 auto;
   position: relative;
@@ -31,51 +58,64 @@
   top: -33px;
   left: 20px;
   z-index: 99;
+  -webkit-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+  cursor: pointer;
 }
 #timeline #dates .dates-wrap .active .circle {
   background: #f8f100;
 }
-#timeline #dates #lineBot,
-#timeline #dates #lineTop {
-  width: 100%;
-  height: 18px;
-  border-radius: 10px;
-  position: absolute;
-  left: 0;
-  top: 50px;
-}
-#timeline #dates #lineBot {
-  background: #4e555e;
-}
-#timeline #dates #lineTop {
-  background: #42bd7f;
-  width: 400px;
-  -webkit-transition: all ease 0.3s;
-  transition: all ease 0.3s;
-}
 #timeline .issues {
   width: 70%;
-  margin: 0 auto;
+  margin: 80px auto 0;
+  position: relative;
 }
 #timeline .issues .box .img {
   width: 40%;
   float: left;
 }
 #timeline .issues .box .title {
-  float: left;
-  width: 58%;
+  float: right;
+  width: 45%;
+  margin-top: 130px;
+  text-align: right;
 }
 #timeline .issues .box .title .cn {
   color: #fff;
   font-size: 20px;
+  line-height: 40px;
 }
 #timeline .issues .box .title .en {
   color: #42bd7f;
   font-size: 16px;
 }
+#timeline #prev {
+  cursor: pointer;
+  position: absolute;
+  width: 35px;
+  height: 50px;
+  background: url("../images/us/prev_yel.png") no-repeat 0 0 / contain;
+  top: 60%;
+  left: 10%;
+}
+#timeline #next {
+  cursor: pointer;
+  top: 60%;
+  right: 10%;
+  position: absolute;
+  width: 35px;
+  height: 50px;
+  background: url("../images/us/next_yel.png") no-repeat 0 0 / contain;
+}
+#timeline #prev.swiper-button-disabled {
+  background-image: url("../images/us/prev_dis.png");
+}
+#timeline #next.swiper-button-disabled {
+  background-image: url("../images/us/next_dis.png");
+}
 #fazhan {
   width: 100%;
-  padding-bottom: 52%;
+  padding-bottom: 100px;
   background: #424954;
 }
 #fazhan .part-title {
