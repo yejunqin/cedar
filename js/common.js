@@ -2,6 +2,25 @@
  * Created by Administrator on 2016/9/21.
  */
 $(document).ready(function(){
+  var header = $('#header')
+  var alertSearch = $('#alertsearch')
+  var share = $('#share')
+  header.on('click', '.search', function(){
+    alertSearch.show()
+  })
+    .on('click', '.share', function(){
+      share.show()
+    })
+  $(document).on('keydown', function(e){
+    var code = e.keyCode
+    if(code === 27){
+      if(alertSearch.is(':visible')){
+        alertSearch.hide()
+      }else if(share.is(':visible')){
+        share.hide()
+      }
+    }
+  })
   $('.calculate-middle').each(function(idx, ele){
     var $ele = $(ele)
     console.log($ele.height(),-$ele.width())

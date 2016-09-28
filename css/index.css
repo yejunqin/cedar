@@ -229,4 +229,14 @@
     max-width: 100%;
     top: 53% !important;
   }
+  #qrcode .contact {
+    padding-left: 21px!important;
+  }
+  #qrcode .contact a {
+    width: 80px !important;
+    text-indent: 10px;
+  }
+  #qrcode .contact .weixin {
+    margin-right: 13px;
+  }
 }
