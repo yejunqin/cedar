@@ -462,6 +462,11 @@ h3,
   margin: 0;
   margin-top: 4px;
 }
+#footer .buildings li .phone {
+  margin: 0;
+  color: #888;
+  font-size: 13px;
+}
 #footerMenu {
   border-bottom: 1px solid #ededed;
 }

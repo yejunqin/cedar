@@ -27,6 +27,7 @@
     width:1150px;
     padding-top:80px;
     padding-left: 50px;
+    padding-bottom:30px;
     overflow: hidden;
     margin: 0 auto;
     position: relative;
@@ -39,6 +40,21 @@
         width:100px;
         font-size: 16px;
         position: relative;
+        &::after{
+          content: "";
+          width:16px;
+          height:42px;
+          background: url("../images/us/fazhan_02.png") 0 0 / contain;
+          position: absolute;
+          top:100px;
+          left:23px;
+          transition: ease all .5s;
+        }
+        .year{
+          position: relative;
+          transition: all ease .5s;
+          top:0;
+        }
         i{
           font-size: 13px;
           font-style: normal;
@@ -63,12 +79,20 @@
           background: #f8f100;
         }
       }
+      .active{
+        .year{
+          top:-62px;
+        }
+        &::after{
+          top:0;
+        }
+      }
     }
   }
   .issues{
     width:70%;
     max-width:1110px;
-    margin: 80px auto 0;
+    margin: 50px auto 0;
     position: relative;
     .box{
       .img{
@@ -80,6 +104,7 @@
         width:45%;
         margin-top: 130px;
         text-align: right;
+        padding-right:2px;
         .cn{
           color: #fff;
           font-size: 20px;
@@ -213,6 +238,11 @@
 //灵魂
 #linghun{
   .part-body{
+    .img{
+      img{
+        width:100%;
+      }
+    }
     .detail{
       margin-top: 30px;
       text-align: center;
@@ -255,8 +285,19 @@
     }
   }
   .box{
+    box-shadow: 0 4px 4px #e3e3e3;
+    position: relative;
+    transition: all ease .3s;
+    top:0;
+    left:0;
     &:not(:last-child){
       margin-right: 10px;
+    }
+    &:hover{
+      //box-shadow: -2px 0 2px #aaa ,2px 0 2px #aaa , 0 4px 4px #999;
+      box-shadow: 0 4px 4px #999;
+      top:2px;
+      left:2px;
     }
     .img{
       width:100%;
