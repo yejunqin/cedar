@@ -396,6 +396,7 @@ h3,
 }
 #dongtai .dongtai-box .img {
   width: 100%;
+  overflow: hidden;
 }
 #dongtai .dongtai-box .img img {
   width: 100%;
