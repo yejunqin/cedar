@@ -23,10 +23,10 @@ function move(isRight, step){
 }
 function activateItem(idx, items){
   items.each(function(i, ele){
-    $(ele).removeClass('active')
+    $(ele).removeClass('active').removeClass('passed')
   })
   var curItem = items.eq(idx)
-  curItem.addClass('active')
+  curItem.addClass('active').prevAll().addClass('passed')
   if(idx == 1){
     if(!isVisible(items.eq(0)[0])){
       move(false, 1)
@@ -82,12 +82,15 @@ $(document).ready(function(){
   }
   var paper = new Swiper('#paper .swiper-container', {
     slidesPerView: paperSlidesPerView,
-    nextButton: '#dongtai .swiper-button .next',
-    prevButton: '#dongtai .swiper-button .prev',
+    nextButton: '#paper .btn-nav .next',
+    prevButton: '#paper .btn-nav .prev',
     spaceBetween: 16
   })
   timeline.on('click', '.dates-item', function(){
     var _this = $(this)
+    if(_this.hasClass('active')){
+      return false
+    }
     development.slideTo(_this.index())
     isClick = true
   })

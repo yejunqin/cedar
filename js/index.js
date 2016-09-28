@@ -1,7 +1,6 @@
 $(document).ready(function(){
   var banner = new Swiper('#banner .swiper-container', {
     loop: true,
-    autoplay: 3000,
     pagination: '#banner .swiper-pagination',
     paginationClickable :true
   })

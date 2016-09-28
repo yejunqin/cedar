@@ -62,11 +62,13 @@
   transition: all ease 0.3s;
   cursor: pointer;
 }
-#timeline #dates .dates-wrap .active .circle {
+#timeline #dates .dates-wrap .active .circle,
+#timeline #dates .dates-wrap .passed .circle {
   background: #f8f100;
 }
 #timeline .issues {
   width: 70%;
+  max-width: 1110px;
   margin: 80px auto 0;
   position: relative;
 }
@@ -145,6 +147,10 @@
 #fazhan .list .box .title .en {
   color: #42bd7f;
   font-size: 20px;
+}
+#jianjie .part-body {
+  background: #eff1f5;
+  padding-bottom: 80px;
 }
 #jianjie .part-body .left {
   padding: 0 40px;
@@ -261,6 +267,29 @@
 }
 #paper .box .detail {
   padding-left: 12px;
+}
+#paper .btn-nav {
+  text-align: center;
+  margin-top: 30px;
+}
+#paper .btn-nav span {
+  display: inline-block;
+  width: 15px;
+  height: 24px;
+  cursor: pointer;
+}
+#paper .btn-nav .next {
+  background: url("../images/next.png") 0 0 / contain;
+}
+#paper .btn-nav .prev {
+  background: url("../images/prev.png") 0 0 / contain;
+  margin-right: 20px;
+}
+#paper .btn-nav .prev.swiper-button-disabled {
+  background-image: url("../images/prev_disabled.png");
+}
+#paper .btn-nav .next.swiper-button-disabled {
+  background-image: url("../images/next_disabled.png");
 }
 @media (max-width: 1500px) {
   #jianjie .part-body .right {

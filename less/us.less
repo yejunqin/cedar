@@ -58,7 +58,7 @@
           cursor: pointer;
         }
       }
-      .active{
+      .active, .passed{
         .circle{
           background: #f8f100;
         }
@@ -67,6 +67,7 @@
   }
   .issues{
     width:70%;
+    max-width:1110px;
     margin: 80px auto 0;
     position: relative;
     .box{
@@ -153,6 +154,8 @@
 }
 #jianjie{
   .part-body{
+    background: #eff1f5;
+    padding-bottom: 80px;
     .left{
       padding:0 40px;
       .title{
@@ -276,6 +279,29 @@
     }
     .detail{
       padding-left: 12px;
+    }
+  }
+  .btn-nav{
+    text-align: center;
+    margin-top: 30px;
+    span{
+      display: inline-block;
+      width:15px;
+      height:24px;
+      cursor: pointer;
+    }
+    .next{
+      background: url("../images/next.png") 0 0 / contain;
+    }
+    .prev{
+      background: url("../images/prev.png") 0 0 / contain;
+      margin-right: 20px;
+    }
+    .prev.swiper-button-disabled{
+      background-image: url("../images/prev_disabled.png");
+    }
+    .next.swiper-button-disabled{
+      background-image: url("../images/next_disabled.png");
     }
   }
 }

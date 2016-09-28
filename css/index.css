@@ -37,6 +37,7 @@
   margin-bottom: 0;
 }
 #chanye .chanye-menu .chanye-box {
+  transition: all ease .5s;
   background: #b6b6b6;
   color: #fff;
   text-align: center;
