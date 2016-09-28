@@ -21,7 +21,7 @@
   margin-top: -90px;
 }
 #yuanjing .detail .row {
-  margin-top: 50px;
+  margin-top: 65px;
 }
 #yuanjing .detail .item {
   width: 550px;
@@ -62,31 +62,35 @@
   color: #6dca9a;
 }
 #shiming {
-  margin-top: 40px;
+  margin-top: 70px;
   border-top: 1px solid #ededed;
   color: #606060;
   text-align: center;
 }
 #shiming .part-title {
-  font-size: 46px;
   margin-bottom: 36px;
+  margin-top: 70px;
 }
 #shiming .sub-title {
-  font-size: 26px;
+  font-size: 24px;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
 }
 #shiming .description {
   font-size: 16px;
-  line-height: 24px;
+  line-height: 31px;
+  letter-spacing: 2px;
+  color: #999;
 }
 #jiazhi {
   margin-top: 50px;
-  padding-bottom: 32%;
+  padding-bottom: 605px;
 }
 #jiazhi .stretch-img {
   background: url("../images/wenhua/wenhua_02.jpg") no-repeat 0 0 / cover;
 }
 #jiazhi .stretch-text {
-  padding-top: 3%;
+  padding-top: 71px;
 }
 #jiazhi .sub-title {
   margin-bottom: 30px;
@@ -96,11 +100,13 @@
   display: inline-block;
 }
 #jiazhi .item .list-title {
-  font-size: 30px;
+  font-size: 26px;
 }
 #jiazhi .item .description {
-  font-size: 18px;
-  line-height: 28px;
+  font-size: 16px;
+  line-height: 25px;
+  color: #d4d6d2;
+  margin-top: 13px;
 }
 #qide {
   margin-top: 50px;
@@ -110,7 +116,7 @@
   background: url("../images/wenhua/wenhua_03.jpg") no-repeat 0 0 / cover;
 }
 #qide .title {
-  font-size: 46px;
+  font-size: 32px;
 }
 #qide .part-body {
   margin-top: 90px;
@@ -146,7 +152,7 @@
 #qide .part-body ul .axis-box .axis-title {
   white-space: pre;
   width: 100%;
-  font-size: 18px;
+  font-size: 16px;
   color: #888;
   left: 0;
   -webkit-transition: all ease 0.3s;
@@ -193,7 +199,7 @@
   background: url("../images/wenhua/wenhua_04.jpg") no-repeat 0 0 / cover;
 }
 #qijie .title {
-  font-size: 46px;
+  font-size: 32px;
 }
 #qijie .part-body {
   margin-top: 90px;
@@ -364,14 +370,14 @@
   margin-top: 50px;
 }
 #shehui .title {
-  font-size: 46px;
+  font-size: 32px;
 }
 #shehui .bg-img {
   background: url("../images/wenhua/wenhua_05.jpg") no-repeat 0 0 / cover;
   z-index: -1;
 }
 #shehui .part-body {
-  margin-top: 126px;
+  margin-top: 80px;
   height: 592px;
   width: 100%;
 }
@@ -396,6 +402,7 @@
   font-size: 18px;
   line-height: 28px;
   width: 60%;
+  color: #d4d6d2;
 }
 @media (max-width: 1400px) {
   #yuanjing .detail .item {
