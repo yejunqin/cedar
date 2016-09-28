@@ -122,12 +122,15 @@
       display: inline-block;
     }
   }
+  .wrap{
+    top:45%;
+  }
   .more{
     display: block;
     width:176px;
     color: #fff;
-    border:2px solid @green_2;
-    margin:4px auto 0;
+    border:3px solid @green_2;
+    margin:10px auto 0;
     line-height:30px;
     text-decoration: none;
     font-size: 16px;
@@ -153,15 +156,22 @@
       width:42%;
       display: inline-block;
       cursor: pointer;
+      opacity:0.5;
     }
   }
   .contact{
-    margin-top: 7%;
+    margin-top: 6px;
+    text-align: center;
+    padding-left: 36px;
     a{
-      width:22%;
+      width:100px;
       height:28px;
       display: inline-block;
-      background: no-repeat 50% 50%;
+      background: no-repeat 0 0;
+      color: #929292;
+    }
+    .weixin{
+      margin-right: 40px;
     }
     .facebook{
       background-image: url("../images/icon_facebook.png");
@@ -174,6 +184,12 @@
     }
     .google{
       background-image: url("../images/icon_google.png");
+    }
+    .weixin{
+      background-image: url("../images/icon_weixin.png");
+    }
+    .weibo{
+      background-image: url("../images/icon_weibo.png");
     }
   }
 }
@@ -254,4 +270,10 @@
 
 
   /*////增加的//////*/
+  #public{
+    .wrap{
+      max-width:100%;
+      top:53% !important;
+    }
+  }
 }

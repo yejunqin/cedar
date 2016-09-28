@@ -12,7 +12,7 @@
   cursor: context-menu;
   display: inline-block;
   margin-right: -5px;
-  width: 180px;
+  width: 160px;
   height: 160px;
   position: relative;
   border-bottom: 2px solid #b6b6b6;
@@ -21,11 +21,11 @@
   position: absolute;
 }
 #rencai .rencai-axis ul .axis-box .index {
-  font-size: 18px;
+  font-size: 14px;
   width: 60px;
   height: 60px;
-  padding-top: 5px;
-  line-height: 24px;
+  padding-top: 12px;
+  line-height: 17px;
   text-align: center;
   color: #fff;
   background: #888;
@@ -40,7 +40,7 @@
   white-space: normal;
   width: 100%;
   text-align: center;
-  font-size: 18px;
+  font-size: 14px;
   color: #888;
   left: 0;
   -webkit-transition: all ease 0.3s;
@@ -93,39 +93,54 @@
 }
 #rencai .hehuoren .sub-title-cn {
   color: #42bd7f;
-  font-size: 30px;
+  font-size: 22px;
+  font-weight: normal;
+  margin-top: 62px;
 }
 #rencai .hehuoren .sub-title-en {
-  color: #888;
+  color: #a2a2a2;
   text-transform: uppercase;
-  line-height: 30px;
+  line-height: 28px;
+  font-size: 18px;
+  font-weight: normal;
+  margin-top: 15px;
+  letter-spacing: 2px;
 }
 #rencai .hehuoren .description {
-  margin-top: 40px;
   color: #888;
+  font-size: 12px;
+  width: 50%;
+  margin: 34px auto 0;
 }
 #rencai .zhaopin {
   text-align: center;
   margin-top: 70px;
   padding-top: 50px;
   border-top: 1px solid #ededed;
+  padding-bottom: 25px;
 }
 #rencai .zhaopin .title {
   padding-bottom: 60px;
   border-bottom: 1px solid #ededed;
+  font-size: 32px;
 }
 #rencai .zhaopin .sub-title-cn {
-  margin-top: 60px;
-  font-size: 30px;
+  margin-top: 62px;
+  font-size: 22px;
   color: #42bd7f;
+  font-weight: normal;
 }
 #rencai .zhaopin .sub-title-en {
-  color: #888;
-  line-height: 30px;
+  color: #a2a2a2;
+  line-height: 28px;
   text-transform: uppercase;
+  font-size: 18px;
+  font-weight: normal;
+  margin-top: 15px;
+  letter-spacing: 2px;
 }
 #rencai .zhaopin .list {
-  margin-top: 50px;
+  margin-top: 40px;
 }
 #rencai .zhaopin .list .list-title {
   color: #42bd7f;
@@ -137,14 +152,15 @@
 }
 #rencai .zhaopin .list ul a {
   text-decoration: none;
-  color: #000;
-  line-height: 28px;
+  color: #a2a2a2;
+  line-height: 34px;
 }
 #rencai .zhaopin .list ul a:hover {
   color: #42bd7f;
 }
 #rencai .zhaopin .list .more {
   display: inline-block;
+  color: #a2a2a2;
 }
 #rencai .zhaopin .list .more a {
   display: inline-block;
@@ -155,6 +171,7 @@
   text-decoration: none;
   margin-left: 20px;
   margin-right: 12px;
+  font-size: 12px;
   -webkit-transition: all ease 0.3s;
   transition: all ease 0.3s;
 }

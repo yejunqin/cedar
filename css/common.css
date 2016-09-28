@@ -150,7 +150,7 @@ h3,
   width: 35px;
   height: 35px;
   position: absolute;
-  bottom: 10px;
+  bottom: 30px;
   left: 50%;
   margin-left: -17.5px;
   background: url("../images/to_down.png") no-repeat 0 0;
@@ -253,9 +253,9 @@ h3,
   z-index: 10;
   padding: 0;
   background: #fff;
-  width: 150%;
+  width: 180%;
   min-width: 60px;
-  left: -25%;
+  left: -40%;
   border-top: 1px solid #f1f1f1;
 }
 #header .header-nav .sub-nav li {
@@ -283,7 +283,9 @@ h3,
 }
 .content .content-part .part-title {
   text-align: center;
-  margin-bottom: 48px;
+  margin-top: 50px;
+  margin-bottom: 60px;
+  font-size: 32px;
 }
 .underline {
   position: relative;
@@ -292,7 +294,7 @@ h3,
   content: '';
   position: absolute;
   border-bottom: 4px solid #42bd7f;
-  top: 118%;
+  top: 140%;
   width: 50px;
   left: 50%;
   margin-left: -25px;
@@ -348,8 +350,8 @@ h3,
   display: inline-block;
   transition: 0.5s ease all;
   -webkit-transition: 0.5s ease all;
-  width: 56px;
-  height: 60px;
+  width: 48px;
+  height: 55px;
   background: url("../images/play_01.png") no-repeat 0 0 / contain;
 }
 .stretch-part:hover .stretch-img {
@@ -360,11 +362,11 @@ h3,
   opacity: 0;
 }
 .content .big-title .title {
-  font-size: 46px;
+  font-size: 32px;
   margin-top: 0;
 }
 .content .big-title .sub-title {
-  font-size: 30px;
+  font-size: 26px;
 }
 .content .big-title .description {
   font-size: 16px;
@@ -444,8 +446,8 @@ h3,
   background: #209b5d;
 }
 #footer {
-  margin-top: 65px;
-  height: 283px;
+  margin-top: 50px;
+  height: 295px;
   clear: both;
   background: url("../images/footer.jpg") no-repeat 0 0 / cover;
 }
@@ -474,6 +476,9 @@ h3,
 }
 #footerMenu {
   border-bottom: 1px solid #ededed;
+}
+#footerMenu ul {
+  text-align: center;
 }
 #footerMenu ul li {
   display: inline-block;
@@ -700,8 +705,12 @@ h3,
     top: 4px;
     right: 4px;
   }
+  #footer .buildings {
+    margin-top: 12px;
+  }
   #footer {
     margin-top: 35px;
+    height: 303px;
   }
   #footer .buildings li {
     vertical-align: top;

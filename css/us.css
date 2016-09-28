@@ -176,17 +176,21 @@
   padding-bottom: 80px;
 }
 #jianjie .part-body .left {
-  padding: 0 40px;
+  padding: 45px 40px 0 40px;
 }
 #jianjie .part-body .left .title {
-  font-size: 34px;
+  font-size: 45px;
+  font-family: Arial;
+  letter-spacing: 1px;
 }
 #jianjie .part-body .left p {
-  color: #b6b6b6;
+  color: #808080;
   text-indent: 2em;
+  font-size: 13px;
+  line-height: 24px;
 }
 #jianjie .part-body .right {
-  padding: 78px 60px 0;
+  padding: 144px 60px 0;
 }
 #jianjie .part-body .right ul {
   line-height: 100px;
@@ -200,12 +204,14 @@
   width: 48%;
   text-align: right;
   padding-right: 20px;
+  color: #808080;
 }
 #jianjie .part-body .right ul li .number span {
   font-weight: bold;
   font-size: 60px;
   vertical-align: bottom;
   margin-right: 16px;
+  font-family: Arial;
 }
 #jianjie .part-body .right ul li .detail {
   display: inline-block;
@@ -213,8 +219,8 @@
   padding-left: 20px;
 }
 #jianjie .part-body .list {
-  margin-top: 40px;
-  padding: 0 40px;
+  margin-top: 60px;
+  padding-bottom: 12px;
   text-align: center;
 }
 #jianjie .part-body .list li {
@@ -231,14 +237,17 @@
   width: 100%;
 }
 #linghun .part-body .detail {
-  margin-top: 30px;
+  margin-top: 60px;
+  padding-bottom: 10px;
   text-align: center;
   color: #888;
 }
 #magazine {
   border-top: 1px solid #ededed;
+  border-bottom: 1px solid #ededed;
   margin-top: 40px;
-  padding-top: 50px;
+  padding-top: 75px;
+  padding-bottom: 60px;
 }
 #magazine ul {
   text-align: center;
@@ -260,17 +269,19 @@
   color: #888;
 }
 #paper {
-  padding-bottom: 40px;
+  padding-bottom: 60px;
 }
 #paper .paper-title {
   text-align: center;
+  margin-bottom: 50px;
 }
 #paper .paper-title .img {
   width: 21%;
   margin: 0 auto;
 }
 #paper .box {
-  box-shadow: 0 4px 4px #e3e3e3;
+  box-shadow: 4px 4px 4px #f1f1f1;
+  border: 1px solid #f1f1f1;
   position: relative;
   transition: all ease .3s;
   top: 0;
@@ -280,8 +291,7 @@
   margin-right: 10px;
 }
 #paper .box:hover {
-  box-shadow: 0 4px 4px #999;
-  top: 2px;
+  box-shadow: 4px 4px 4px #ccc;
   left: 2px;
 }
 #paper .box .img {
@@ -291,24 +301,31 @@
   width: 100%;
 }
 #paper .box .title {
-  color: #0bbaf2;
+  color: #42bd7f;
+  margin-top: 16px;
 }
 #paper .box .person {
   font-weight: bold;
+  color: #3c3c3c;
+  margin-bottom: 4px;
 }
 #paper .box .word {
   border-bottom: 1px solid #999;
+  color: #808080;
+  padding-bottom: 10px;
+  width: 95%;
 }
 #paper .box .more {
   text-decoration: none;
-  color: #0bbaf2;
+  color: #42bd7f;
 }
 #paper .box .detail {
   padding-left: 12px;
+  padding-bottom: 13px;
 }
 #paper .btn-nav {
   text-align: center;
-  margin-top: 30px;
+  margin-top: 40px;
 }
 #paper .btn-nav span {
   display: inline-block;

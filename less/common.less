@@ -101,7 +101,7 @@ h1, .h1, h2, .h2, h3, .h3{
   width:35px;
   height:35px;
   position: absolute;
-  bottom:10px;
+  bottom:30px;
   left:50%;
   margin-left: -17.5px;
   background: url("../images/to_down.png") no-repeat 0 0;
@@ -202,9 +202,9 @@ h1, .h1, h2, .h2, h3, .h3{
       z-index: 10;
       padding: 0;
       background: #fff;
-      width: 150%;
+      width: 180%;
       min-width: 60px;
-      left:-25%;
+      left:-40%;
       border-top: 1px solid #f1f1f1;
       li{
         width: 100%;
@@ -236,7 +236,9 @@ h1, .h1, h2, .h2, h3, .h3{
   .content-part{
     .part-title{
       text-align: center;
-      margin-bottom: 48px;
+      margin-top: 50px;
+      margin-bottom: 60px;
+      font-size: 32px;
     }
   }
 }
@@ -247,7 +249,7 @@ h1, .h1, h2, .h2, h3, .h3{
     content: '';
     position: absolute;
     border-bottom: 4px solid @green_2;
-    top:118%;
+    top:140%;
     width:50px;
     left: 50%;
     margin-left: -25px;
@@ -305,8 +307,8 @@ h1, .h1, h2, .h2, h3, .h3{
       display: inline-block;
       transition: 0.5s ease all;
       -webkit-transition: 0.5s ease all;
-      width:56px;
-      height:60px;
+      width:48px;
+      height:55px;
       background: url("../images/play_01.png") no-repeat 0 0 / contain;
     }
   }
@@ -323,11 +325,11 @@ h1, .h1, h2, .h2, h3, .h3{
 .content{
   .big-title{
     .title{
-      font-size: 46px;
+      font-size: 32px;
       margin-top: 0;
     }
     .sub-title{
-      font-size: 30px;
+      font-size: 26px;
     }
     .description{
       font-size: 16px;
@@ -413,8 +415,8 @@ h1, .h1, h2, .h2, h3, .h3{
   }
 }
 #footer{
-  margin-top: 65px;
-  height:283px;
+  margin-top: 50px;
+  height:295px;
   clear: both;
   background: url("../images/footer.jpg") no-repeat 0 0 /cover;
   .buildings{
@@ -444,6 +446,7 @@ h1, .h1, h2, .h2, h3, .h3{
 #footerMenu{
   border-bottom: 1px solid #ededed;
   ul{
+    text-align: center;
     li{
       display: inline-block;
       width:13.5%;
@@ -675,7 +678,13 @@ h1, .h1, h2, .h2, h3, .h3{
     top:4px;
     right:4px;
   }
-  #footer{ margin-top:35px;}
+  #footer{
+    .buildings{
+      margin-top: 12px;
+    }
+  }
+  #footer{ margin-top:35px;
+    height:303px;}
   #footer .buildings li{vertical-align: top; width:23%;}
   #footer .buildings li .city{ font-size:14px;}
   #footer .buildings li .location{ font-size:13px;}

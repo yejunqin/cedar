@@ -182,17 +182,21 @@
     background: #eff1f5;
     padding-bottom: 80px;
     .left{
-      padding:0 40px;
+      padding:45px 40px 0 40px;
       .title{
-        font-size: 34px;
+        font-size: 45px;
+        font-family: Arial;
+        letter-spacing: 1px;
       }
       p{
-        color: @gray;
+        color: #808080;
         text-indent:2em;
+        font-size: 13px;
+        line-height:24px;
       }
     }
     .right{
-      padding:78px 60px 0;
+      padding:144px 60px 0;
       ul{
         line-height:100px;
         border-top: 2px solid @green_2;
@@ -203,11 +207,13 @@
             width:48%;
             text-align: right;
             padding-right: 20px;
+            color: #808080;
             span{
               font-weight: bold;
               font-size: 60px;
               vertical-align: bottom;
               margin-right: 16px;
+              font-family: Arial;
             }
           }
           .detail{
@@ -219,8 +225,8 @@
       }
     }
     .list{
-      margin-top: 40px;
-      padding:0 40px;
+      margin-top: 60px;
+      padding-bottom:12px;
       text-align: center;
       li{
         display: inline-block;
@@ -244,7 +250,8 @@
       }
     }
     .detail{
-      margin-top: 30px;
+      margin-top: 60px;
+      padding-bottom:10px;
       text-align: center;
       color: @grayFont;
     }
@@ -253,8 +260,10 @@
 
 #magazine{
   border-top: 1px solid @border;
+  border-bottom: 1px solid @border;
   margin-top: 40px;
-  padding-top:50px;
+  padding-top:75px;
+  padding-bottom:60px;
   ul{
     text-align: center;
     li{
@@ -276,16 +285,18 @@
   }
 }
 #paper{
-  padding-bottom:40px;
+  padding-bottom:60px;
   .paper-title{
     text-align: center;
+    margin-bottom: 50px;
     .img{
       width:21%;
       margin:0 auto;
     }
   }
   .box{
-    box-shadow: 0 4px 4px #e3e3e3;
+    box-shadow: 4px 4px 4px #f1f1f1;
+    border:1px solid #f1f1f1;
     position: relative;
     transition: all ease .3s;
     top:0;
@@ -295,8 +306,7 @@
     }
     &:hover{
       //box-shadow: -2px 0 2px #aaa ,2px 0 2px #aaa , 0 4px 4px #999;
-      box-shadow: 0 4px 4px #999;
-      top:2px;
+      box-shadow: 4px 4px 4px #ccc;
       left:2px;
     }
     .img{
@@ -306,25 +316,32 @@
       }
     }
     .title{
-      color: @blue;
+      color: @green_2;
+      margin-top: 16px;
     }
     .person{
       font-weight: bold;
+      color: #3c3c3c;
+      margin-bottom: 4px;
     }
     .word{
       border-bottom:1px solid #999;
+      color: #808080;
+      padding-bottom:10px;
+      width:95%;
     }
     .more{
       text-decoration: none;
-      color: @blue;
+      color: @green_2;
     }
     .detail{
       padding-left: 12px;
+      padding-bottom:13px;
     }
   }
   .btn-nav{
     text-align: center;
-    margin-top: 30px;
+    margin-top: 40px;
     span{
       display: inline-block;
       width:15px;

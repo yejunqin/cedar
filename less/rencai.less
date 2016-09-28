@@ -18,7 +18,7 @@
         cursor: context-menu;
         display: inline-block;
         margin-right: -5px;
-        width:180px;
+        width:160px;
         height:160px;
         position: relative;
         border-bottom: 2px solid @gray;
@@ -26,11 +26,11 @@
           position: absolute;
         }
         .index{
-          font-size: 18px;
+          font-size: 14px;
           width:60px;
           height:60px;
-          padding-top:5px;
-          line-height:24px;
+          padding-top:12px;
+          line-height:17px;
           text-align: center;
           color: #fff;
           background: @grayFont;
@@ -44,7 +44,7 @@
           white-space:normal;
           width:100%;
           text-align: center;
-          font-size: 18px;
+          font-size: 14px;
           color: @grayFont;
           left:0;
           .transition();
@@ -103,16 +103,24 @@
     }
     .sub-title-cn{
       color: @green_2;
-      font-size: 30px;
+      font-size: 22px;
+      font-weight: normal;
+      margin-top: 62px;
     }
     .sub-title-en{
-      color: @grayFont;
+      color: #a2a2a2;
       text-transform: uppercase;
-      line-height:30px;
+      line-height:28px;
+      font-size: 18px;
+      font-weight: normal;
+      margin-top:15px;
+      letter-spacing: 2px;
     }
     .description{
-      margin-top: 40px;
       color: @grayFont;
+      font-size: 12px;
+      width:50%;
+      margin: 34px auto 0;
     }
   }
   .zhaopin{
@@ -120,22 +128,29 @@
     margin-top: 70px;
     padding-top: 50px;
     border-top: 1px solid @border;
+    padding-bottom:25px;
     .title{
       padding-bottom:60px;
       border-bottom: 1px solid @border;
+      font-size: 32px;
     }
     .sub-title-cn{
-      margin-top: 60px;
-      font-size: 30px;
+      margin-top: 62px;
+      font-size: 22px;
       color: @green_2;
+      font-weight: normal;
     }
     .sub-title-en{
-      color: @grayFont;
-      line-height:30px;
+      color: #a2a2a2;
+      line-height:28px;
       text-transform: uppercase;
+      font-size: 18px;
+      font-weight: normal;
+      margin-top: 15px;
+      letter-spacing: 2px;
     }
     .list{
-      margin-top: 50px;
+      margin-top: 40px;
       .list-title{
         color: @green_2;
         font-size: 20px;
@@ -145,8 +160,8 @@
         display: inline-block;
         a{
           text-decoration: none;
-          color: #000;
-          line-height:28px;
+          color: #a2a2a2;
+          line-height:34px;
           &:hover{
             color: @green_2;
           }
@@ -154,6 +169,7 @@
       }
       .more{
         display: inline-block;
+        color: #a2a2a2;
         a{
           display: inline-block;
           padding:0 12px;
@@ -163,6 +179,7 @@
           text-decoration: none;
           margin-left: 20px;
           margin-right: 12px;
+          font-size: 12px;
           .transition();
           &:hover{
             background: @green_2 - #111;

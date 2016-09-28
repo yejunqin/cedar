@@ -95,12 +95,15 @@
 #public .img span {
   display: inline-block;
 }
+#public .wrap {
+  top: 45%;
+}
 #public .more {
   display: block;
   width: 176px;
   color: #fff;
-  border: 2px solid #42bd7f;
-  margin: 4px auto 0;
+  border: 3px solid #42bd7f;
+  margin: 10px auto 0;
   line-height: 30px;
   text-decoration: none;
   font-size: 16px;
@@ -122,15 +125,22 @@
   width: 42%;
   display: inline-block;
   cursor: pointer;
+  opacity: 0.5;
 }
 #qrcode .contact {
-  margin-top: 7%;
+  margin-top: 6px;
+  text-align: center;
+  padding-left: 36px;
 }
 #qrcode .contact a {
-  width: 22%;
+  width: 100px;
   height: 28px;
   display: inline-block;
-  background: no-repeat 50% 50%;
+  background: no-repeat 0 0;
+  color: #929292;
+}
+#qrcode .contact .weixin {
+  margin-right: 40px;
 }
 #qrcode .contact .facebook {
   background-image: url("../images/icon_facebook.png");
@@ -143,6 +153,12 @@
 }
 #qrcode .contact .google {
   background-image: url("../images/icon_google.png");
+}
+#qrcode .contact .weixin {
+  background-image: url("../images/icon_weixin.png");
+}
+#qrcode .contact .weibo {
+  background-image: url("../images/icon_weibo.png");
 }
 @media (max-width: 1400px) {
   #chanye .chanye-sub-menu .stretch-part {
@@ -209,4 +225,8 @@
     width: 90%;
   }
   /*////增加的//////*/
+  #public .wrap {
+    max-width: 100%;
+    top: 53% !important;
+  }
 }
