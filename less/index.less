@@ -7,6 +7,19 @@
   img{
     width: 100%;
   }
+  .video-wrap{
+    position: relative;
+    .img{
+      position: absolute;
+      width:50%;
+      top:40%;
+      left:24%;
+      cursor: pointer;
+      img{
+        width:100%;
+      }
+    }
+  }
 }
 #chanye{
   .chanye-sub-menu{
@@ -60,8 +73,7 @@
     top:-85px;
     margin-bottom: 0;
     .chanye-box{
-      transition: all ease .5s;
-      background: @gray;
+      background-image:linear-gradient(to right, #aeaeae, #d9d9d9);
       color: #fff;
       text-align: center;
       padding: 18% 0;
@@ -75,7 +87,7 @@
       }
     }
     .swiper-slide-active .chanye-box{
-      background-color: @green_2;
+      background: @green_2;
     }
     .swiper-button{
       position: relative;

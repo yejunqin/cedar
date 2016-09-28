@@ -5,6 +5,19 @@
 #banner img {
   width: 100%;
 }
+#banner .video-wrap {
+  position: relative;
+}
+#banner .video-wrap .img {
+  position: absolute;
+  width: 50%;
+  top: 40%;
+  left: 24%;
+  cursor: pointer;
+}
+#banner .video-wrap .img img {
+  width: 100%;
+}
 #chanye .chanye-sub-menu .chanye01 .stretch-img {
   background: url("../images/chanye_01.jpg") no-repeat 0 0 / cover;
 }
@@ -37,8 +50,7 @@
   margin-bottom: 0;
 }
 #chanye .chanye-menu .chanye-box {
-  transition: all ease .5s;
-  background: #b6b6b6;
+  background-image: linear-gradient(to right, #aeaeae, #d9d9d9);
   color: #fff;
   text-align: center;
   padding: 18% 0;
@@ -52,7 +64,7 @@
   font-size: 24px;
 }
 #chanye .chanye-menu .swiper-slide-active .chanye-box {
-  background-color: #42bd7f;
+  background: #42bd7f;
 }
 #chanye .chanye-menu .swiper-button {
   position: relative;

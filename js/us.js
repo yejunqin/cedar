@@ -7,6 +7,12 @@ var itemWidth = 0
 var isClick = false
 var preYearIdx = 0
 var calWidth = 0
+//function playVideo(e){
+//  $('#videoTitle').addClass('scale')
+//  window.setTimeout(function(){
+//    video.play()
+//  }, 1000)
+//}
 function isVisible(item){
   var diff = item.getBoundingClientRect().left - dates.getBoundingClientRect().left
   return diff > 0 && diff < dates.getBoundingClientRect().width
@@ -63,6 +69,16 @@ $(document).ready(function(){
   var items = timeline.find('#dates .dates-item')
   var lineTop = $('#lineTop')
   itemWidth = items.eq(0).width()
+  var video = document.getElementById('canplay')//视频对象
+  //video.addEventListener('play', function(e){
+  //  console.log(e)
+  //})
+  //video.addEventListener('canplaythrough', function(e){
+  //  $('#videoTitle').addClass('scale')
+  //  window.setTimeout(function(){
+  //    video.play()
+  //  }, 1000)
+  //})
   var development = new Swiper('#fazhan .swiper-container', {
     // loop: true,
     paginationClickable :true,

@@ -13,13 +13,23 @@ $(document).ready(function(){
     slidesPerView: 3,
     // autoplay: 3000,
     slideToClickedSlide: true,
-    initialSlide: 1,
-    // loop: true,
+    initialSlide: 0,
+     loop: true,
     // loopedSlides :7,
     onSlideChangeStart: function(swiper){
       var index = swiper.activeIndex
-      console.log(index)
-      chanyeSubMenu.slideTo(index)
+      var realIndex = 0
+      if(index > 2 && index < 10){
+        realIndex = index - 3
+      }else if(index === 10){
+        realIndex = 0
+      }else if (index === 2){
+        realIndex = 6
+      }else if(index === 0){
+        realIndex = 4
+      }
+      console.log(index, realIndex)
+      chanyeSubMenu.slideTo(realIndex)
     }
   })
 })

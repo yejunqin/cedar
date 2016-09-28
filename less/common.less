@@ -108,6 +108,11 @@ h1, .h1, h2, .h2, h3, .h3{
   background-size: 100%;
   cursor: pointer;
 }
+.scale{
+  transition: all ease 3s;
+  transform: scale(1.1);
+  opacity: 0;
+}
 #mobileNav{
   padding:0;
   clear: both;
@@ -627,6 +632,13 @@ h1, .h1, h2, .h2, h3, .h3{
   }
 }
 @media (max-width: 414px){
+  .swiper-pagination{
+    .swiper-pagination-bullet{
+      width:4px;
+      height:4px;
+      margin:0 2px!important;
+    }
+  }
   .container-fluid{
     padding-top: 50px;
   }
