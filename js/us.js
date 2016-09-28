@@ -2,6 +2,7 @@
  * Created by  on 2016/9/25.
  */
 var dates = document.getElementById('dates')
+var $dates = $(dates)
 var itemWidth = 0
 var isClick = false
 var preYearIdx = 0
@@ -14,10 +15,10 @@ function move(isRight, step){
   var lineTop = $('#lineTop')
   var curWidth = lineTop.width()
   if(isRight){
-    dates.scrollLeft = dates.scrollLeft + itemWidth * step
+    $dates.animate({scrollLeft: dates.scrollLeft + itemWidth * step}, 300)
     calWidth -= step * itemWidth
   }else{
-    dates.scrollLeft = dates.scrollLeft - itemWidth * step
+    $dates.animate({scrollLeft: dates.scrollLeft - itemWidth * step}, 300)
     calWidth += step * itemWidth
   }
 }
