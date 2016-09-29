@@ -19,8 +19,13 @@
   margin: 0 15px 30px;
   position: relative;
 }
+.list-body li .img {
+  width: 100%;
+}
 .list-body li .img img {
   width: 100%;
+  max-width: 398px;
+  max-height: 254px;
 }
 .list-body li .word {
   padding: 0 10px 20px;

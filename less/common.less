@@ -66,6 +66,7 @@ h1, .h1, h2, .h2, h3, .h3{
     margin-top: 70px;
     border-radius: 6px;
     padding-top: 15px;
+    .transition()
   }
   .alertinput{
     background: #f1f1f1;
@@ -99,9 +100,50 @@ h1, .h1, h2, .h2, h3, .h3{
 }
 #share{
   position: absolute;
-  right:10px;
-  bottom:-30px;
+  padding:0 4px 4px;
+  background: #fff;
+  right:-1px;
+  bottom:-37px;
   display: none;
+}
+//分页器样式
+.pagination-group{
+  padding:10px 0;
+  ul{
+    line-height:34px;
+    text-align: center;
+    width:100%;
+    li{
+      display: inline-block;
+      margin-right: 8px;
+      margin-top: 10px;
+      a{
+        display: inline-block;
+        &:hover{
+          text-decoration: none;
+        }
+      }
+      .page-nav{
+        color: #000;
+        &:hover{
+          color: @green_2;
+        }
+      }
+      .page-btn{
+        padding: 0 14px;
+        background: #3c3c3c;
+        color: #fff;
+        &:hover{
+          color: #fff;
+          background: @green_2;
+        }
+      }
+      .cur-page{
+        color: #fff;
+        background: @green_2;
+      }
+    }
+  }
 }
 //swiper分页器颜色
 .swiper-pagination-bullet{
@@ -426,6 +468,8 @@ h1, .h1, h2, .h2, h3, .h3{
       width:100%;
       overflow: hidden;
       img{
+        max-width:412px;
+        max-height:237px;
         width:100%;
         -webkit-transition: all ease 1s;
         transition: all ease 1s;
@@ -526,6 +570,30 @@ h1, .h1, h2, .h2, h3, .h3{
   text-align: center;
   color: @gray;
   font-size: 12px;
+}
+.detail-mobile{
+  position: relative;
+  padding-left: 5px;
+  padding-right:5px;
+  text-align: left;
+  color: @grayFont;
+  .index{
+    display: inline-block;
+    width:20px;
+    height:20px;
+    border-radius: 50%;
+    background: @gray;
+    text-align: center;
+    color: #fff;
+    line-height:20px;
+    margin-right: 6px;
+  }
+  li{
+    margin-top: 20px;
+    &:hover{
+      color: @green_2;
+    }
+  }
 }
 //七大产业样式
 .chanye-page{
@@ -668,7 +736,7 @@ h1, .h1, h2, .h2, h3, .h3{
   /*导航头部*/
   .content .content-part .part-title{ font-size:24px; margin-bottom:30px; margin-top:30px;}
 
-  .stretch-part .stretch-text .description {width: 85%; margin: 0 auto; overflow: hidden;text-overflow: ellipsis; white-space: nowrap;}
+  //.stretch-part .stretch-text .description {width: 85%; margin: 0 auto; overflow: hidden;text-overflow: ellipsis; white-space: nowrap;}
   .line-limit{
     width: 85%; margin: 0 auto; overflow: hidden;text-overflow: ellipsis; white-space: nowrap;
   }
@@ -820,6 +888,11 @@ h1, .h1, h2, .h2, h3, .h3{
       a{
         margin-top: 20px;
       }
+    }
+  }
+  #alertsearch{
+    .alertbox{
+      width:90%;
     }
   }
   .to-down{
