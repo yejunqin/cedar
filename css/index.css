@@ -121,9 +121,26 @@
   margin-top: 40px;
   text-align: center;
 }
-#qrcode .qrcode .img {
-  width: 42%;
+#qrcode .qrcode .weixin-wrap {
+  margin-right: 40px;
+}
+#qrcode .qrcode .wrap {
   display: inline-block;
+}
+#qrcode .qrcode .wrap .weixin,
+#qrcode .qrcode .wrap .weibo {
+  display: inline-block;
+  background: no-repeat 0 0;
+  text-indent: 34px;
+  color: #929292;
+}
+#qrcode .qrcode .wrap .weixin {
+  background-image: url("../images/icon_weixin.png");
+}
+#qrcode .qrcode .wrap .weibo {
+  background-image: url("../images/icon_weibo.png");
+}
+#qrcode .qrcode .img {
   cursor: pointer;
   opacity: 0.5;
 }
@@ -131,16 +148,6 @@
   margin-top: 6px;
   text-align: center;
   padding-left: 36px;
-}
-#qrcode .contact a {
-  width: 100px;
-  height: 28px;
-  display: inline-block;
-  background: no-repeat 0 0;
-  color: #929292;
-}
-#qrcode .contact .weixin {
-  margin-right: 40px;
 }
 #qrcode .contact .facebook {
   background-image: url("../images/icon_facebook.png");
@@ -153,12 +160,6 @@
 }
 #qrcode .contact .google {
   background-image: url("../images/icon_google.png");
-}
-#qrcode .contact .weixin {
-  background-image: url("../images/icon_weixin.png");
-}
-#qrcode .contact .weibo {
-  background-image: url("../images/icon_weibo.png");
 }
 @media (max-width: 1400px) {
   #chanye .chanye-sub-menu .stretch-part {
@@ -228,15 +229,5 @@
   #public .wrap {
     max-width: 100%;
     top: 53% !important;
-  }
-  #qrcode .contact {
-    padding-left: 21px!important;
-  }
-  #qrcode .contact a {
-    width: 80px !important;
-    text-indent: 10px;
-  }
-  #qrcode .contact .weixin {
-    margin-right: 13px;
   }
 }

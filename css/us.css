@@ -294,6 +294,9 @@
   box-shadow: 4px 4px 4px #ccc;
   left: 2px;
 }
+#paper .box a:hover {
+  text-decoration: none;
+}
 #paper .box .img {
   width: 100%;
 }
@@ -380,6 +383,56 @@
   }
 }
 @media (max-width: 414px) {
+  #fazhan {
+    padding-bottom: 30px;
+  }
+  #fazhan .part-title {
+    padding-top: 20px;
+    margin-top: 0;
+    padding-bottom: 40px;
+    margin-bottom: 0;
+  }
+  #fazhan #timeline .issues {
+    width: 100%;
+    margin-top: 20px;
+  }
+  #fazhan #timeline .issues .box .img {
+    width: 60%;
+    float: none;
+    margin: 0 auto;
+  }
+  #fazhan #timeline .issues .box .title {
+    width: 98%;
+    float: none;
+    text-align: center;
+    margin: 10px auto 0;
+  }
+  #fazhan #timeline .issues .box .title .cn {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  #fazhan #timeline .issues .box .title .en {
+    font-size: 12px;
+  }
+  #fazhan #timeline #prev,
+  #fazhan #timeline #next {
+    width: 18px;
+    height: 30px;
+    top: 24%;
+    z-index: 99;
+  }
+  #fazhan #timeline #prev {
+    left: 4%;
+  }
+  #fazhan #timeline #next {
+    right: 4%;
+  }
+  #jianjie .part-body {
+    padding-bottom: 10px;
+  }
+  #jianjie .part-body .left {
+    padding: 0 10px;
+  }
   #jianjie .part-body .right {
     padding: 30px 0 0;
   }
@@ -397,13 +450,36 @@
     width: 58%;
     padding-left: 4px;
   }
+  #jianjie .part-body .list {
+    margin-top: 20px;
+  }
   #jianjie .part-body .list li {
     width: 20%;
   }
+  #linghun .part-body .detail {
+    margin-top: 20px;
+    font-size: 13px;
+    text-align: left;
+    padding: 0 10px;
+  }
+  #magazine {
+    margin-top: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
   #magazine ul li {
-    width: 60%;
+    width: 90%;
+  }
+  #paper {
+    padding-bottom: 30px;
+  }
+  #paper .paper-title {
+    margin-bottom: 20px;
   }
   #paper .paper-title .img {
     width: 50%;
+  }
+  #paper .paper-title .btn-nav {
+    margin-top: 20px;
   }
 }

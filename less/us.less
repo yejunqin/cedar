@@ -309,6 +309,9 @@
       box-shadow: 4px 4px 4px #ccc;
       left:2px;
     }
+    a:hover{
+      text-decoration: none;
+    }
     .img{
       width:100%;
       img{
@@ -424,10 +427,58 @@
 }
 @media (max-width: 414px){
   #fazhan{
-
+    padding-bottom:30px;
+    .part-title{
+      padding-top:20px;
+      margin-top: 0;
+      padding-bottom:40px;
+      margin-bottom: 0;
+    }
+    #timeline{
+      .issues{
+        width:100%;
+        margin-top: 20px;
+        .box{
+          .img{
+            width:60%;
+            float: none;
+            margin: 0 auto;
+          }
+          .title{
+            width:98%;
+            float: none;
+            text-align: center;
+            margin: 10px auto 0;
+            .cn{
+              font-size: 14px;
+              line-height:24px;
+            }
+            .en{
+              font-size: 12px;
+            }
+          }
+        }
+      }
+      #prev, #next{
+        width: 18px;
+        height:30px;
+        top:24%;
+        z-index:99;
+      }
+      #prev{
+        left:4%;
+      }
+      #next{
+        right:4%;
+      }
+    }
   }
   #jianjie{
     .part-body{
+      padding-bottom:10px;
+      .left{
+        padding:0 10px;
+      }
       .right{
         padding: 30px 0 0;
         ul{
@@ -448,23 +499,42 @@
         }
       }
       .list{
+        margin-top: 20px;
         li{
           width:20%;
         }
       }
     }
   }
+  #linghun{
+    .part-body{
+      .detail{
+        margin-top: 20px;
+        font-size: 13px;
+        text-align: left;
+        padding:0 10px;
+      }
+    }
+  }
   #magazine{
+    margin-top: 20px;
+    padding-top:30px;
+    padding-bottom:30px;
     ul{
       li{
-        width:60%;
+        width:90%;
       }
     }
   }
   #paper{
+    padding-bottom:30px;
     .paper-title{
+      margin-bottom: 20px;
       .img{
         width:50%;
+      }
+      .btn-nav{
+        margin-top: 20px;
       }
     }
   }

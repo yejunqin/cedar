@@ -344,6 +344,7 @@ h1, .h1, h2, .h2, h3, .h3{
     top:0;
     left:0;
     .wrap{
+      max-width:100%;
       display: inline-block;
       position: relative;
       top:46%;
@@ -687,9 +688,13 @@ h1, .h1, h2, .h2, h3, .h3{
         padding-right:2%;
       }
     }
+
   }
 }
 @media (max-width: 414px){
+  h1, h2, h3{
+    margin-top: 16px;
+  }
   .swiper-pagination{
     .swiper-pagination-bullet{
       width:4px;
@@ -707,7 +712,7 @@ h1, .h1, h2, .h2, h3, .h3{
     }
   }
   .stretch-part{
-    padding-bottom:65% !important;
+    padding-bottom:70% !important;
     .stretch-text{
       .img{
         span{
@@ -716,10 +721,15 @@ h1, .h1, h2, .h2, h3, .h3{
         }
       }
       .title{
-        font-size: 16px!important;
+        font-size: 18px!important;
+      }
+      .sub-title{
+        font-size: 15px!important;
       }
       .description{
+        width:96%;
         font-size: 12px!important;
+        margin: 0 auto;
       }
       .play{
         width: 27px !important;;
@@ -755,18 +765,28 @@ h1, .h1, h2, .h2, h3, .h3{
         width:98%;
         padding-right:0;
         .title{
-          text-align: left;
-          font-size: 24px;
+          text-align: center;
+          font-size: 20px;
           margin-top: 0;
         }
         .description{
+          text-align: left;
           font-size: 13px;
           line-height:20px;
-          margin-top: 28px;
+          margin-top: 20px;
         }
       }
       .right{
         width:80%;
+      }
+    }
+    .stretch-part{
+      .stretch-text{
+        .description{
+          margin-top: 20px;
+          overflow: auto;
+          white-space:normal;
+        }
       }
     }
     .chanye-description{
@@ -774,8 +794,13 @@ h1, .h1, h2, .h2, h3, .h3{
       margin-top: 16px;
       font-size: 13px;
       line-height:18px;
-      margin-bottom: -20px;
     }
+  }
+  .underline-left::after{
+    width:40px;
+    margin-left: -20px;
+    left:50%;
+    top:100%;
   }
   #dongtai{
     .dongtai-box{
@@ -791,5 +816,16 @@ h1, .h1, h2, .h2, h3, .h3{
         padding-right: 8px !important;;
       }
     }
+    .more{
+      a{
+        margin-top: 20px;
+      }
+    }
+  }
+  .to-down{
+    width:20px;
+    height:20px;
+    margin-left: -10px;
+    bottom:6px;
   }
 }

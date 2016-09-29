@@ -152,9 +152,25 @@
   margin-top: 40px;
   text-align: center;
   .qrcode{
-    .img{
-      width:42%;
+    .weixin-wrap{
+      margin-right: 40px;
+    }
+    .wrap{
       display: inline-block;
+      .weixin, .weibo{
+        display: inline-block;
+        background: no-repeat 0 0;
+        text-indent:34px;
+        color: #929292;
+      }
+      .weixin{
+        background-image: url("../images/icon_weixin.png");
+      }
+      .weibo{
+        background-image: url("../images/icon_weibo.png");
+      }
+    }
+    .img{
       cursor: pointer;
       opacity:0.5;
     }
@@ -163,16 +179,6 @@
     margin-top: 6px;
     text-align: center;
     padding-left: 36px;
-    a{
-      width:100px;
-      height:28px;
-      display: inline-block;
-      background: no-repeat 0 0;
-      color: #929292;
-    }
-    .weixin{
-      margin-right: 40px;
-    }
     .facebook{
       background-image: url("../images/icon_facebook.png");
     }
@@ -184,12 +190,6 @@
     }
     .google{
       background-image: url("../images/icon_google.png");
-    }
-    .weixin{
-      background-image: url("../images/icon_weixin.png");
-    }
-    .weibo{
-      background-image: url("../images/icon_weibo.png");
     }
   }
 }
@@ -274,18 +274,6 @@
     .wrap{
       max-width:100%;
       top:53% !important;
-    }
-  }
-  #qrcode{
-    .contact{
-      padding-left: 21px!important;
-      a{
-        width: 80px !important;
-        text-indent:10px;
-      }
-      .weixin{
-        margin-right: 13px;
-      }
     }
   }
 }

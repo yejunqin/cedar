@@ -389,6 +389,7 @@ h3,
   left: 0;
 }
 .stretch-part .stretch-text .wrap {
+  max-width: 100%;
   display: inline-block;
   position: relative;
   top: 46%;
@@ -724,6 +725,11 @@ h3,
   }
 }
 @media (max-width: 414px) {
+  h1,
+  h2,
+  h3 {
+    margin-top: 16px;
+  }
   .swiper-pagination .swiper-pagination-bullet {
     width: 4px;
     height: 4px;
@@ -737,17 +743,22 @@ h3,
     padding-top: 10px !important;
   }
   .stretch-part {
-    padding-bottom: 65% !important;
+    padding-bottom: 70% !important;
   }
   .stretch-part .stretch-text .img span {
     width: 60px !important;
     height: 60px !important;
   }
   .stretch-part .stretch-text .title {
-    font-size: 16px!important;
+    font-size: 18px!important;
+  }
+  .stretch-part .stretch-text .sub-title {
+    font-size: 15px!important;
   }
   .stretch-part .stretch-text .description {
+    width: 96%;
     font-size: 12px!important;
+    margin: 0 auto;
   }
   .stretch-part .stretch-text .play {
     width: 27px !important;
@@ -789,24 +800,35 @@ h3,
     padding-right: 0;
   }
   .chanye-page .chanye-detail .left .title {
-    text-align: left;
-    font-size: 24px;
+    text-align: center;
+    font-size: 20px;
     margin-top: 0;
   }
   .chanye-page .chanye-detail .left .description {
+    text-align: left;
     font-size: 13px;
     line-height: 20px;
-    margin-top: 28px;
+    margin-top: 20px;
   }
   .chanye-page .chanye-detail .right {
     width: 80%;
+  }
+  .chanye-page .stretch-part .stretch-text .description {
+    margin-top: 20px;
+    overflow: auto;
+    white-space: normal;
   }
   .chanye-page .chanye-description {
     width: 96%;
     margin-top: 16px;
     font-size: 13px;
     line-height: 18px;
-    margin-bottom: -20px;
+  }
+  .underline-left::after {
+    width: 40px;
+    margin-left: -20px;
+    left: 50%;
+    top: 100%;
   }
   #dongtai .dongtai-box p.date {
     padding-left: 8px!important;
@@ -818,5 +840,14 @@ h3,
   #dongtai .dongtai-box .description {
     padding-left: 8px!important;
     padding-right: 8px !important;
+  }
+  #dongtai .more a {
+    margin-top: 20px;
+  }
+  .to-down {
+    width: 20px;
+    height: 20px;
+    margin-left: -10px;
+    bottom: 6px;
   }
 }
