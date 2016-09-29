@@ -378,31 +378,41 @@
 }
 #shehui .part-body {
   margin-top: 80px;
-  height: 592px;
+  height: 522px;
   width: 100%;
 }
 #shehui .part-body .list {
-  margin: 100px auto 0;
+  margin-top: 100px;
 }
 #shehui .part-body .list .item {
   color: #fff;
   text-align: center;
   display: inline-block;
 }
+#shehui .part-body .list .item .wrap {
+  width: 60%;
+  margin: 0 auto;
+}
 #shehui .part-body .list .item .img {
-  width: 70%;
+  width: 80%;
   display: inline-block;
 }
 #shehui .part-body .list .item .title {
   font-size: 26px;
-  margin-top: 9%;
+  margin-top: 10px;
 }
 #shehui .part-body .list .item .description {
-  margin: 6% auto 0;
-  font-size: 18px;
+  margin: 13px auto 0;
+  font-size: 16px;
   line-height: 28px;
-  width: 60%;
   color: #d4d6d2;
+}
+#shehui .detail-word {
+  margin-top: 50px;
+  font-size: 14px;
+  letter-spacing: 2px;
+  line-height: 24px;
+  color: #888;
 }
 @media (max-width: 1400px) {
   #yuanjing .detail .item {
