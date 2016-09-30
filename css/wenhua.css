@@ -733,6 +733,9 @@
     padding-bottom: 950px !important;
     margin-top: 20px;
   }
+  #jiazhi .stretch-img {
+    background-position: 50% 0;
+  }
   #jiazhi .item-wrap {
     width: 100%;
   }

@@ -7,7 +7,7 @@
     margin:0 auto;
     position: relative;
     #lineBot, #lineTop{
-      width:102%;
+      width:99%;
       height:18px;
       border-radius: 10px;
       position: absolute;
@@ -19,7 +19,7 @@
     }
     #lineTop{
       background: @green_2;
-      width:90px;
+      width:70px;
       .transition()
     }
   }
@@ -47,7 +47,7 @@
           background: url("../images/us/fazhan_02.png") 0 0 / contain;
           position: absolute;
           top:100px;
-          left:23px;
+          left:10px;
           transition: ease all .5s;
         }
         .year{
@@ -68,7 +68,7 @@
           border-radius: 50%;
           background: #a7aaaf;
           top: -33px;
-          left:20px;
+          left:6px;
           z-index:99;
           .transition();
           cursor: pointer;
@@ -375,6 +375,16 @@
     .part-body{
       .right{
         padding:78px 30px 0;
+      }
+    }
+  }
+}
+@media (max-width: 1367px){
+  #linghun{
+    .part-body{
+      .detail{
+        text-align: left;
+        text-indent:2em;
       }
     }
   }

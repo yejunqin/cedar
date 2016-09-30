@@ -33,6 +33,7 @@ $(document).ready(function(){
     onSlideChangeStart: function(swiper){
       var index = swiper.activeIndex
       var realIndex = 0
+      // 包含汽车板块
       if(index > 2 && index < 10){
         realIndex = index - 3
       }else if(index === 10){
@@ -42,8 +43,19 @@ $(document).ready(function(){
       }else if(index === 0){
         realIndex = 4
       }
-      console.log(index, realIndex)
-      chanyeSubMenu.slideTo(realIndex)
+      //去掉汽车板块
+      var realIndexWithoutCar = 0
+      if(index > 2 && index < 9){
+        realIndexWithoutCar = index - 3
+      }else if(index === 9){
+        realIndexWithoutCar = 0
+      }else if (index === 2){
+        realIndexWithoutCar = 6
+      }else if(index === 0){
+        realIndexWithoutCar = 3
+      }
+      console.log(index, realIndexWithoutCar)
+      chanyeSubMenu.slideTo(realIndexWithoutCar)
     }
   })
 })
