@@ -155,7 +155,7 @@ h3,
   display: none;
 }
 .swiper-pagination-bullet {
-  background: #fff;
+  background: #ccc;
   opacity: 1;
 }
 .swiper-pagination-bullet-active {

@@ -2,6 +2,10 @@
   background: #424954;
   height: 400px;
 }
+#banner {
+  border-bottom: 1px solid #ededed;
+  padding-bottom: 40px;
+}
 #banner img {
   width: 100%;
 }
@@ -17,6 +21,9 @@
 }
 #banner .video-wrap .img img {
   width: 100%;
+}
+#chanye .part-title {
+  margin-top: 30px;
 }
 #chanye .chanye-sub-menu .chanye01 .stretch-img {
   background: url("../images/chanye_01.jpg") no-repeat 0 0 / cover;
@@ -43,6 +50,14 @@
   display: inline-block;
   width: 99px;
   height: 90px;
+}
+#chanye .chanye-sub-menu .link {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
 }
 #chanye .chanye-menu {
   position: relative;

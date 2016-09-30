@@ -269,6 +269,7 @@
   color: #888;
 }
 #paper {
+  padding-top: 20px;
   padding-bottom: 60px;
 }
 #paper .paper-title {
