@@ -4,23 +4,29 @@
 $(document).ready(function(){
   var header = $('#header')
   var alertSearch = $('#alertsearch')
+  var alertBox = alertSearch.find('.alertbox')
   var share = $('#share')
   header.on('click', '.search', function(){
-    alertSearch.show()
+    alertSearch.fadeIn(300)
   })
     .on('click', '.share', function(){
-      share.show()
+      share.slideToggle()
     })
-  $(document).on('keydown', function(e){
-    var code = e.keyCode
-    if(code === 27){
-      if(alertSearch.is(':visible')){
-        alertSearch.hide()
-      }else if(share.is(':visible')){
-        share.hide()
-      }
+  $('#alertsearch').on('click', function(e){
+    if(e.target.id === 'alertsearch'){
+      alertSearch.fadeOut(300)
     }
   })
+  //$(document).on('keydown', function(e){
+  //  var code = e.keyCode
+  //  if(code === 27){
+  //    if(alertSearch.is(':visible')){
+  //      alertSearch.hide()
+  //    }else if(share.is(':visible')){
+  //      share.hide()
+  //    }
+  //  }
+  //})
   $('.calculate-middle').each(function(idx, ele){
     var $ele = $(ele)
     console.log($ele.height(),-$ele.width())
