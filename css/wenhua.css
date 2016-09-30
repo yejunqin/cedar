@@ -106,7 +106,8 @@
   font-size: 16px;
   line-height: 25px;
   color: #d4d6d2;
-  margin-top: 13px;
+  margin: 13px auto 0;
+  width: 60%;
 }
 #qide {
   margin-top: 50px;
@@ -520,6 +521,9 @@
   #yuanjing .detail .item .description {
     font-size: 16px;
   }
+  #jiazhi {
+    padding-bottom: 65% !important;
+  }
   #jiazhi .sub-title {
     margin-bottom: 10px;
     padding-top: 24px;
@@ -532,7 +536,11 @@
     width: 96%;
   }
   #shehui .part-body {
-    height: 550px;
+    height: inherit!important;
+    padding-bottom: 30px;
+  }
+  #shehui .part-body .list {
+    margin-top: 30px;
   }
   #shehui .part-body .list .item .description {
     width: 96%;
@@ -675,11 +683,6 @@
     bottom: -70px;
   }
 }
-@media (max-width: 700px) {
-  #jiazhi {
-    padding-bottom: 60% !important;
-  }
-}
 @media (max-width: 414px) {
   #shiming {
     margin-top: 50px;
@@ -730,6 +733,9 @@
     padding-bottom: 950px !important;
     margin-top: 20px;
   }
+  #jiazhi .item-wrap {
+    width: 100%;
+  }
   #jiazhi .item {
     width: 80%;
     margin: 30px auto 0;
@@ -753,6 +759,10 @@
   }
   #shehui .part-body .list {
     margin-top: 20px;
+  }
+  #shehui .part-body .list .item {
+    width: 100%;
+    margin-top: 0;
   }
   #shehui .part-body .list .item .wrap {
     width: 80%;
