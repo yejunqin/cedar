@@ -246,8 +246,9 @@
     right: 15px;
   }
   #dongtai .more a {
-    width: 100%;
+    width: 93%;
     margin: 15px auto 0;
+    font-size: 16px;
   }
   #public .stretch-text .description {
     width: 90%;

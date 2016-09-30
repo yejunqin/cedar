@@ -73,13 +73,16 @@
 }
 @media (max-width: 414px) {
   #target .part-title {
-    margin-top: 20px;
+    margin-top: 30px;
+    margin-bottom: 48px;
   }
   #target .detail {
     margin-top: 30px!important;
   }
   #target .detail .title {
     font-size: 20px!important;
+    margin-top: 40px;
+    margin-bottom: 23px;
   }
   #target .detail .description {
     margin: 0 auto;
@@ -87,5 +90,13 @@
     text-align: left;
     font-size: 13px!important;
     line-height: 24px !important;
+    padding-bottom: 5px;
+  }
+  #target ul li {
+    margin-bottom: 10px;
+  }
+  #target ul li .box {
+    width: 80% !important;
+    margin-left: 22% !important;
   }
 }

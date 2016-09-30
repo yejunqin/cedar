@@ -179,9 +179,12 @@
   padding: 45px 40px 0 40px;
 }
 #jianjie .part-body .left .title {
-  font-size: 45px;
+  font-size: 28px;
   font-family: Arial;
-  letter-spacing: 1px;
+  letter-spacing: 0;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 35px;
 }
 #jianjie .part-body .left p {
   color: #808080;
@@ -385,7 +388,7 @@
 }
 @media (max-width: 414px) {
   #fazhan {
-    padding-bottom: 30px;
+    padding-bottom: 15px;
   }
   #fazhan .part-title {
     padding-top: 20px;
@@ -395,7 +398,7 @@
   }
   #fazhan #timeline .issues {
     width: 100%;
-    margin-top: 20px;
+    margin-top: 15px;
   }
   #fazhan #timeline .issues .box .img {
     width: 60%;
@@ -411,9 +414,12 @@
   #fazhan #timeline .issues .box .title .cn {
     font-size: 14px;
     line-height: 24px;
+    width: 90%;
+    margin: 0 auto;
   }
   #fazhan #timeline .issues .box .title .en {
     font-size: 12px;
+    margin-top: 20px;
   }
   #fazhan #timeline #prev,
   #fazhan #timeline #next {
@@ -439,10 +445,16 @@
   }
   #jianjie .part-body .right ul {
     line-height: 60px;
+    border-top: 1px solid #42bd7f;
+  }
+  #jianjie .part-body .right ul li {
+    border-bottom: 1px solid #42bd7f;
   }
   #jianjie .part-body .right ul li .number {
     padding-right: 4px;
     width: 40%;
+    text-align: left;
+    padding-left: 20px;
   }
   #jianjie .part-body .right ul li .number span {
     font-size: 30px;
@@ -453,15 +465,18 @@
   }
   #jianjie .part-body .list {
     margin-top: 20px;
+    padding-bottom: 18px;
   }
   #jianjie .part-body .list li {
-    width: 20%;
+    width: 21%;
+    margin-top: 18px;
   }
   #linghun .part-body .detail {
     margin-top: 20px;
     font-size: 13px;
     text-align: left;
     padding: 0 10px;
+    line-height: 24px;
   }
   #magazine {
     margin-top: 20px;
@@ -469,7 +484,9 @@
     padding-bottom: 30px;
   }
   #magazine ul li {
-    width: 90%;
+    width: 95%;
+    padding-bottom: 10px;
+    padding-top: 10px;
   }
   #paper {
     padding-bottom: 30px;
@@ -478,9 +495,12 @@
     margin-bottom: 20px;
   }
   #paper .paper-title .img {
-    width: 50%;
+    width: 40%;
+    padding-top: 20px;
+    padding-bottom: 10px;
   }
   #paper .paper-title .btn-nav {
-    margin-top: 20px;
+    text-align: center;
+    margin-top: 25px;
   }
 }

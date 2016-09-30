@@ -288,24 +288,31 @@
   #rencai .rencai-axis .part-body {
     padding-top: 10px !important;
     height: inherit!important;
-    padding-bottom: 20px;
+    padding-bottom: 35px;
   }
   #rencai .hehuoren {
     padding-top: 20px !important;
   }
   #rencai .hehuoren .title {
     padding-bottom: 50px !important;
+    font-size: 24px;
+    margin-top: 23px;
   }
   #rencai .hehuoren .part-body {
     height: inherit!important;
     padding-top: 0 !important;
   }
   #rencai .hehuoren .part-body .sub-title-cn {
-    margin-top: 22px!important;
+    margin-top: 30px!important;
     font-size: 16px!important;
+    line-height: 26px;
   }
   #rencai .hehuoren .part-body .sub-title-en {
-    font-size: 16px!important;
+    font-size: 14px!important;
+    letter-spacing: 0;
+    width: 90%;
+    margin: 18px auto 22px;
+    line-height: 21px;
   }
   #rencai .hehuoren .part-body .description {
     width: 96% !important;
@@ -320,13 +327,26 @@
     padding-top: 0;
   }
   #rencai .zhaopin .part-body .sub-title-cn {
-    margin-top: 22px;
+    margin-top: 32px;
     font-size: 16px;
   }
   #rencai .zhaopin .part-body .sub-title-en {
-    font-size: 16px;
+    font-size: 14px;
+    letter-spacing: 0;
+    width: 90%;
+    margin: 18px auto 23px;
+    line-height: 21px;
   }
   #rencai .zhaopin .part-body .list {
     margin-top: 0;
+  }
+  #rencai .zhaopin .part-body .list .more {
+    margin-top: 16px;
+  }
+  #rencai #list1 .title {
+    font-size: 21px!important;
+  }
+  #rencai #list1 .sub-title {
+    padding-top: 12px;
   }
 }

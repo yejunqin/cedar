@@ -596,10 +596,10 @@ h3,
 }
 #copyright {
   margin-top: 14px;
-  padding-bottom: 20px;
   text-align: center;
   color: #b6b6b6;
   font-size: 12px;
+  padding: 0 10px;
 }
 .detail-mobile {
   position: relative;
@@ -607,6 +607,10 @@ h3,
   padding-right: 5px;
   text-align: left;
   color: #888;
+  width: 96%;
+  margin: 0 auto;
+  font-size: 13px;
+  line-height: 24px;
 }
 .detail-mobile .index {
   display: inline-block;
@@ -621,6 +625,8 @@ h3,
 }
 .detail-mobile li {
   margin-top: 20px;
+  font-size: 13px;
+  width: 96%;
 }
 .detail-mobile li:hover {
   color: #42bd7f;
@@ -764,7 +770,7 @@ h3,
   /*导航头部*/
   .content .content-part .part-title {
     font-size: 24px;
-    margin-bottom: 30px;
+    margin-bottom: 45px;
     margin-top: 30px;
   }
   .line-limit {
@@ -806,6 +812,10 @@ h3,
   .stretch-part {
     padding-bottom: 70% !important;
   }
+  .stretch-part .stretch-text {
+    width: 90%;
+    left: 4%;
+  }
   .stretch-part .stretch-text .img span {
     width: 60px !important;
     height: 60px !important;
@@ -817,9 +827,10 @@ h3,
     font-size: 15px!important;
   }
   .stretch-part .stretch-text .description {
-    width: 96%;
+    width: 90%;
     font-size: 12px!important;
-    margin: 0 auto;
+    margin: 15px auto 0;
+    line-height: 20px;
   }
   .stretch-part .stretch-text .play {
     width: 27px !important;
@@ -868,8 +879,9 @@ h3,
   .chanye-page .chanye-detail .left .description {
     text-align: left;
     font-size: 13px;
-    line-height: 20px;
-    margin-top: 20px;
+    line-height: 24px;
+    width: 96%;
+    margin: 26px auto 20px;
   }
   .chanye-page .chanye-detail .right {
     width: 80%;
@@ -880,16 +892,20 @@ h3,
     white-space: normal;
   }
   .chanye-page .chanye-description {
-    width: 96%;
+    width: 90%;
     margin-top: 16px;
     font-size: 13px;
-    line-height: 18px;
+    line-height: 24px;
   }
   .underline-left::after {
     width: 40px;
     margin-left: -20px;
     left: 50%;
     top: 100%;
+  }
+  #dongtai {
+    border-top: 1px solid #ededed;
+    padding-bottom: 30px;
   }
   #dongtai .dongtai-box p.date {
     padding-left: 8px!important;
@@ -912,6 +928,6 @@ h3,
     width: 20px;
     height: 20px;
     margin-left: -10px;
-    bottom: 6px;
+    bottom: 18px;
   }
 }

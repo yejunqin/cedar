@@ -38,7 +38,13 @@
     padding-bottom: 68% !important;
   }
   #wenlv .chanye-icon .stretch-part .wrap {
-    top: 10%;
+    top: 18%;
     width: 100%;
+  }
+  #wenlv .chanye-icon .icon-group img:not(:first-child) {
+    margin-top: 23px!important;
+  }
+  #wenlv .title {
+    padding-top: 10px;
   }
 }
