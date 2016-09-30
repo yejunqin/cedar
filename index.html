@@ -20,6 +20,7 @@
 				title.className = 'img scale'
 				window.setTimeout(function(){
 					var video = document.getElementById('cedarVideo')
+					$('#videoBg').fadeOut(200)
 					video.play()
 				}, 3000)
 			}
@@ -52,7 +53,7 @@
 								<li class="nav-li">
 									<a href="./us.html">我们</a>
 									<ul class="sub-nav">
-										<li><a href="./us.html#fazhan">历程</a></li>
+										<li><a href="./us.html">历程</a></li>
 										<li><a href="./us.html#jianjie">简介</a></li>
 										<li><a href="./us.html#linghun">灵魂</a></li>
 										<li><a href="./us.html#dongtai">新闻</a></li>
@@ -61,18 +62,18 @@
 								<li class="nav-li">
 									<a href="zhanlue.html">战略</a>
 									<ul class="sub-nav">
-										<li><a href="./zhanlue.html#method">方法</a></li>
+										<li><a href="./zhanlue.html">方法</a></li>
 										<li><a href="./zhanlue.html#target">目标</a></li>
 									</ul>
 								</li>
 								<li class="nav-li">
-									<a href="./qiche.html">产业</a>
+									<a href="./gongtongyun.html">产业</a>
 									<ul class="sub-nav">
 										<li><a href="./gongtongyun.html">大宗商品供应链集团</a></li>
-										<li><a href="./shequ.html">社区运营集团</a></li>
 										<li><a href="./wenlv.html">文化旅游集团</a></li>
-										<li><a href="./chengtou.html">城投发展集团</a></li>
+										<li><a href="./shequ.html">社区运营集团</a></li>
 										<li><a href="./dichan.html">君华地产集团</a></li>
+										<li><a href="./chengtou.html">城投发展集团</a></li>
 										<li><a href="./jinrong.html">金融服务集团</a></li>
 										<li><a href="./qiche.html">汽车集团</a></li>
 									</ul>
@@ -80,7 +81,7 @@
 								<li class="nav-li">
 									<a href="./wenhua.html">文化</a>
 									<ul class="sub-nav">
-										<li><a href="./wenhua.html#yuanjing">愿景</a></li>
+										<li><a href="./wenhua.html">愿景</a></li>
 										<li><a href="./wenhua.html#shiming">使命</a></li>
 										<li><a href="./wenhua.html#jiazhi">价值观</a></li>
 										<li><a href="./wenhua.html#qide">七德·七戒</a></li>
@@ -90,7 +91,7 @@
 								<li class="nav-li">
 									<a href="./rencai.html">人才</a>
 									<ul class="sub-nav">
-										<li><a href="./rencai.html#list1">人才观</a></li>
+										<li><a href="./rencai.html">人才观</a></li>
 										<li><a href="./rencai.html#list2">合伙人计划</a></li>
 										<li><a href="./rencai.html#list3">招聘</a></li>
 									</ul>
@@ -124,7 +125,7 @@
 						<li>
 							<a href="./us.html">我们</a>
 							<ul>
-								<li><a href="./us.html#fazhan">历程</a></li>
+								<li><a href="./us.html">历程</a></li>
 								<li><a href="./us.html#jianjie">简介</a></li>
 								<li><a href="./us.html#linghun">灵魂</a></li>
 								<li><a href="./us.html#dongtai">新闻</a></li>
@@ -133,7 +134,7 @@
 						<li>
 							<a href="./zhanlue.html">战略</a>
 							<ul>
-								<li><a href="./zhanlue.html#method">方法</a></li>
+								<li><a href="./zhanlue.html">方法</a></li>
 								<li><a href="./zhanlue.html#target">目标</a></li>
 							</ul>
 						</li>
@@ -152,7 +153,7 @@
 						<li>
 							<a href="./wenhua.html">文化</a>
 							<ul>
-								<li><a href="./wenhua.html#yuanjing">愿景</a></li>
+								<li><a href="./wenhua.html">愿景</a></li>
 								<li><a href="./wenhua.html#shiming">使命</a></li>
 								<li><a href="./wenhua.html#jiazhi">价值观</a></li>
 								<li><a href="./wenhua.html#qide">七德·七戒</a></li>
@@ -162,7 +163,7 @@
 						<li>
 							<a href="./rencai.html">人才</a>
 							<ul>
-								<li><a href="./rencai.html#list1">人才观</a></li>
+								<li><a href="./rencai.html">人才观</a></li>
 								<li><a href="./rencai.html#list2">合伙人计划</a></li>
 								<li><a href="./rencai.html#list3">招聘</a></li>
 							</ul>
@@ -179,7 +180,8 @@
 							<div class="swiper-slide">
 								<!--<a href="#"><img src="./images/banner_1.jpg" alt=""></a>-->
 								<div class="video-wrap">
-									<video oncanplay="playVideo()" id="cedarVideo" preload src="./videos/cedar.mp4" width="100%"></video>
+									<video oncanplay="playVideo()" id="cedarVideo" preload src="./videos/cedar_2.mp4" width="100%"></video>
+									<div id="videoBg"></div>
 									<div id="videoTitle" class="img">
 										<img src="./images/video_title.png" alt="">
 									</div>
@@ -201,36 +203,20 @@
 					<div class="part-body">
 						<div class="swiper-container chanye-sub-menu">
 							<div class="swiper-wrapper">
-								<div class="swiper-slide swiper-no-swiping chanye01">
+								<div class="swiper-slide swiper-no-swiping chanye07">
 									<div class="stretch-part">
 										<div class="stretch-img"></div>
 										<div class="stretch-text">
 											<div class="wrap">
 												<div class="img">
-													<span><img src="./images/chanye_logo_01.png" alt=""></span>
+													<span><img src="./images/gongtongyun_icon.png" alt=""></span>
 												</div>
-												<h2 class="title">雪松控股汽车集团</h2>
-												<p class="description">专门从事商品闭环供应链管理平台</p>
+												<h2 class="title">供通云供应链集团</h2>
+												<p class="description">中国领先的供应链管理平台</p>
 												<div class="play"></div>
 											</div>
 										</div>
-										<a target="_blank" href="qiche.html" class="link"></a>
-									</div>
-								</div>
-								<div class="swiper-slide swiper-no-swiping chanye02">
-									<div class="stretch-part">
-										<div class="stretch-img"></div>
-										<div class="stretch-text">
-											<div class="wrap">
-												<div class="img">
-													<span><img src="./images/shequ_icon.png" alt=""></span>
-												</div>
-												<h2 class="title">社区服务集团</h2>
-												<p class="description">雪松物业管理平台——君华物业以及社区新兴服务平台——大白管家</p>
-												<div class="play"></div>
-											</div>
-										</div>
-										<a target="_blank" href="shequ.html" class="link"></a>
+										<a target="_blank" href="gongtongyun.html" class="link"></a>
 									</div>
 								</div>
 								<div class="swiper-slide swiper-no-swiping chanye03">
@@ -241,12 +227,28 @@
 												<div class="img">
 													<span><img src="./images/lvyou_icon.png" alt=""></span>
 												</div>
-												<h2 class="title">文化旅游集团</h2>
-												<p class="description">中国文旅第一品牌，整合优质旅游资源、打造主题旅游小镇、旅游管理输出</p>
+												<h2 class="title">雪松文化旅游集团</h2>
+												<p class="description">全面覆盖国内核心旅游资源，服务中国10亿旅游人口</p>
 												<div class="play"></div>
 											</div>
 										</div>
 										<a target="_blank" href="wenlv.html" class="link"></a>
+									</div>
+								</div>
+								<div class="swiper-slide swiper-no-swiping chanye02">
+									<div class="stretch-part">
+										<div class="stretch-img"></div>
+										<div class="stretch-text">
+											<div class="wrap">
+												<div class="img">
+													<span><img src="./images/shequ_icon.png" alt=""></span>
+												</div>
+												<h2 class="title">雪松社区运营集团</h2>
+												<p class="description">君华物业，2000万平方管理规模<br/>大白管家，创新的社区O2O平台</p>
+												<div class="play"></div>
+											</div>
+										</div>
+										<a target="_blank" href="shequ.html" class="link"></a>
 									</div>
 								</div>
 								<div class="swiper-slide swiper-no-swiping chanye04">
@@ -257,8 +259,8 @@
 												<div class="img">
 													<span><img src="./images/dichan_icon.png" alt=""></span>
 												</div>
-												<h2 class="title">君华地产集团</h2>
-												<p class="description">中国房地产百强企业 从事住宅和商业全产品线开发</p>
+												<h2 class="title">君华地产</h2>
+												<p class="description">中国房地产百强企业</p>
 												<div class="play"></div>
 											</div>
 										</div>
@@ -273,8 +275,8 @@
 												<div class="img">
 													<span><img src="./images/chengtou_icon.png" alt=""></span>
 												</div>
-												<h2 class="title">城投发展集团</h2>
-												<p class="description">致力于民生工程和公共服务产品转型升级</p>
+												<h2 class="title">雪松城市投资发展集团</h2>
+												<p class="description">中国最具竞争力的PPP项目政府服务提供商之一</p>
 												<div class="play"></div>
 											</div>
 										</div>
@@ -289,28 +291,28 @@
 												<div class="img">
 													<span><img src="./images/jinrong_icon.png" alt=""></span>
 												</div>
-												<h2 class="title">金融服务集团</h2>
-												<p class="description">广州银行、广州农村商业银行前十大股东，涵盖财富管理、基金管理等多个领域</p>
+												<h2 class="title">雪松金融服务集团</h2>
+												<p class="description">实力雄厚的综合性产业金融服务集团</p>
 												<div class="play"></div>
 											</div>
 										</div>
 										<a target="_blank" href="jinrong.html" class="link"></a>
 									</div>
 								</div>
-								<div class="swiper-slide swiper-no-swiping chanye07">
+								<div class="swiper-slide swiper-no-swiping chanye01">
 									<div class="stretch-part">
 										<div class="stretch-img"></div>
 										<div class="stretch-text">
 											<div class="wrap">
 												<div class="img">
-													<span><img src="./images/gongtongyun_icon.png" alt=""></span>
+													<span><img src="./images/chanye_logo_01.png" alt=""></span>
 												</div>
-												<h2 class="title">大宗商品供应链集团</h2>
-												<p class="description">上下游企业、仓储、物流、资讯、期货、保险于一体的大宗商品闭环供应链管理平台</p>
+												<h2 class="title">雪松汽车服务集团</h2>
+												<p class="description">拥有地域核心优势的车后全服务平台</p>
 												<div class="play"></div>
 											</div>
 										</div>
-										<a target="_blank" href="gongtongyun.html" class="link"></a>
+										<a target="_blank" href="qiche.html" class="link"></a>
 									</div>
 								</div>
 							</div>
@@ -322,17 +324,9 @@
 										<div class="swiper-slide">
 											<div class="chanye-box">
 												<div class="img">
-													<img src="./images/chanye_logo_01.png" alt="">
+													<img src="./images/gongtongyun_icon.png" alt="">
 												</div>
-												<h4>汽车集团</h4>
-											</div>
-										</div>
-										<div class="swiper-slide">
-											<div class="chanye-box">
-												<div class="img">
-													<img src="./images/chanye_logo_02.png" alt="">
-												</div>
-												<h4>社区服务集团</h4>
+												<h4>供通云</h4>
 											</div>
 										</div>
 										<div class="swiper-slide">
@@ -341,6 +335,14 @@
 													<img src="./images/chanye_logo_03.png" alt="">
 												</div>
 												<h4>文化旅游集团</h4>
+											</div>
+										</div>
+										<div class="swiper-slide">
+											<div class="chanye-box">
+												<div class="img">
+													<img src="./images/chanye_logo_02.png" alt="">
+												</div>
+												<h4>社区服务集团</h4>
 											</div>
 										</div>
 										<div class="swiper-slide">
@@ -370,9 +372,9 @@
 										<div class="swiper-slide">
 											<div class="chanye-box">
 												<div class="img">
-													<img src="./images/gongtongyun_icon.png" alt="">
+													<img src="./images/chanye_logo_01.png" alt="">
 												</div>
-												<h4>供通云</h4>
+												<h4>汽车集团</h4>
 											</div>
 										</div>
 									</div>

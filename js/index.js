@@ -1,4 +1,18 @@
 $(document).ready(function(){
+  var video = $('#cedarVideo')
+  var videoTitle = $('#videoTitle')
+  var videoBg = $('#videoBg')
+  video.on('ended', function(){
+    videoTitle.removeClass('scale')
+    videoBg.fadeIn(200)
+  })
+  videoTitle.on('click', function(){
+    videoTitle.addClass('scale')
+    window.setTimeout(function(){
+      videoBg.fadeOut(200)
+      video[0].play()
+    }, 3000)
+  })
   var banner = new Swiper('#banner .swiper-container', {
     loop: true,
     pagination: '#banner .swiper-pagination',

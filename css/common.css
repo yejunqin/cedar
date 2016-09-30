@@ -254,9 +254,9 @@ h3,
   cursor: pointer;
 }
 .scale {
-  transition: all ease 3s;
-  transform: scale(1.1);
-  opacity: 0;
+  transition: all ease 3s!important;
+  transform: scale(1.1) !important;
+  opacity: 0!important;
 }
 #mobileNav {
   padding: 0;
