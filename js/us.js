@@ -117,9 +117,9 @@ $(document).ready(function(){
   $(window).scroll(function(){
     var p = $(this).scrollTop()
     if(p > countScrollTop && doed == 0){
-      var count1 = new CountUp("count1", 300, 593, 0, 2.5)
+      var count1 = new CountUp("count1", 0, 593, 0, 2.5)
       count1.start()
-      var count2 = new CountUp("count2", 25, 50, 0, 2.5)
+      var count2 = new CountUp("count2", 0, 50, 0, 2.5)
       count2.start()
       var count3 = new CountUp("count3", 0, 3, 0, 2.5)
       count3.start()
