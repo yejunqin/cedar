@@ -278,6 +278,8 @@ h3,
   display: block;
   color: #fff;
   font-size: 16px;
+  text-align: left;
+  padding-left: 6%;
 }
 #mobileNav li.has-submenu li {
   background: #4ba878;
@@ -558,6 +560,10 @@ h3,
 #footer .buildings li {
   display: inline-block;
   width: 24%;
+}
+#footer .buildings li .img img {
+  max-width: 62px;
+  max-height: 164px;
 }
 #footer .buildings li .city {
   margin: 0;
@@ -847,7 +853,8 @@ h3,
   }
   #footer {
     margin-top: 35px;
-    height: 303px;
+    height: auto;
+    padding-bottom: 23px;
   }
   #footer .buildings li {
     vertical-align: top;
@@ -858,6 +865,9 @@ h3,
   }
   #footer .buildings li .location {
     font-size: 13px;
+  }
+  #footer .buildings li img {
+    width: 50%;
   }
   #footerMenu ul li {
     font-size: 12px;

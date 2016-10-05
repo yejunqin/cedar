@@ -228,6 +228,8 @@ h1, .h1, h2, .h2, h3, .h3{
       display: block;
       color: #fff;
       font-size: 16px;
+      text-align: left;
+      padding-left: 6%;
     }
     li{
       background: @green - #222;
@@ -526,6 +528,12 @@ h1, .h1, h2, .h2, h3, .h3{
     li{
       display: inline-block;
       width:24%;
+      .img{
+        img{
+          max-width:62px;
+          max-height:164px;
+        }
+      }
       .city{
         margin:0;
         margin-top: 10px;
@@ -826,10 +834,15 @@ h1, .h1, h2, .h2, h3, .h3{
     }
   }
   #footer{ margin-top:35px;
-    height:303px;}
+    height:auto;
+    padding-bottom:23px;
+  }
   #footer .buildings li{vertical-align: top; width:23%;}
   #footer .buildings li .city{ font-size:14px;}
   #footer .buildings li .location{ font-size:13px;}
+  #footer .buildings li img{
+    width:50%;
+  }
   #footerMenu ul li{ font-size:12px; width:13%;}
   .chanye-page{
     .chanye-title{

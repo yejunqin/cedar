@@ -451,6 +451,8 @@
   }
   #jianjie .part-body .right {
     padding: 30px 0 0;
+    width: 95%;
+    margin: 0 auto 15px;
   }
   #jianjie .part-body .right ul {
     line-height: 60px;

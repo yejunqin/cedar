@@ -87,7 +87,7 @@
   padding-bottom: 605px;
 }
 #jiazhi .stretch-img {
-  background: url("../images/wenhua/wenhua_02.jpg") no-repeat 0 0 / cover;
+  background: url("../images/wenhua/wenhua_02.jpg") no-repeat center center / cover;
 }
 #jiazhi .stretch-text {
   padding-top: 71px;
@@ -197,7 +197,7 @@
   text-align: center;
 }
 #qijie .bg-img {
-  background: url("../images/wenhua/wenhua_04.jpg") no-repeat 0 0 / cover;
+  background: url("../images/wenhua/wenhua_04.jpg") no-repeat center center / cover;
 }
 #qijie .title {
   font-size: 32px;
@@ -375,7 +375,7 @@
   margin-top: 40px;
 }
 #shehui .bg-img {
-  background: url("../images/wenhua/wenhua_05.jpg") no-repeat 0 0 / cover;
+  background: url("../images/wenhua/wenhua_05.jpg") no-repeat center center / cover;
   z-index: -1;
 }
 #shehui .part-body {
