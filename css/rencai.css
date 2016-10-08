@@ -215,7 +215,6 @@
   }
   #rencai .part-body {
     padding-top: 50px;
-    height: 412px;
   }
   #rencai .part-body ul .axis-box {
     width: 100px;
@@ -249,39 +248,50 @@
   }
 }
 @media (max-width: 768px) {
-  #rencai .part-body {
+  #rencai .rencai-axis .part-body {
     padding-top: 30px;
+    height: 300px;
   }
-  #rencai .part-body ul .axis-box {
+  #rencai .rencai-axis .part-body ul .axis-box {
     width: 70px;
     height: 120px;
   }
-  #rencai .part-body ul .axis-box .index {
+  #rencai .rencai-axis .part-body ul .axis-box .index {
     width: 20px;
     height: 20px;
     line-height: 20px;
     font-size: 14px;
     margin-left: -10px;
+    padding-top: 0;
   }
-  #rencai .part-body ul .axis-box .axis-title {
+  #rencai .rencai-axis .part-body ul .axis-box .axis-title {
     font-size: 14px;
   }
-  #rencai .part-body ul .axis-box .spot {
+  #rencai .rencai-axis .part-body ul .axis-box .spot {
     border-width: 3px;
     bottom: -4px;
     margin-left: -3px;
   }
-  #rencai .part-body ul .up .index {
+  #rencai .rencai-axis .part-body ul .up .index {
     bottom: 6px;
   }
-  #rencai .part-body ul .up .axis-title {
+  #rencai .rencai-axis .part-body ul .up .axis-title {
     bottom: 30px;
   }
-  #rencai .part-body ul .down .index {
+  #rencai .rencai-axis .part-body ul .down .index {
     bottom: -26px;
   }
-  #rencai .part-body ul .down .axis-title {
+  #rencai .rencai-axis .part-body ul .down .axis-title {
     bottom: -70px;
+  }
+  #rencai .hehuoren {
+    padding-top: 30px;
+  }
+  #rencai .hehuoren .part-body {
+    padding-top: 30px;
+  }
+  #rencai .hehuoren .part-body .sub-title-cn {
+    margin-top: 12px;
   }
 }
 @media (max-width: 414px) {

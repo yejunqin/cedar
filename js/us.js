@@ -7,12 +7,7 @@ var itemWidth = 0
 var isClick = false
 var preYearIdx = 0
 var calWidth = 0
-//function playVideo(e){
-//  $('#videoTitle').addClass('scale')
-//  window.setTimeout(function(){
-//    video.play()
-//  }, 1000)
-//}
+var timeoutId
 function isVisible(item){
   var diff = item.getBoundingClientRect().left - dates.getBoundingClientRect().left
   return diff > 0 && diff < dates.getBoundingClientRect().width
@@ -85,9 +80,11 @@ $(document).ready(function(){
     nextButton: '#fazhan #next',
     prevButton: '#fazhan #prev',
     onSlideChangeStart: function(swiper){
-      var curWidth = lineTop.width()
+      if(calWidth === 0){//第一次则拿当前宽度
+        calWidth = lineTop.width()
+      }
       var idx = swiper.activeIndex
-      calWidth = curWidth + (idx - preYearIdx) * itemWidth
+      calWidth = calWidth + (idx - preYearIdx) * itemWidth
       activateItem(idx , items)
       lineTop.css('width', calWidth + 'px')
       preYearIdx = idx
@@ -103,13 +100,25 @@ $(document).ready(function(){
     prevButton: '#paper .btn-nav .prev',
     spaceBetween: 16
   })
-  timeline.on('click', '.dates-item', function(){
+  //点击改为鼠标悬浮
+  //timeline.on('click', '.dates-item', function(){
+  //  var _this = $(this)
+  //  if(_this.hasClass('active')){
+  //    return false
+  //  }
+  //  development.slideTo(_this.index())
+  //  isClick = true
+  //})
+  timeline.find('.dates-item').on('mouseover', function(){
+    clearTimeout(timeoutId)
     var _this = $(this)
-    if(_this.hasClass('active')){
-      return false
-    }
-    development.slideTo(_this.index())
-    isClick = true
+    timeoutId = window.setTimeout(function(){
+      if(_this.hasClass('active')){
+        return false
+      }
+      development.slideTo(_this.index())
+      isClick = true
+    }, 150)
   })
   //计数
   var countScrollTop = $('#countBlock').offset().top-400
@@ -119,7 +128,7 @@ $(document).ready(function(){
     if(p > countScrollTop && doed == 0){
       var count1 = new CountUp("count1", 0, 593, 0, 2.5)
       count1.start()
-      var count2 = new CountUp("count2", 0, 50, 0, 2.5)
+      var count2 = new CountUp("count2", 112, 50, 0, 2.5)
       count2.start()
       var count3 = new CountUp("count3", 0, 3, 0, 2.5)
       count3.start()

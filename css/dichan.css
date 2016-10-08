@@ -4,3 +4,17 @@
 #dichan .chanye-icon .stretch-img {
   background: url("../images/dichan/dichan_02.jpg") no-repeat 0 0 / cover;
 }
+#dichan .chanye-detail .left {
+  width: 100%;
+  padding-right: 0;
+}
+#dichan .chanye-detail .left .title {
+  margin-top: 0;
+  display: none;
+}
+#dichan .chanye-detail .left .description {
+  margin-top: 5px;
+}
+#dichan .chanye-detail .right {
+  display: none;
+}

@@ -470,8 +470,8 @@ h1, .h1, h2, .h2, h3, .h3{
       width:100%;
       overflow: hidden;
       img{
-        max-width:412px;
-        max-height:237px;
+        //max-width:412px;
+        //max-height:237px;
         width:100%;
         -webkit-transition: all ease 1s;
         transition: all ease 1s;
@@ -770,7 +770,11 @@ h1, .h1, h2, .h2, h3, .h3{
         padding-right:2%;
       }
     }
-
+  }
+}
+@media (min-width: 415px ) and (max-width: 768px) {
+  .underline::after{
+    top:120%;
   }
 }
 @media (max-width: 414px){

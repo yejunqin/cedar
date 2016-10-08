@@ -381,6 +381,42 @@
   }
 }
 @media (max-width: 768px) {
+  #fazhan {
+    padding-bottom: 40px;
+  }
+  #fazhan .part-title {
+    padding-top: 40px;
+    padding-bottom: 0;
+  }
+  #timeline #line-wrap #lineBot {
+    width: 64%;
+  }
+  #timeline #line-wrap #lineTop {
+    width: 60px;
+  }
+  #timeline #dates {
+    width: 700px;
+    padding-left: 0;
+  }
+  #timeline .issues {
+    width: 88%;
+  }
+  #timeline .issues .box .title {
+    width: 58%;
+    margin-top: 50px;
+  }
+  #timeline #prev,
+  #timeline #next {
+    width: 25px;
+    height: 40px;
+    top: 36%;
+  }
+  #timeline #prev {
+    left: 1%;
+  }
+  #timeline #next {
+    right: 1%;
+  }
   #jianjie .part-body .list li {
     width: 11%;
     padding: 0 4px;

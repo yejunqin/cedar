@@ -15,12 +15,14 @@
   width:70%;
   margin:50px auto 0;
   padding:0 15px;
+  text-align: left;
   ul{
     margin: 0 -15px;
   }
   li{
-    float: left;
+    display: inline-block;
     width:30%;
+    text-align: left;
     border:1px solid @border;
     margin: 0 15px 30px;
     position: relative;
@@ -28,8 +30,8 @@
       width:100%;
       img{
         width:100%;
-        max-width:398px;
-        max-height:254px;
+        //max-width:398px;
+        //max-height:254px;
       }
     }
     .word{
@@ -63,11 +65,14 @@
   .news-date{
     margin: 30px 0 20px;
     color: @gray;
+    .source{
+      margin-left: 20px;
+    }
   }
   .news-content{
     font-family: Microsoft Yahei, Arial, san-serif, serif;
     margin:0 auto;
-    max-width:1200px;
+    max-width:900px;
     border-top: 1px solid @border;
     padding-top: 40px;
     padding-bottom:60px;
@@ -83,9 +88,12 @@
     }
   }
   .news-nav{
-    margin-top: 30px;
+    max-width:900px;
+    margin: 30px auto 0;
     .prev{
       float: left;
+      max-width:48%;
+      .one-line-limit();
       span{
         color: @green_2;
       }
@@ -95,6 +103,8 @@
     }
     .next{
       float: right;
+      max-width:45%;
+      .one-line-limit();
       span{
         color: @green_2;
       }
@@ -107,7 +117,7 @@
 @media (max-width: 1300px){
   .list-body{
     li{
-      margin: 0 10px 20px;
+      margin: 0 1% 20px;
     }
   }
 }
@@ -144,10 +154,12 @@
     .news-nav{
       .prev{
         width:100%;
+        max-width:inherit;
         text-align: left;
       }
       .next{
         width:100%;
+        max-width:inherit;
         text-align: left;
         margin-top: 10px;
       }
@@ -156,9 +168,11 @@
 }
 @media (max-width: 414px){
   .list-body{
+    margin-top: 40px;
     width:100%;
+    text-align: center;
     li{
-      width:42% !important;
+      width:46% !important;
     }
     .word{
       padding:0 4px 10px!important;

@@ -237,7 +237,6 @@
     }
     .part-body{
       padding-top:50px;
-      height:412px;
       ul{
         .axis-box{
           width:100px;
@@ -275,43 +274,56 @@
 }
 @media (max-width: 768px) {
   #rencai{
-    .part-body{
+    .rencai-axis{
+      .part-body{
+        padding-top:30px;
+        height:300px;
+        ul{
+          .axis-box{
+            width:70px;
+            height:120px;
+            .index{
+              width:20px;
+              height:20px;
+              line-height:20px;
+              font-size: 14px;
+              margin-left: -10px;
+              padding-top:0;
+            }
+            .axis-title{
+              font-size: 14px;
+            }
+            .spot{
+              border-width: 3px;
+              bottom:-4px;
+              margin-left: -3px;
+            }
+          }
+          .up{
+            .index{
+              bottom:6px;
+            }
+            .axis-title{
+              bottom:30px;
+            }
+          }
+          .down{
+            .index{
+              bottom:-26px;
+            }
+            .axis-title{
+              bottom:-70px;
+            }
+          }
+        }
+      }
+    }
+    .hehuoren{
       padding-top:30px;
-      ul{
-        .axis-box{
-          width:70px;
-          height:120px;
-          .index{
-            width:20px;
-            height:20px;
-            line-height:20px;
-            font-size: 14px;
-            margin-left: -10px;
-          }
-          .axis-title{
-            font-size: 14px;
-          }
-          .spot{
-            border-width: 3px;
-            bottom:-4px;
-            margin-left: -3px;
-          }
-        }
-        .up{
-          .index{
-            bottom:6px;
-          }
-          .axis-title{
-            bottom:30px;
-          }
-        }
-        .down{
-          .index{
-            bottom:-26px;
-          }
-          .axis-title{
-            bottom:-70px;
-          }
+      .part-body{
+        padding-top:30px;
+        .sub-title-cn{
+          margin-top: 12px;
         }
       }
     }

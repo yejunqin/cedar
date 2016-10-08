@@ -505,8 +505,6 @@ h3,
   overflow: hidden;
 }
 #dongtai .dongtai-box .img img {
-  max-width: 412px;
-  max-height: 237px;
   width: 100%;
   -webkit-transition: all ease 1s;
   transition: all ease 1s;
@@ -795,6 +793,11 @@ h3,
   .chanye-page .chanye-detail .left {
     width: 58%;
     padding-right: 2%;
+  }
+}
+@media (min-width: 415px) and (max-width: 768px) {
+  .underline::after {
+    top: 120%;
   }
 }
 @media (max-width: 414px) {

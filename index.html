@@ -11,6 +11,39 @@
 		<link rel="stylesheet" href="./css/swiper.min.css">
 		<link rel="stylesheet" href="./css/common.css" />
 		<link rel="stylesheet" href="./css/index.css" />
+		<script>
+			var url = window.location.href;
+			if(url == "http://www.junhua.net/" || url == "http://www.junhua.net/" || url == "http://www.cedarcapital.com.cn/" || url == "http://cedarcapital.com.cn/" || url == "http://www.cedarpartner.com/" || url == "http://cedarpartner.com/"){
+				window.location.href = "http://www.cedarhd.com/";
+			}
+		</script>
+		<script>
+			var isIE=!!window.ActiveXObject;
+			var isIE6=isIE&&!window.XMLHttpRequest;
+			var isIE8=isIE&&!!document.documentMode;
+			var isIE7=isIE&&!isIE6&&!isIE8;
+
+			if(isIE){
+				if(isIE6){
+					alert("您现在使用的浏览器版本为ie6，版本过低，请更换其他浏览器。")
+					window.open('http://se.360.cn/index_main.html')
+				}
+				else if(isIE7){
+					alert("您现在使用的浏览器版本为ie7，版本过低，请更换其他浏览器。")
+					window.open('http://se.360.cn/index_main.html')
+				}
+
+				else if(isIE8){
+					alert("您现在使用的浏览器版本为ie8，版本过低，请更换其他浏览器。")
+					window.open('http://se.360.cn/index_main.html')
+				}
+				else{
+					alert("您现在使用的浏览器为ie浏览器，为更好的体验雪松官网，请更换其他浏览器。")
+					window.open('http://se.360.cn/index_main.html')
+				}
+
+			}
+		</script>
 	</head>
 	<body>
 		<script>
@@ -521,7 +554,7 @@
 								<div style="margin-right: 2%" class="img"><img src="./images/qrcode_weixin.jpg" alt=""></div>
 								<a href="#" class="weixin">微信</a>
 							</div>
-							<div class="wrap">
+							<div class="wrap hidden-xs">
 								<div class="img"><a target="_blank" href="http://weibo.com/u/5680274574"><img src="./images/qrcode_weibo.jpg" alt=""></a></div>
 								<a href="#" class="weibo">微博</a>
 							</div>

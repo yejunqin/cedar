@@ -67,25 +67,25 @@
   margin-top: 40px;
 }
 #chanye .chanye-sub-menu .chanye01 .stretch-img {
-  background: url("../images/chanye_01.jpg") no-repeat 0 0 / cover;
+  background: url("../images/chanye_01.jpg") no-repeat center center / cover;
 }
 #chanye .chanye-sub-menu .chanye02 .stretch-img {
-  background: url("../images/5.jpg") no-repeat 0 0 / cover;
+  background: url("../images/5.jpg") no-repeat center center / cover;
 }
 #chanye .chanye-sub-menu .chanye03 .stretch-img {
-  background: url("../images/4.jpg") no-repeat 0 0 / cover;
+  background: url("../images/4.jpg") no-repeat center center / cover;
 }
 #chanye .chanye-sub-menu .chanye04 .stretch-img {
-  background: url("../images/3.jpg") no-repeat 0 0 / cover;
+  background: url("../images/3.jpg") no-repeat center center / cover;
 }
 #chanye .chanye-sub-menu .chanye05 .stretch-img {
-  background: url("../images/2.jpg") no-repeat 0 0 / cover;
+  background: url("../images/2.jpg") no-repeat center center / cover;
 }
 #chanye .chanye-sub-menu .chanye06 .stretch-img {
   background: url("../images/1.jpg") no-repeat 83% 0 / cover;
 }
 #chanye .chanye-sub-menu .chanye07 .stretch-img {
-  background: url("../images/6.jpg") no-repeat 0 0 / cover;
+  background: url("../images/6.jpg") no-repeat center center / cover;
 }
 #chanye .chanye-sub-menu .stretch-text .img span {
   display: inline-block;
@@ -292,5 +292,8 @@
   }
   #qrcode {
     margin-top: 20px;
+  }
+  #qrcode .qrcode .weixin-wrap {
+    margin-right: 0;
   }
 }
