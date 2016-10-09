@@ -80,6 +80,7 @@
 }
 .news-body .news-content img {
   margin: 20px 0;
+  width: 600px;
 }
 .news-body .news-nav {
   max-width: 900px;
@@ -182,5 +183,8 @@
   .news-body .news-content {
     font-size: 14px;
     line-height: 24px;
+  }
+  .news-body .news-content img {
+    width: 100% !important;
   }
 }
